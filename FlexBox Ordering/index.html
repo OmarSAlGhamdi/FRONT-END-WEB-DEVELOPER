@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Ordering</title>
+    <style>
+        .container {
+            display: flex;
+            /* 1: change the row -> row-reverse
+                    the coulmn -> coulmn-revers   */
+            flex-direction: column-reverse;
+            /* /flex direction : row */
+            align-items: center;
+            justify-content: center;
+            border: 2px solid yellow;
+        }
+
+        .box {
+            width: 250px;
+            height: 150px;
+            border: 1px solid red;
+        }
+
+        /* 2: order the items by their numbers */
+        #one {
+            order: 1;
+        }
+
+        #two {
+            order: 1;
+        }
+
+        #three {
+            order: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 3: Reorder the items by change their place -->
+        <div class="box" id="one">Box 1</div>
+        <div class="box" id="two">Box 2 </div>
+        <div class="box" id="three">Box 3</div>
+    </div>
+</body>
+
+</html>
