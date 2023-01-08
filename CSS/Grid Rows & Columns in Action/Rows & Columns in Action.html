@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rows & Columns in Action</title>
+
+    <style>
+        body {
+            background-color: #444;
+            color: #fffff8;
+            font-size: 20px;
+        }
+        .container {
+            display: grid;
+            width: 100%;
+            margin: auto;
+            /* grid-template-columns: 300px 300px 200px ; */
+            grid-template-rows: 300px 200px 90px;
+            gap: 15px;
+            border: 2px solid rgb(247, 182, 96);
+            justify-content: center;
+            
+
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid red;
+            padding: 15px;
+            
+        }
+
+        #one {
+
+        }
+
+        #two {
+
+        }
+
+        #three {
+
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="box" id="one">box 1</div>
+        <div class="box" id="two">box2</div>
+        <div class="box" id="three">box3</div>
+    </div>
+</body>
+</html>
