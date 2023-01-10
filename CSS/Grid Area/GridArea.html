@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,35 +8,60 @@
     <title>Grid Area</title>
 
     <style>
+        body {
+            background-color: #444;
+            color :#fffff5;
+            font-size: 27px;
+        }
         .container {
             /* step 1 : set the display to grid */
-
+            display: grid;
+            width: 100%;
+            margin: auto;
+            grid-template-columns: 30vw 30vw;
+            grid-template-rows: 45vh 45vh;
+             gap: 150px 30px;
             /* Step 2 : setup rows and columns */
         }
 
-
-        .header {
-
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid red;
         }
 
-        .sidebar {
-
+        #one {
+            grid-area: ;
         }
 
-        .footer {
-
+        #two {
+            grid-area: ;
         }
 
-        .content {
-
+        #three {
+            grid-area: ;
         }
+
+        /* .header {}
+
+        .sidebar {}
+
+        .footer {}
+
+        .content {} */
     </style>
 </head>
+
 <body>
-    
+
     <div class="container">
-        
+        <div class="box" id="one">box 1</div>
+        <div class="box" id="two">box 2</div>
+        <div class="box" id="three">box 3</div>
+
     </div>
 
 </body>
+
 </html>
