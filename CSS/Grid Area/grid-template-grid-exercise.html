@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise 1</title>
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+
+  <style>
+  .container{
+    /* Step 1: Set display to grid */
+      display:grid;
+   /* Step 2: setup rows amd columns */
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      border: 2px solid yellow;
+  }
+  .box{
+        border: 1px solid red;
+    }
+    #one{ 
+    /* set grid-area here: row start/column start/ row end/ column end */
+    grid-area: ;
+    
+  }
+  </style>
+  </head>
+
+  <body>
+  <div class = "container">
+    <div id="one" class="box"> Space 1</div>
+  
+  </div>
+  </body>
+</html>
+
+
+<!-- # Instructions
+
+In the workspace provided, 
+change the size and position of
+ element `one` using the `grid-area` property:
+- Make the element stretch all the way across the grid, 
+but only in the first row
+- Make the element stretch across all the rows, 
+but only in the first column
+- Freestyle - create your own area for the 
+element to occupy...or dare to try adding a
+ second element and setting the placement with `grid-area` as well?
+ -->
