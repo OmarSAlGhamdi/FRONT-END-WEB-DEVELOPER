@@ -13,13 +13,20 @@
     /* Step 1: Set display to grid */
       display:grid;
    /* Step 2: setup rows amd columns */
-      grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
-      grid-template-areas: 
+      grid-template-columns: 
+      300px /* first column space */ 
+      300px /* second column space */
+      300px /* third column space */;
+      grid-template-rows: 
+      300px /* first row space */ 
+      300px /* second row space */
+      300px /* third row space */;
+      
+
+      /* grid-template-areas: 
       "one one"
-      "two two"
-      /* "two two" */
-      ;
+      "two two" */
+      /* "two two" */;
       border: 2px solid yellow;
   }
   .box{
@@ -27,11 +34,15 @@
     }
     #one{ 
     /* set grid-area here: row start/column start/ row end/ column end */
-    grid-area: one;
+    grid-area: 1/1/2/2;
   }
 
   #two {
-    grid-area: two;
+    grid-area: 1/2/2/2;
+  }
+
+  #three {
+    grid-area: 2/1/3/2;
   }
   </style>
   </head>
@@ -40,7 +51,8 @@
   <div class = "container">
     <div id="one" class="box"> Space 1</div>
     <div id="two" class="box">Space2</div>
-  
+    <div id="three" class="box">Space3</div>
+    
   </div>
   </body>
 </html>
