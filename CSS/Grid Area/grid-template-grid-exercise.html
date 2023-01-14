@@ -15,6 +15,11 @@
    /* Step 2: setup rows amd columns */
       grid-template-columns: 300px 300px 300px;
       grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "one one"
+      "two two"
+      /* "two two" */
+      ;
       border: 2px solid yellow;
   }
   .box{
@@ -22,8 +27,11 @@
     }
     #one{ 
     /* set grid-area here: row start/column start/ row end/ column end */
-    grid-area: ;
-    
+    grid-area: one;
+  }
+
+  #two {
+    grid-area: two;
   }
   </style>
   </head>
@@ -31,6 +39,7 @@
   <body>
   <div class = "container">
     <div id="one" class="box"> Space 1</div>
+    <div id="two" class="box">Space2</div>
   
   </div>
   </body>
