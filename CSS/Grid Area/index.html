@@ -13,22 +13,30 @@
             display: grid;
             /* Set up rows and columns */
             /* grid-template-columns repeate (3, 1fr); */
-            grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 250px 600px;
+            grid-template-columns: 30px 300px;
+            grid-template-rows: 250px 600px 30px;
             grid-area:
                 "hd hd hd hd hd hd hd hd"
-                "sd sd sd main main main main main"
+                "sd main main main main main main main"
                 "ft ft ft ft ft ft ft ft";
             border: 2px solid yellow;
         }
 
         .box {
+            /* width: 250px;
+            height: 150px; */
+            /* display: flex; */
             border: 1px solid red;
             background-color: #F8FA9D;
         }
 
         .header {
+            /* row start/ column start/ row end/ column end */
             grid-area: hd;
+        }
+
+        .footer {
+            grid-area: ft;
         }
 
         .sidebar {
@@ -37,10 +45,6 @@
 
         .content {
             grid-area: main;
-        }
-
-        .footer {
-            grid-area: ft;
         }
     </style>
 </head>
@@ -53,7 +57,6 @@
         <div class="content box">Content</div>
         <div class="footer box">Footer</div>
     </div>
-
 </body>
 
 </html>
