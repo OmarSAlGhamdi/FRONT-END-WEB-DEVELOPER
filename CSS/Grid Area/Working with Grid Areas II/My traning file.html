@@ -1,16 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Area</title>
+    <style>
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 200px 300px 100;
+            grid-template-rows: 250px 600px 70px;
+            grid-template-areas:
+                "hd hd hd hd hd hd hd hd "
+                "lsd main main main main main main rsd "
+                "ft ft ft ft ft ft ft ft "
+            ;
+            border: 2px solid green;
+
+
+
+        }
+
+        .box {
+            border: 1px solid red;
+            background-color: beige;
+            /* justify-content: center;
+            align-items: center; */
+            text-align: center;
+        }
+
+        .leftsidebar {
+            grid-area: lsd;
+        }
+
+        .rightsidebar {
+            grid-area: rsd;
+        }
+
+        .footer {
+            grid-area: ft;
+        }
+
+        .content {
+            grid-area: main;
+        }
+
+        .header {
+            grid-area: hd;
+
+        }
+    </style>
 </head>
+
 <body>
 
     <div class="container">
-        
+        <div class="content box">Content box</div>
+        <div class="leftsidebar box">left sidebar box</div>
+        <div class="rightsidebar box">right sidebar box</div>
+        <div class="footer box">footer box</div>
+        <div class="header box">header box</div>
     </div>
-    
+
 </body>
+
 </html>
