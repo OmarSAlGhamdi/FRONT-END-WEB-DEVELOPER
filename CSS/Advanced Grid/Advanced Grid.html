@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Grid</title>
+
+    <style>
+        body {
+            background-color: #444;
+            color: #fffff8;
+            font-size: 24px;
+        }
+
+        .container {
+            display: grid;
+            width: 80vw;
+            height: 100vh;
+            margin: auto;
+            grid-template-rows: 350px 350px 1fr;
+            grid-template-columns: 80vw;
+            /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+            
+
+            gap: 15px;
+            border: 2px solid rgb(247, 182, 92);
+            justify-content: center;
+
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid red;
+
+        }
+
+        #one {
+            /* grid-area: ; */
+        }
+
+        #two {
+            /* grid-area: ; */
+        }
+
+        #three {
+            /* grid-area: ; */
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div class="box" id="one"> box 1</div>
+        <div class="box" id="two">box 2</div>
+        <div class="box" id="three">box 3</div>
+        <div class="box" id="four">box 4</div>
+        <div class="box" id="five">box 5</div>
+        <div class="box" id="six">box 6</div>
+    </div>
+
 </body>
+
 </html>
