@@ -19,12 +19,22 @@
             width: 80vw;
             height: 100vh;
             margin: auto;
-            grid-template-rows: 300px 300px 1fr 1fr;
-            grid-template-columns: 80vw;
+
+
+            /* grid-template-rows: repeat(6, 1fr) ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ; */
+            /* grid-template-columns: 80vw; */
+
+            grid-auto-rows: minmax(50px, 135px);
+            grid-template-columns: repeat(6, 1fr);
+
+            
             /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
             
 
             gap: 15px;
+            /* column-gap: 100px;
+            row-gap: 100px; */
             border: 2px solid rgb(247, 182, 92);
             justify-content: center;
 

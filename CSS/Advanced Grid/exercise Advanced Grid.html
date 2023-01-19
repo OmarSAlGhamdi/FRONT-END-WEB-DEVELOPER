@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exercise 1</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+
+    <style>
+        body {
+            margin: auto;
+            /*  */
+        }
+
+        .container {
+            /* Step 1: Set display to grid */
+            display: grid;
+            /* Step 2: setup rows amd columns */
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 250px 600px 50px;
+            grid-template-areas:
+                "hdl hdl hdl hdl hdl hdl hdr hdr"
+                "sd main main main main main main main"
+                "ft ft ft ft ft ft ft ft";
+            border: 2px solid yellow;
+            /* margin-left: auto;
+            margin-right: auto; */
+            
+
+
+        }
+
+        .box {
+            border: 1px solid red;
+            background: #F8FA9D;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 800;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* padding: 50% 0; */
+            /* line-height: 500px ; */
+            /*  */
+            padding: 30vh;
+
+        }
+
+        .headerLeft {
+            grid-area: hdl;
+
+
+
+        }
+
+        .headerRight {
+            grid-area: hdr;
+        }
+
+        .footer {
+            grid-area: ft;
+        }
+
+        .sidebar {
+            grid-area: sd;
+        }
+
+        .content {
+            grid-area: main;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headerLeft box">Left Header
+            <br><br> we will fill the header here
+        </div>
+        <div class="headerRight box">Right header</div>
+        <div class="sidebar box">Sidebar</div>
+        <div class="content box">Content</div>
+        <div class="footer box">Footer</div>
+    </div>
+</body>
+
+</html>
