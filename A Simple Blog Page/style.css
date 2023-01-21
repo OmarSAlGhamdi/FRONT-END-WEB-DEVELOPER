@@ -43,4 +43,7 @@ body {
 
 .content {
     grid-area: main;
+    background-image: url('Images/beautiful-skogafoss-waterfall-iceland-260nw-1490978012.webp');
+    background-size:contain;
+    background-repeat: no-repeat;
 }
