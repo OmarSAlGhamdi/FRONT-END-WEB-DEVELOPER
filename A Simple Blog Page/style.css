@@ -1,3 +1,46 @@
-p {
-    color: red;
+body {
+    background-color: #444;
+    /* color: #fffff8 */
+    /* font-size: 24px; */
+}
+
+.container {
+    /* set 1 : set display to grid */
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    /* set 2 : setup rows and columns */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 30px repeat(7, 1fr);
+    grid-template-rows: 70px 400px 1fr;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+    border: 2px solid red;
+}
+
+.box {
+    width: 250px;
+    height: 150px;
+    border: 1px solid red;
+    background: #f8fa9d;
+}
+
+.header {
+    /* row start/ column strat / row end / column end */
+    grid-area: hd;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+.content {
+    grid-area: main;
 }
