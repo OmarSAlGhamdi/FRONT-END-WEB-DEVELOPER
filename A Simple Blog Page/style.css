@@ -11,19 +11,19 @@ body {
     margin: auto;
     margin-top: 150px;
     /* set 2 : setup rows and columns */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 30px repeat(7, 1fr);
     grid-template-rows: 70px 400px 1fr;
     grid-template-areas:
         "hd hd hd hd hd hd hd hd"
         "sd sd main main main main main main"
         "ft ft ft ft ft ft ft ft";
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .box {
-    width: 250px;
-    height: 150px;
+    /* width: 250px;
+    height: 150px; */
     border: 1px solid red;
     background: #f8fa9d;
 }

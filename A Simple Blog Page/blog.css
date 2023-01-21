@@ -1,8 +1,8 @@
 
 
 .container {
-    grid-template-columns:  ;
-    grid-template-rows: 100px 360px 600px 100px ;
+    grid-template-rows: 100px 360px 600px 100px;
+    grid-template-columns:repeat(3, 1fr);
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "feat feat feat feat feat feat feat feat"
