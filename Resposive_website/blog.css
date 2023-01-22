@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: 250px 300px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd hd"
+        "ft ft ft ft ft ft ft ft"
+        "main main main main main main main main";
+    border: 2px solid red;
+}
+
+.box {
+    border: 2px solid yellow;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.content {
+    grid-area: main;
+}
