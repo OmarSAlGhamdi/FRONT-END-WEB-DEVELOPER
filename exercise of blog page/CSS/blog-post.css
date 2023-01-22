@@ -1,27 +1,41 @@
-.container{
+.container {
     /* Step 1: Set display to grid */
-      display:grid;
-   /* Step 2: setup rows amd columns */
-   /* Step : setup named grid areas */
-  
-      border: 2px solid yellow;
+    display: grid;
+    /* Step 2: setup rows amd columns */
+    /* Step : setup named grid areas */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 300px 250px 50px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "feat feat feat feat feat feat feat feat"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+    border: 2px solid yellow;
+}
 
-  }
-  .box{
+.box {
+    width: 100%;
     border: 1px solid red;
     background: #F8FA9D;
-    }
+    /* font-weight: 600; */
+}
 
-  .header{
-      /* Set elements grid-area here */
-  }
+.header {
+    /* Set elements grid-area here */
+    grid-area: hd;
+}
 
-  .footer{
+.footer {
     /* Set elements grid-area here */
-  }
-  .feature{
+    grid-area: ft;
+}
+
+.feature {
     /* Set elements grid-area here */
-  }
-  .content{
+    grid-area: feat;
+}
+
+.content {
     /* Set elements grid-area here */
-  }
+    grid-area: main;
+}
