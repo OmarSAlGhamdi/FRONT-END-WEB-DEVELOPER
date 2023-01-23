@@ -1,18 +1,19 @@
 .container {
     display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 300px 300px ;
-    grid-template-rows: 250px 300px;
+    /* width: 100%;
+    height: 100%; */
+    grid-template-columns: 300px 300px 300px ;
+    grid-template-rows:  100px 350px 600px ;
     grid-template-areas:
-        "hd hd hd hd hd hd hd hd hd"
+        "hd hd hd hd hd hd hd hd"
         "ft ft ft ft ft ft ft ft"
         "main main main main main main main main";
-    border: 2px solid red;
+    border: 2px solid yellow;
 }
 
 .box {
-    border: 2px solid yellow;
+    border: 1px solid red;
+    background: #f8fa9d;
 }
 
 .header {
