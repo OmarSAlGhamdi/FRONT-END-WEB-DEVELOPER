@@ -52,3 +52,16 @@
         border: 2px solid red;
     }
 }
+
+/* Under test */
+.sidebar >  a {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.link {
+align-items: center;
+}
