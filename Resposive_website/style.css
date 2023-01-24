@@ -37,6 +37,10 @@
     
 }
 
+.link {
+    text-align: center;
+}
+
 .content {
     grid-area: main;
 }
