@@ -11,6 +11,7 @@
         "main"
         "ft";
     /* border: 1px solid red; */
+    
 }
 
 .box {
@@ -18,6 +19,8 @@
     height: 150px; */
     border: 1px solid rgb(255, 0, 0);
     background: #F8FA9D;
+    
+    
 
 }
 
@@ -31,6 +34,7 @@
 
 .sidebar {
     grid-area: sd;
+    
 }
 
 .content {
@@ -50,18 +54,20 @@
             "sd sd main main main main main main"
             "ft ft ft ft ft ft ft ft";
         border: 2px solid red;
+        /* display: inline-block; */
+        /* margin: 0 auto; */
     }
 }
 
 /* Under test */
-.sidebar >  a {
+ /* .sidebar > a {
     text-align: center;
-}
+} */
 
 a {
-    text-align: center;
+    align-content: center;
 }
 
-.link {
-align-items: center;
-}
+/* .link {
+    text-align: center;
+}  */
