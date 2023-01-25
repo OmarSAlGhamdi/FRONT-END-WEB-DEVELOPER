@@ -1,5 +1,7 @@
 /* setup the size of the smallest screen first */
+
 /* breakpoints for small screen */
+
 .container {
     display: grid;
     /* width: 100%; */
@@ -18,10 +20,8 @@
 .box {
     /* width: 250px;
     height: 150px; */
-    border: 1px solid rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
     background: #F8FA9D;
-
-
 
 }
 
@@ -35,11 +35,6 @@
 
 .sidebar {
     grid-area: sd;
-
-}
-
-.link {
-    text-align: center;
 }
 
 .content {
@@ -47,10 +42,8 @@
 }
 
 
-/* type here the full size webpage with @media */
-
 /* breakpoints for medium screen */
-@media(min-width:600px) {
+@media(min-width:600px) and (max-width: 1100px) {
     .container {
         display: gird;
         grid-template-columns: 300px 300px 300px;
@@ -59,24 +52,23 @@
             "hd hd hd hd hd hd hd hd"
             "sd sd main main main main main main"
             "ft ft ft ft ft ft ft ft";
-        border: 2px solid red;
+        border: 5px solid aquamarine;
 
     }
 }
 
 /* breakpoints for a larg screen  */
-@media(min-width: 1100px) {
+@media(min-width: 1101px) {
     .container {
         display: gird;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 250px 600px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
-            "sd sd main main main main main main"
+            "sd sd sd sd main main main main"
             "ft ft ft ft ft ft ft ft";
-        border: 2px solid red;
-        /* display: inline-block; */
-        /* margin: 0 auto; */
+        border: 5px solid blue;
+
     }
 }
 
@@ -105,4 +97,4 @@
 
 
 /* display: inline-block; */
- /* margin: 0 auto;  */ 
+/* margin: 0 auto;  */
