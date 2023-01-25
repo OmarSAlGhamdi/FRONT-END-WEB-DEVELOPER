@@ -58,11 +58,14 @@
             "sd sd main main main main main main"
             "ft ft ft ft ft ft ft ft";
         border: 2px solid red;
-        /* display: inline-block; */
-        /* margin: 0 auto; */
-    }
+        
 }
 
+
+
+
+
+/* we fix the center of the text by adding padding 50% */
 /* Under test */
  /* .sidebar > a {
     text-align: center;
