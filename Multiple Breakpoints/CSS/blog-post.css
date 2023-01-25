@@ -1,42 +1,50 @@
 /* Mobile First Layout */
-.container{
-    display:grid;
+.container {
+    display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 250px 600px;
     border: 2px solid yellow;
-  /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
-  
-}
-.box{
-  border: 1px solid red;
-  background: #F8FA9D;
-  }
+    /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
+    grid-template-areas:
+        "hd"
+        "feat"
+        "main"
+        "ft";
 
-.header{
-    grid-area:hd;
 }
 
-.footer{
-  grid-area: ft;  
+.box {
+    border: 1px solid red;
+    background: #F8FA9D;
 }
-.feature{
-  grid-area: feat;
+
+.header {
+    grid-area: hd;
 }
-.content{
-  grid-area: main;
+
+.footer {
+    grid-area: ft;
+}
+
+.feature {
+    grid-area: feat;
+}
+
+.content {
+    grid-area: main;
 }
 
 /* If wide enough */
-@media(min-width:900px){
-  .container{
-    display:grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
-    grid-template-areas: 
-    "hd hd hd hd hd hd hd hd"
-    "feat feat feat feat feat feat feat feat"
-    "main main main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-    border: 2px solid yellow;
-}
+@media(min-width:900px) {
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 600px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "feat feat feat feat feat feat feat feat"
+            "main main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+        border: 2px solid yellow;
+    }
 }
