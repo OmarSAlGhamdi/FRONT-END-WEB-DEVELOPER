@@ -1,13 +1,13 @@
 .container {
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: 250px 600px 50px;
     grid-template-areas:
         "hd hd hd hd hd hd hd hd"
         "sd sd main main main main main main"
         "ft ft ft ft ft ft ft ft";
-    border: 5px solid blue;
+    border: 5px solid aquamarine;
 
 }
 
