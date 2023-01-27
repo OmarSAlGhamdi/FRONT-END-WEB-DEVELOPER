@@ -12,6 +12,16 @@
     border: 2px solid yellow;
   }
   /* add css for nested grid here */
+  .nestedGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    /* border: 2px solid blue; */
+  }
+
+  .nestedGrid > * {
+    border: 2px solid tan;
+  }
   .box{
       border: 1px solid red;
       background: #F8FA9D;
