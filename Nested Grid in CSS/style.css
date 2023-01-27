@@ -1,13 +1,13 @@
-
 .container {
     display: grid;
-    grid-template-columns:300px 300px 300px;
-    grid-template-rows:250px 600px ;
+    width: 100%;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
     grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-    border : 5px solid blue;
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+    border: 5px solid blue;
 
 }
 
@@ -23,7 +23,7 @@
 }
 
 .sidebar {
-grid-area: sd;
+    grid-area: sd;
 }
 
 .content {
@@ -31,3 +31,6 @@ grid-area: sd;
 
 }
 
+.footer {
+    grid-area: ft;
+}
