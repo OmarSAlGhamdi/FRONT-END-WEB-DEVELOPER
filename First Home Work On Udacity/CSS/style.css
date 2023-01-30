@@ -3,7 +3,10 @@
 width: 80vw;
 grid-template-columns: 300px 300px 300px;
 grid-template-rows: 300px 250px 50px ;
-grid-template-areas: ;
+grid-template-areas: 
+"hd hd hd hd hd hd hd hd"
+"sd sd sd main main main main main"
+"ft ft ft ft ft ft ft ft";
 
 border: 5px solid blue;
 
