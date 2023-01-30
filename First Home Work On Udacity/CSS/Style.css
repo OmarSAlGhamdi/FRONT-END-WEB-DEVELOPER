@@ -11,7 +11,22 @@
         "ft ft ft ft ft ft ft ft";
 
     border: 5px solid blue;
+width: 80vw;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 300px 250px 50px ;
+grid-template-areas: 
+"hd hd hd hd hd hd hd hd"
+"sd sd sd main main main main main"
+"ft ft ft ft ft ft ft ft";
 
+border: 5px solid blue;
+
+}
+
+
+.box {
+    border: 2px solid red;
+    background-color: yellow;
 }
 
 
@@ -78,6 +93,20 @@ color: aqua;
 } */
 
 
+
+.footer_content {
+    grid-area: ft;
+
+}
+
+.side_content {
+    grid-area: sd;
+
+}
+
+.main_content  {
+grid-area: main;
+}
 
 /* You have to create 3 screen sizes */
 
