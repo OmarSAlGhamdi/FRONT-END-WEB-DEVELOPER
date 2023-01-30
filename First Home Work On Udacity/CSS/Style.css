@@ -1,7 +1,39 @@
+.container {
+width: 80vw;
+
+}
 
 
+aside {
+margin-left: 10px;
+color: aqua;
+}
 
+button {
+    width: 70px;
+    border-radius: 5px;
+    display: block;
+    margin: 15px;
+    margin-left: 25px;
+}
 
+.follow {
+    background-color: aqua;
+    text-decoration: none;
+    border: 1px solid aqua;
+    color: white;
+    
+}
+
+.subscribe {
+    border: 1px solid aqua;
+    background-color: transparent;
+}
+
+li {
+    list-style-type:none;
+    line-height:30px;
+}
 
 /* You have to create 3 screen sizes */
 
