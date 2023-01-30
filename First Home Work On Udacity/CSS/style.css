@@ -1,38 +1,59 @@
 .container {
     display: grid;
-width: 80vw;
-grid-template-columns: 300px 300px 300px;
-grid-template-rows: 300px 250px 50px ;
-grid-template-areas: 
-"hd hd hd hd hd hd hd hd"
-"sd sd sd main main main main main"
-"ft ft ft ft ft ft ft ft";
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 250px 50px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd sd main main main main main"
+        "ft ft ft ft ft ft ft ft";
 
-border: 5px solid blue;
+    border: 5px solid blue;
 
 }
 
 
 .box {
+    /* display: flex; */
+    /* flex-direction: column; */
     border: 2px solid red;
-    background-color: yellow;
+    background-color: #f8fa0d;
 }
 
+.header {
+    grid-area: hd;
+}
 
-aside {
+.footer {
+    /* background-color: gray; */
+    /* color: white; */
+}
+
+.sidebar {
+    grid-area: sd;
+
+}
+
+.main_content {
+    grid-area: main;
+}
+
+/* aside {
 margin-left: 10px;
 color: aqua;
-}
+} */
 
-button {
+/* button {
     width: 70px;
     border-radius: 5px;
     display: block;
     margin: 15px;
     margin-left: 25px;
-}
+} */
 
-.follow {
+/* .follow {
     background-color: aqua;
     text-decoration: none;
     border: 1px solid aqua;
@@ -43,26 +64,20 @@ button {
 .subscribe {
     border: 1px solid aqua;
     background-color: transparent;
-}
+} */
 
-li {
+/* li {
     list-style-type:none;
     line-height:30px;
-}
+} */
 
-.footer_content {
+/* .footer_content {
     grid-area: ft;
+    color: gray;
 
-}
+} */
 
-.side_content {
-    grid-area: sd;
 
-}
-
-.main_content  {
-grid-area: main;
-}
 
 /* You have to create 3 screen sizes */
 
@@ -74,4 +89,5 @@ grid-area: main;
 /* @media(min-width: 901px) */
 
 
-/* @media(min-width: 600px) and (max-width: 900px) */ */
+/* @media(min-width: 600px) and (max-width: 900px) */
+*/
