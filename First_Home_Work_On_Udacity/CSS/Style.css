@@ -1,0 +1,212 @@
+    /* ----- The Main Part ----- */
+
+    .container {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        /* margin: auto; */
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: 100px 500px 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "sd main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+        /* border: 5px solid rgb(0, 234, 255); */
+    }
+
+
+
+    /* ----- Header Section ----- */
+
+
+    .header {
+        background-image: url('/First_Home_Work_On_Udacity/Images/download.png');
+        background-repeat: no-repeat;
+        /* padding: 0; */
+    }
+
+
+
+    /*----- Content Section----- */
+
+    .box {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* border: 2px solid red; */
+        /* background-color: #f8fa0d; */
+    }
+
+
+    .nestedContainer {
+        display: grid;
+        /* height: 100px; */
+        width: 50%;
+         grid-template-columns: repeat(8, 1fr);
+        /* grid-template-rows: 180px repeat(8, 1fr); */
+        grid-template-areas:
+            "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3";
+        /* "ft ft ft ft ft ft ft ft "; */
+        /* "pn1 pn2 pn2 pn2 pn2 pn2 pn3 pn3"
+        "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3"; */
+        column-gap: 75px;
+        row-gap: 10px;
+        padding-left: 90px;
+        padding-top: 5%;
+    }
+
+    .panel {
+        /* display: grid; */
+        /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+        /* padding: 10px;
+        margin: 10px; */
+    }
+
+    .panel1,
+    .panel2,
+    .panel3 {
+        background-color: rgb(217, 222, 222);
+        border-radius: 10px;
+        padding: 10px;
+        width: 180px;
+    }
+
+    .panel1 {
+        grid-area: pn1;
+    }
+
+    .panel2 {
+        grid-area: pn2;
+    }
+
+    .panel3 {
+        grid-area: pn3;
+    }
+
+    .header {
+        grid-area: hd;
+    }
+
+    .sidebar {
+        grid-area: sd;
+    }
+
+    .content {
+        grid-area: main;
+    }
+
+
+
+
+    /*----- Aside content ----- */
+
+    .sidebar {
+        border-right: 3px solid rgb(0, 238, 255);
+        padding-right: 20px;
+    }
+
+    button {
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+        display: block;
+        margin: 15px;
+        margin-left: 25px;
+    }
+
+    .follow {
+        background-color: rgb(0, 204, 255);
+        text-decoration: none;
+        border: 1px solid rgb(0, 204, 255);
+        color: white;
+    }
+
+    .subscribe {
+        border: 1px solid rgb(0, 204, 255);
+        background-color: transparent;
+    }
+
+    /* list items on Aside */
+    li {
+        /* list-style-type:none; */
+        color: rgb(0, 204, 255);
+        line-height: 40px;
+    }
+
+    /*----- Footer Part ----- */
+
+
+    .footer {
+        /* background-color: gray; */
+        /* color: white; */
+        grid-area: ft;
+        background-color: rgb(239, 239, 239);
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+
+
+
+
+
+    /*  ---Experiment----- */
+
+    /* .footer_content {
+    grid-area: ft;
+    color: gray;
+    
+} */
+
+    /* .footer {
+    grid-area: ft;
+    
+}
+
+.sidebar {
+    grid-area: sd;
+    
+}
+
+.content {
+    grid-area: main;
+} */
+
+    /* You have to create 3 screen sizes */
+
+
+    /* /* @media(max-width: 320px) */
+
+
+
+    /* @media(min-width: 901px) */
+
+
+    /* @media(min-width: 600px) and (max-width: 900px) */
+
+    /*  ---Experiment----- */
+    /* footer {
+    text-decoration: line-through;
+} */
+
+    /*  ---Experiment----- */
+    /* aside {
+    margin-left: 10px;
+    color: aqua;
+} */
+
+    /* .box {
+border: 2px solid red;
+background-color: yellow;
+} */
+
+
+    /* border: 5px solid blue;
+    width: 80vw;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 250px 50px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd sd main main main main main"
+        "ft ft ft ft ft ft ft ft"; */
