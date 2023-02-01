@@ -6,7 +6,7 @@
         width: 100%;
         /* margin: auto; */
         grid-template-columns: 200px 300px 300px;
-        grid-template-rows: 100px 500px 50px;
+        grid-template-rows: 150px 500px 50px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
             "sd main main main main main main main"
@@ -21,8 +21,8 @@
 
     .header {
         background-image: url('/First_Home_Work_On_Udacity/Images/download.png');
-        background-repeat: no-repeat;
-        /* padding: 0; */
+        background-repeat:no-repeat;
+        /* padding: px; */
     }
 
 
@@ -60,6 +60,13 @@
     grid-template-rows: repeat(3, 1fr); */
         /* padding: 10px;
         margin: 10px; */
+    }
+
+    .images_logo {
+        width: 50px;
+        height: 50px;
+        /* background-image: url('/First_Home_Work_On_Udacity/Images/download.png'); */
+        background-repeat: no-repeat;
     }
 
     .panel1,
