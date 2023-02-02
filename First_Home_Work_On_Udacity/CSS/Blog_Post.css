@@ -112,10 +112,17 @@
     color: #00e1ff;
 }
 
-/* .heading {
-    text-decoration: underline;
-} */
+.heading { 
+    color: rgb(43, 126, 198);
+} 
 
+.sub_heading {
+    color: rgb(38, 169, 99);
+}
+
+.sub_heading_paragraph {
+    margin-bottom: 10px;
+}
 
 .example_code_block {
     border: 2px solid rgb(171, 171, 171);
@@ -144,9 +151,6 @@ button {
 
 }
 
-.sub_heading_paragraph {
-    margin-bottom: 10px;
-}
 
 footer {
     width: 100%;
