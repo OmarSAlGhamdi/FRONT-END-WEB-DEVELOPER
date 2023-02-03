@@ -40,8 +40,14 @@
     text-align: center;
 }
 
+.link_to_main_page {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .subscribe {
     text-decoration: underline;
+    /* margin-top: 50px; */
 }
 
 
@@ -118,12 +124,14 @@
 
 .Sample_Blog_Post {
     font-weight: 800;
+    margin-left: 45px;
 }
 
 
 .date {
     text-decoration: none;
     color: rgb(171, 171, 171);
+    margin-left: 45px;
 }
 
 .date>.name_creator {
