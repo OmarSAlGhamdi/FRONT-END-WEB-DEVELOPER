@@ -103,16 +103,21 @@
 }
 
 .archive>ul {
-    color: #00e1ff;
+    color: rgb(43, 126, 198);
     text-decoration: underline;
     list-style-type: none;
 }
 
 .elsewhere>ul {
-    color: #00e1ff;
+    color: rgb(43, 126, 198);
     text-decoration: underline;
     list-style-type: none;
     line-height: 30px;
+    /* margin-left: 30%; */
+}
+
+.icon {
+    margin-right: 15px;
 }
 
 /* --------------------------------- */
@@ -214,7 +219,7 @@ button {
     width: 100px;
     height: 50px;
     background-color: transparent;
-    
+
 }
 
 
@@ -228,7 +233,7 @@ button {
 .Newer_post {
     border: 2px solid gray;
     color: gray;
-    
+
 }
 
 

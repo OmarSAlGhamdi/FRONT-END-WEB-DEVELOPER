@@ -6,7 +6,7 @@
         width: 100%;
         /* margin: auto; */
         grid-template-columns: 200px 300px 300px;
-        grid-template-rows: 150px 500px 50px;
+        grid-template-rows: 160px 500px 50px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
             "sd main main main main main main main"
@@ -42,7 +42,7 @@
         /* height: 100px; */
         width: 50%;
          grid-template-columns: repeat(8, 1fr);
-        /* grid-template-rows: 180px repeat(8, 1fr); */
+        /* grid-template-rows: 280px repeat(8, 1fr); */
         grid-template-areas:
             "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3";
         /* "ft ft ft ft ft ft ft ft "; */
@@ -63,8 +63,8 @@
     }
 
     .images_logo {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         /* background-image: url('/First_Home_Work_On_Udacity/Images/download.png'); */
         background-repeat: no-repeat;
     }
@@ -110,6 +110,7 @@
     .sidebar {
         border-right: 3px solid rgb(0, 238, 255);
         padding-right: 20px;
+        
     }
 
     button {
