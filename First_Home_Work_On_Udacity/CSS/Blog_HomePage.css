@@ -21,7 +21,7 @@
 
     .header {
         background-image: url('/First_Home_Work_On_Udacity/Images/download.png');
-        background-repeat:no-repeat;
+        background-repeat: no-repeat;
         /* padding: px; */
     }
 
@@ -38,24 +38,26 @@
 
 
     .nestedContainer {
-        display: grid;
+        display: flex;
+        /* flex-direction: row; */
         /* height: 100px; */
-        width: 50%;
-         grid-template-columns: repeat(8, 1fr);
-        /* grid-template-rows: 280px repeat(8, 1fr); */
+        width: 80%;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 280px repeat(8, 1fr);
         grid-template-areas:
-            "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3";
-        /* "ft ft ft ft ft ft ft ft "; */
-        /* "pn1 pn2 pn2 pn2 pn2 pn2 pn3 pn3"
-        "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3"; */
+            "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3";
+        /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3" */
+        /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
+        /* "pn1 pn2 pn2 pn2 pn2 pn2 pn3 pn3" 
+        "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3" */
         column-gap: 75px;
         row-gap: 10px;
         padding-left: 90px;
-        padding-top: 5%;
+        /* padding-top: 5%; */
     }
 
     .panel {
-        /* display: grid; */
+        display: flex;
         /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); */
         /* padding: 10px;
@@ -108,9 +110,10 @@
     /*----- Aside content ----- */
 
     .sidebar {
+        float: left;
         border-right: 3px solid rgb(0, 238, 255);
         padding-right: 20px;
-        
+
     }
 
     button {
