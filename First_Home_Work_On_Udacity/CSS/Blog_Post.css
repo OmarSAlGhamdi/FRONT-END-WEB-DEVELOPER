@@ -277,6 +277,28 @@ footer {
 
 
 
+/* You have to create 3 screen sizes */
+
+
+    /* /* @media(max-width: 320px) */
+
+
+
+    /* @media(min-width: 901px) */
+    @media(min-width: 901) {
+
+    }
+
+    /* @media(min-width: 600px) and (max-width: 900px) */
+    @media(min-width: 600) and (max-width: 900){
+        
+    }
+
+
+
+
+
+
 
 
 /* Unnecessary code */

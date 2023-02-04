@@ -159,6 +159,20 @@
 
 
 
+    /* You have to create 3 screen sizes */
+
+
+    /* /* @media(max-width: 320px) */
+
+
+
+    /* @media(min-width: 901px) */
+
+
+    /* @media(min-width: 600px) and (max-width: 900px) */
+
+
+
 
 
 
@@ -184,17 +198,7 @@
     grid-area: main;
 } */
 
-    /* You have to create 3 screen sizes */
-
-
-    /* /* @media(max-width: 320px) */
-
-
-
-    /* @media(min-width: 901px) */
-
-
-    /* @media(min-width: 600px) and (max-width: 900px) */
+    
 
     /*  ---Experiment----- */
     /* footer {
