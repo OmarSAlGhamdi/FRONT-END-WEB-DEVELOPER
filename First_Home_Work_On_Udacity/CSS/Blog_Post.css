@@ -6,6 +6,8 @@
     /* margin: 0; */
 }
 
+
+
 .container {
 
     display: grid;
@@ -24,9 +26,30 @@
 
 /*-------- Heading Content-------- */
 
-.Blog_title {
-    text-decoration: underline;
+.header {
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color:#b1b8fa;
+    /* padding-top: px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+
+.header > .Blog_title {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+
+
+
+.Blog_title {
+    /* text-decoration: underline;
+    text-align: center; */
 }
 
 .link_to_main_page {
