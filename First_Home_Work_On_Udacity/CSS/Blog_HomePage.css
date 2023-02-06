@@ -29,12 +29,12 @@
 
     /*----- Content Section----- */
 
-    .box {
+    /* .box {
         /* display: flex; */
         /* flex-direction: column; */
         /* border: 2px solid red; */
         /* background-color: #f8fa0d; */
-    }
+    /* } */
 
 
     .nestedContainer {
@@ -105,6 +105,42 @@
     }
 
 
+    .profile {
+        width: 25%;
+        /* align-items: center;
+        justify-content: center; */
+        margin-left: 40%;
+        margin-bottom: 5%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+        
+    }
+    
+    .profile:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    .profile_icon {
+        width: 100%;
+        /* height: 300px; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    
+    .profile_details {
+        padding: 2px 16px;
+        
+    }
+    
+    .card_information {
+        border: 1px solid rgb(0, 204, 255);
+        /* align-items: center;
+        text-align: center; */
+        margin-left: 50px;
+    }
+
 
 
     /*----- Aside content ----- */
@@ -123,6 +159,7 @@
         display: block;
         margin: 15px;
         margin-left: 25px;
+        /* color: aqua; */
     }
 
     .follow {
