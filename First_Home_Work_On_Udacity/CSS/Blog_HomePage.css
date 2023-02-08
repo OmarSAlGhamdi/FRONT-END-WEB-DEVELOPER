@@ -11,7 +11,7 @@
         "hd hd hd hd hd hd hd hd"
         "sd main main main main main main main"
         "ft ft ft ft ft ft ft ft";
-    border: 5px solid rgb(0, 234, 255);
+    /* border: 5px solid rgb(0, 234, 255); */
 }
 
 
@@ -40,7 +40,7 @@
 
 .nestedContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* height: 100px; */
     /* width: 80%; */
     grid-template-columns: 1fr;
@@ -55,8 +55,10 @@
     /* column-gap: 75px; */
     /* row-gap: 10px; */
     /* padding-left: 90px; */
+    justify-content: center;
+    align-items: flex-end;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* padding-top: 5%; */
 }
 
@@ -101,7 +103,7 @@
 
 .header {
     grid-area: hd;
-    border: 5px solid rebeccapurple;
+    /* border: 5px solid rebeccapurple; */
     /* margin-bottom: ; */
 }
 
@@ -145,7 +147,7 @@
 }
 
 .card_information {
-    border: 1px solid rgb(0, 204, 255);
+    /* border: 1px solid rgb(0, 204, 255); */
     /* align-items: center;
         text-align: center; */
     margin-left: 50px;
@@ -158,7 +160,7 @@
 .sidebar {
     float: left;
     border-right: 3px solid rgb(0, 238, 255);
-    border: 2px solid rgb(0, 255, 55);
+    /* border: 2px solid rgb(0, 255, 55); */
     padding-right: 20px;
 
 }
@@ -240,12 +242,13 @@ li {
         /* margin: auto; */
         grid-template-columns: 320px;
         grid-template-rows: 160px;
+        gap: 10px;
         grid-template-areas:
             "hd "
             "main"
             "sd"
             "ft";
-        border: 5px solid rgb(55, 0, 255);
+        /* border: 5px solid rgb(55, 0, 255); */
     }
 
 
@@ -261,6 +264,12 @@ li {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         /* width: 40%; */
+
+    }
+
+    .sidebar {
+        border-left: 3px solid rgb(0, 238, 255);
+        padding-left: 10px;
 
     }
 
@@ -303,11 +312,12 @@ li {
         /* margin: auto; */
         grid-template-columns: 200px;
         grid-template-rows: 160px 600px 50px;
+
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
             " sd sd main main main main main main"
             "ft ft ft ft ft ft ft ft";
-        border: 15px solid rgb(0, 234, 255);
+        /* border: 15px solid rgb(0, 234, 255); */
     }
 
 
@@ -356,8 +366,8 @@ li {
 
     .container {
         display: grid;
-         height: 100%; 
-        width: 100%; 
+        height: 100%;
+        width: 100%;
         /* margin: auto; */
         grid-template-columns: 200px 300px 300px;
         grid-template-rows: 160px 600px 50px;
@@ -365,7 +375,7 @@ li {
             "hd hd hd hd hd hd hd hd"
             "sd main main main main main main main"
             "ft ft ft ft ft ft ft ft";
-        border: 10px solid rgb(221, 255, 0);
+        /* border: 10px solid rgb(221, 255, 0); */
     }
 
 
