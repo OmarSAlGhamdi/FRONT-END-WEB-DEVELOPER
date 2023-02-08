@@ -22,3 +22,10 @@ TO DO:
         8. Twitter✔︎
         9. Facebook✔︎
         10.LinkedIn✔︎
+
+
+
+        The resources : 
+
+        1.The icons from Google search.
+        2. The W3s helped me in Card part.
