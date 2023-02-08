@@ -2,8 +2,8 @@
 
 .container {
     display: grid;
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     /* margin: auto; */
     grid-template-columns: 200px 300px 300px;
     grid-template-rows: 160px 500px 50px;
@@ -17,7 +17,6 @@
 
 
 /* ------------------------ Start of Heading Block ------------------------ */
-
 
 .header {
     background-image: url('/First_Home_Work_On_Udacity/Images/download.png');
@@ -41,13 +40,13 @@
 
 .nestedContainer {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* height: 100px; */
-    width: 80%;
+    /* width: 80%; */
     grid-template-columns: 1fr;
-    grid-template-rows: 280px repeat(8, 1fr);
-    grid-template-areas:
-        "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3";
+    grid-template-rows: 250px repeat(8, 1fr);
+    /* grid-template-areas: */
+    /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
     /* "pn1 pn2 pn3"; */
     /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3" */
     /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
@@ -55,28 +54,31 @@
         "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3" */
     /* column-gap: 75px; */
     /* row-gap: 10px; */
-    padding-left: 90px;
-    
+    /* padding-left: 90px; */
+
     border: 2px solid red;
     /* padding-top: 5%; */
 }
 
-.panel {
+/* .panel {
     display: flex;
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); */
-    /* padding: 10px;
+/* padding: 10px;
         margin: 10px; */
-}
+/* }  */
 
 .images_logo {
     width: 30px;
     height: 30px;
     /* background-image: url('/First_Home_Work_On_Udacity/Images/download.png'); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    /* align-items: center;
+    justify-content: center;
+    /* padding-bottom: 0px; */
 }
 
-.panel1,
+/* .panel1,
 .panel2,
 .panel3 {
     background-color: rgb(217, 222, 222);
@@ -95,11 +97,12 @@
 
 .panel3 {
     grid-area: pn3;
-}
+} */
 
 .header {
     grid-area: hd;
     border: 5px solid rebeccapurple;
+    /* margin-bottom: ; */
 }
 
 .sidebar {
@@ -112,10 +115,11 @@
 
 
 .profile {
-    width: 25%;
+    width: 30%;
     /* align-items: center;
         justify-content: center; */
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -156,7 +160,7 @@
     border-right: 3px solid rgb(0, 238, 255);
     border: 2px solid rgb(0, 255, 55);
     padding-right: 20px;
-    
+
 }
 
 /* --------- Start of Buttons Block ---------- */
@@ -227,23 +231,40 @@ li {
 
 /* -------------------- Start of The min-width : 320px -------------------- */
 
+@media(min-width: 320px) {
 
-.container {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    /* margin: auto; */
-    grid-template-columns: 200px;
-    grid-template-rows: 160px;
-    grid-template-areas:
-        "hd "
-        "sd"
-        "main"
-        "ft";
-    /* border: 5px solid rgb(0, 234, 255); */
+    .container {
+        display: grid;
+        /* height: 100%; */
+        /* width: 100%; */
+        /* margin: auto; */
+        grid-template-columns: 320px;
+        grid-template-rows: 160px;
+        grid-template-areas:
+            "hd "
+            "main"
+            "sd"
+            "ft";
+        border: 5px solid rgb(55, 0, 255);
+    }
+
+
+
+    .profile {
+        width: 80%;
+        /* align-items: center;
+            justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+
+    }
+
 }
-
-
 
 
 /* ------------------------ Start of Aside Block ------------------------ */
@@ -272,21 +293,41 @@ li {
 
 /* -------------------- Start of (min-width: 600px) and (max-width: 900px) -------------------- */
 
+@media(min-width: 600px) and (max-width: 900px) {
 
-.container {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    /* margin: auto; */
-    grid-template-columns: 200px 300px 300px;
-    grid-template-rows: 160px 500px 50px;
-    grid-template-areas:
-        "hd hd hd hd hd hd hd hd"
-        "sd main main main main main main main"
-        "ft ft ft ft ft ft ft ft";
-    /* border: 5px solid rgb(0, 234, 255); */
+
+    .container {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        /* margin: auto; */
+        grid-template-columns: 200px;
+        grid-template-rows: 160px 600px 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            " sd sd main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+        border: 15px solid rgb(0, 234, 255);
+    }
+
+
+
+
+    .profile {
+        width: 40%;
+        /* align-items: center;
+            justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+
+    }
+
 }
-
 
 
 /* ------------------------ Start of Aside Block ------------------------ */
@@ -310,19 +351,42 @@ li {
 
 /* -------------------- Start of (min-width: 901px) -------------------- */
 
-.container {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    /* margin: auto; */
-    grid-template-columns: 200px 300px 300px;
-    grid-template-rows: 160px 500px 50px;
-    grid-template-areas:
-        "hd hd hd hd hd hd hd hd"
-        "sd main main main main main main main"
-        "ft ft ft ft ft ft ft ft";
-    /* border: 5px solid rgb(0, 234, 255); */
+@media(min-width:901px) {
+
+
+    .container {
+        display: grid;
+         height: 100%; 
+        width: 100%; 
+        /* margin: auto; */
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: 160px 600px 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "sd main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+        border: 10px solid rgb(221, 255, 0);
+    }
+
+
+
+    .profile {
+        width: 30%;
+        /* align-items: center;
+            justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+
+    }
+
 }
+
+
 
 
 
@@ -339,6 +403,9 @@ li {
 
 
 
+
+
+/* ----------------------------------------------------------------- */
 
 /*  ----------- Experiment Code ------------ */
 

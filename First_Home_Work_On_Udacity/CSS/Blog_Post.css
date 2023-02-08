@@ -25,7 +25,8 @@
 
 
 .box {
-    /* display: flex; */
+    /* display: flex;
+    flex-direction: row-reverse; */
     /* border: 1px solid rgb(0, 255, 55); */
     background-color: beige;
     /* justify-content: center;
@@ -35,11 +36,11 @@
 
 .back_page {
     /* border: 2px solid red; */
-     text-align: left;
-     padding-top: 10px;
-     padding-left: 10px;
-     /* margin-left: 10px; */
-} 
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* margin-left: 10px; */
+}
 
 
 .rightsidebar {
@@ -143,8 +144,9 @@
 
 .image_details {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    /* border: 2px solid rgb(0, 255, 13); */
+    border: 2px solid rgb(208, 255, 0);
 }
 
 .Omar_image {
@@ -163,7 +165,7 @@
 }
 
 .image_information {
-    width: 40%;
+    width: 15px;
     float: right;
     height: fit-content;
     margin-top: 60px;
@@ -272,38 +274,68 @@
         /* margin: 0 auto; */
         /* padding-left: 50px; */
         grid-template-columns: 320px;
-        grid-template-rows: 100px;
+        grid-template-rows: 100px 550px 300px 50px;
         grid-template-areas:
             "hd"
             "main"
             "sd"
             "ft";
     }
+
+    .image_information {
+        width: 250px;
+        /* float: right; */
+        height: fit-content;
+        margin-top: 30px;
+        margin-right: 20px;
+        /* margin-left: auto; */
+        /* border: 2px solid #990000; */
+        /* font-size: large; */
+        /* grid-area: img_info; */
+        /* grid-area: main; */
+        /* text-align: left; */
+        /* border: 2px solid red; */
+        
+    }
+    .rightsidebar {
+        grid-area: sd;
+        /* float: right; */
+        /* width: 20%; */
+        /* height: fit-content; */
+        border-left: 2px solid red;
+        /* grid-area: sd; */
+        /* padding-left: 50px; */
+        list-style-type: none;
+        padding-top: 30px;
+        padding-top: 50px;
+    }
 }
 
 
 /* ------------------------ Start of The Image Block of (min-width: 320px) ------------------------ */
+
+
 /* 
 .image_details {
     display: flex;
     justify-content: space-between;
     /* border: 2px solid rgb(0, 255, 13); */
-}
+/* } 
 
 /* .Omar_image {
     /* margin-left: 50px;  */
-    /* float: left; */
-    /* margin-left: 40px; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-bottom: 10px; */
-    /* color: rgb(5, 41, 169);
+/* float: left; */
+/* margin-left: 40px; */
+/* justify-content: center; */
+/* align-items: center; */
+/* margin-bottom: 10px; */
+/* color: rgb(5, 41, 169);
     width: fit-content; */
-    /* border: 2px solid #000099; */
-    /* margin-left: 30px; */
-    /* grid-area: main; */
-    /* margin-top: 25px; */
-/* } */ */
+/* border: 2px solid #000099; */
+/* margin-left: 30px; */
+/* grid-area: main; */
+/* margin-top: 25px; */
+/* } */
 
 /* .image_information {
     width: 40%;
@@ -312,12 +344,12 @@
     margin-top: 60px;
     margin-right: 400px;
     /* margin-left: 10px; */
-    /* border: 2px solid #990000; */
-    /* font-size: large; */
-    /* grid-area: img_info; */
-    /* grid-area: main; */
-    /* text-align: left; */
-/* } */
+/* border: 2px solid #990000; */
+/* font-size: large; */
+/* grid-area: img_info; */
+/* grid-area: main; */
+/* text-align: left; */
+/* }
 
 /* ------------------------ End of The Image Block of (min-width: 320px) ------------------------ */
 
@@ -329,50 +361,51 @@
     display: flex;
     justify-content: space-between;
     /* border: 5PX solid #009952; */
-    /* width: 90px; */
-    /* margin-top: 450px; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* height: 100px; */
-    /* margin: 10px 10px; */
-    /* width: 90%; */
-    /* height: 100px; */
-    /* display: inline; */
-    /* padding: 10%; */
-    /* padding-top: 20px; */
-    /* grid-area: btn; */
-/* }  */
+/* width: 90px; */
+/* margin-top: 450px; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* height: 100px; */
+/* margin: 10px 10px; */
+/* width: 90%; */
+/* height: 100px; */
+/* display: inline; */
+/* padding: 10%; */
+/* padding-top: 20px; */
+/* grid-area: btn; */
+/* } 
 
 
-/* .btn { */
-    /* border-radius: 25px;
+/* .btn {
+/* border-radius: 25px;
     width: 100px;
     height: 60px;
     background-color: transparent;
     margin: 15PX; */
-    /* border: 2px solid rgb(255, 40, 40); */
-    /* padding-left: 10PX; */
-    /* margin-left: 100px; */
-    /* margin-bottom: 10px; */
-/* } */
+/* border: 2px solid rgb(255, 40, 40); */
+/* padding-left: 10PX; */
+/* margin-left: 100px; */
+/* margin-bottom: 10px; */
+/* }
 
 
 /* .Previous_btn {
     /* display: inline; */
-    /* width: 100px; */
-    /* border: 2px solid #000099; */
-    /* color: white; */
-    /* background: #475b9e; */
-    /* margin-left: 30%; */
-    /* grid-area: old; */ */
-/* } */
+/* width: 100px; */
+/* border: 2px solid #000099; */
+/* color: white; */
+/* background: #475b9e; */
+/* margin-left: 30%; */
+/* grid-area: old; */
+
+/* } 
 
 /* .Next_btn { */
-    /* border: 2px solid gray; */
-    /* color: rgb(0, 0, 0); */
-    /* margin-left: 10px; */
-    /* grid-area: nwr; */
-/* } */
+/* border: 2px solid gray; */
+/* color: rgb(0, 0, 0); */
+/* margin-left: 10px; */
+/* grid-area: nwr; */
+/* }
 /* --------------------------- End of Buttons Block of (min-width: 320px) --------------------------- */
 
 
@@ -381,18 +414,18 @@
 /* ------------------ Start Footer Block of (min-width: 320px) ----------------- */
 /* .footer {
     width: 50%; */
-    /* height: 10px;
+/* height: 10px;
     background-color: rgb(209, 206, 206);
     /* height: 50px; */
-    /* padding-top: 25px;
+/* padding-top: 25px;
     padding-left: 10%; */
-    /* margin-left: ; */
-    /* margin-top: 60px; */
-    /* border: 2px solid rgb(40, 108, 255); */
-    /* margin-left: -10px !important; */
-    /* grid-area: ft;
+/* margin-left: ; */
+/* margin-top: 60px; */
+/* border: 2px solid rgb(40, 108, 255); */
+/* margin-left: -10px !important; */
+/* grid-area: ft;
     border-radius: 5px; */
-/* }   */
+/* } 
 /* ------------------ End Footer Block of (min-width: 320px) ----------------- */
 
 
@@ -414,6 +447,7 @@
 
 /* @media(min-width: 600px) and (max-width: 900px) */
 @media(min-width: 600px) and (max-width: 900px) {
+
     .container {
         display: grid;
         /* width: 75%; */
@@ -429,6 +463,33 @@
             "main main main main sd sd"
             "ft ft ft ft ft ft";
     }
+
+
+
+    /* .rightsidebar {
+        grid-area: sd;
+    }
+
+    .footer {
+        grid-area: ft;
+    }
+
+    .content {
+        grid-area: main;
+        flex-direction: row;
+    }
+
+    .header {
+        grid-area: hd;
+    }
+
+    .btn {
+        grid-area: btn;
+    } */
+
+
+
+
 
 
     .image_details {
@@ -465,7 +526,6 @@
         /* grid-area: main; */
         text-align: left;
     }
-
 
 
     /* -------------------- Buttons Block of (min-width: 600px and The max-width: 900px) -------------------- */
@@ -520,10 +580,6 @@
     }
 
 
-
-
-
-
     /* ------------------- Footer Block of The (min-width: 600px and The max-width: 900px) ------------------ */
     .footer {
         /* width: 50%; */
@@ -540,10 +596,38 @@
         border-radius: 5px;
     }
 
-    /* TODO: finish the rest of the code here  */
-
-    /* ------------------------------------- */
 }
+
+
+
+/* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
+
+
+/* @media(min-width:321px) and (max-width: 599px) {
+
+    .container {
+        display: grid;
+        /* width: 75%; */
+        /* height: 100%; */
+        /* background-color: yellow; */
+        /* border: 2px solid rgb(40, 108, 255); */
+        /* margin: 0 auto; */
+        /* padding-left: 50px; */
+        /* grid-template-columns: 300px 300px 300px; */
+        /* grid-template-rows: 100px 600px 70px; */
+        /* grid-template-areas: */
+            /* "hd hd hd hd hd hd hd hd" */
+            /* "main main main main main main sd sd" */
+            /* "ft ft ft ft ft ft ft ft"; */
+    /* } */
+
+/* } */
+
+
+
+
+/* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
+
 
 
 
@@ -569,7 +653,7 @@
     }
 
 
-/* ------------------------ Start of The Image Block for (min-width: 901px) ------------------------ */
+    /* ------------------------ Start of The Image Block for (min-width: 901px) ------------------------ */
 
     .image_details {
         display: flex;
