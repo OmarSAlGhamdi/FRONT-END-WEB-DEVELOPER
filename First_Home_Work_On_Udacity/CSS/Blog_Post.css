@@ -1,5 +1,7 @@
 /* ---------------------------- General code ---------------------------- */
 
+@import url(Responsive.css);
+
 * {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -313,7 +315,7 @@
 }
 
 
-/* ------------------------ Start of The Image Block of (min-width: 320px) ------------------------ */
+/* ------ Start of The Image Block of (min-width: 320px) ---------- */
 
 
 /* 
