@@ -1,6 +1,6 @@
 /* ---------------------------- General code ---------------------------- */
 
-@import url(Responsive.css);
+/* @import url(Responsive.css); */
 
 * {
     font-family: 'Times New Roman', Times, serif;
@@ -322,44 +322,44 @@
 .image_details {
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid rgb(0, 255, 13); */
-/* } 
+    border: 2px solid rgb(0, 255, 13);
+} */
 
 /* .Omar_image {
-    /* margin-left: 50px;  */
-/* float: left; */
-/* margin-left: 40px; */
-/* justify-content: center; */
-/* align-items: center; */
-/* margin-bottom: 10px; */
-/* color: rgb(5, 41, 169);
-    width: fit-content; */
-/* border: 2px solid #000099; */
-/* margin-left: 30px; */
-/* grid-area: main; */
-/* margin-top: 25px; */
-/* } */
+    margin-left: 50px;
+    float: left;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: rgb(5, 41, 169);
+    width: fit-content;
+    border: 2px solid #000099;
+    margin-left: 30px;
+    grid-area: main;
+    margin-top: 25px; 
+} */
 
-/* .image_information {
+/*.image_information {
     width: 40%;
     float: right;
     height: fit-content;
     margin-top: 60px;
     margin-right: 400px;
-    /* margin-left: 10px; */
-/* border: 2px solid #990000; */
-/* font-size: large; */
-/* grid-area: img_info; */
-/* grid-area: main; */
-/* text-align: left; */
-/* }
+    margin-left: 10px;
+    border: 2px solid #990000;
+    font-size: large;
+    grid-area: img_info;
+    grid-area: main;
+    text-align: left;
+} */
 
-/* ------------------------ End of The Image Block of (min-width: 320px) ------------------------ */
-
-
+/* -------------- End of The Image Block of (min-width: 320px) ---------------- */
 
 
-/* --------------------------- Start of Buttons Block of (min-width: 320px) --------------------------- */
+
+
+/* --------------- Start of Buttons Block of (min-width: 320px) ---------------- */
 .btn_container {
     display: flex;
     justify-content: space-between;
@@ -380,64 +380,309 @@
 
 
 /* .btn {
-/* border-radius: 25px;
+ border-radius: 25px;
     width: 100px;
     height: 60px;
     background-color: transparent;
-    margin: 15PX; */
-/* border: 2px solid rgb(255, 40, 40); */
-/* padding-left: 10PX; */
-/* margin-left: 100px; */
-/* margin-bottom: 10px; */
-/* }
+    margin: 15PX; 
+ border: 2px solid rgb(255, 40, 40); 
+ padding-left: 10PX; 
+ margin-left: 100px; 
+ margin-bottom: 10px; 
+ } */
 
 
-/* .Previous_btn {
-    /* display: inline; */
-/* width: 100px; */
-/* border: 2px solid #000099; */
-/* color: white; */
-/* background: #475b9e; */
-/* margin-left: 30%; */
-/* grid-area: old; */
+/*.Previous_btn {
+    display: inline;
+    width: 100px;
+    border: 2px solid #000099;
+    color: white;
+    background: #475b9e;
+    margin-left: 30%;
+    grid-area: old;
+     } */
 
-/* } 
+/* .Next_btn {
+    border: 2px solid gray;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    grid-area: nwr;
+} */
 
-/* .Next_btn { */
-/* border: 2px solid gray; */
-/* color: rgb(0, 0, 0); */
-/* margin-left: 10px; */
-/* grid-area: nwr; */
-/* }
+
 /* --------------------------- End of Buttons Block of (min-width: 320px) --------------------------- */
-
-
 
 
 /* ------------------ Start Footer Block of (min-width: 320px) ----------------- */
 /* .footer {
-    width: 50%; */
+    width: 50%; 
 /* height: 10px;
     background-color: rgb(209, 206, 206);
-    /* height: 50px; */
+    /* height: 50px; 
 /* padding-top: 25px;
-    padding-left: 10%; */
-/* margin-left: ; */
-/* margin-top: 60px; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin-left: -10px !important; */
+    padding-left: 10%; 
+/* margin-left: ;
+/* margin-top: 60px; 
+/* border: 2px solid rgb(40, 108, 255); 
+/* margin-left: -10px !important; 
 /* grid-area: ft;
-    border-radius: 5px; */
+    border-radius: 5px; 
 /* } 
 /* ------------------ End Footer Block of (min-width: 320px) ----------------- */
 
-
-
-
-
-
-
 /* ------------------------- End of The min-width : 320px -------------------------- */
+
+
+
+
+/* ------------------------- start of The block of 321px to 421px -------------------------- */
+
+/* The block of 321px to 421px */
+
+@media(min-width: 321px) and (max-width:421px) {
+
+    /* .container {
+        display: grid;
+        width: 321px to 421px;
+        height: 100%;
+        background-color: yellow;
+        border: 2px solid rgb(40, 108, 255);
+        margin: 0 auto;
+        padding-left: 50px;
+        grid-template-columns: 321px;
+        grid-template-rows: 100px 600px 100px 300px 50px;
+        grid-template-areas:
+            "hd"
+            "main"
+            "btn"
+            "sd"
+            "ft";
+    }
+
+    .Omar_image {
+        margin-left: 50px;
+        float: left;
+        margin-left: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        color: rgb(16, 5, 169);
+        width: fit-content;
+        border: 5px solid #000099;
+        margin-left: 30px;
+        grid-area: main;
+        margin-top: 25px;
+    } */
+
+
+    .container {
+        display: grid;
+        width: 321px to 421px;
+        /* height: 100%; */
+        border: 2px solid rgb(40, 108, 255);
+        /* margin: 0 auto; */
+        grid-template-columns: 420px;
+        grid-template-rows: 100px 500px 200px 300px 70px;
+        grid-template-areas:
+            "hd hd"
+            "main main"
+            "btn btn"
+            "sd sd"
+            "ft ft";
+    }
+
+
+    /* Start image block of 321px to 421px */
+    .Omar_image {
+        margin-left: 20%;
+        /* margin-left: auto; */
+        margin-bottom: 10px;
+        margin-top: 25px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        color: rgb(5, 41, 169);
+        width: fit-content;
+        border: 5px solid #000099;
+        /* margin-left: 30px; */
+        grid-area: main;
+    }
+
+
+    .image_information {
+        width: 330px;
+        /* float: right; */
+        /* height: fit-content; */
+        /* margin-top: 30px;
+        margin-right: 60px; */
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid rgb(0, 255, 187);
+        font-size: large;
+        /* grid-area: img_info; */
+        grid-area: main;
+        /* text-align: left; */
+    }
+
+    /* End image block of 321px to 421px */
+
+    /* Start button block of 321px to 421px */
+    .btn_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 5PX solid #009952;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        /* margin: 10px 10px; */
+        /* padding: 10%; */
+        /* padding-top: 20px; */
+        grid-area: btn;
+    }
+
+    /* End button block of 321px to 421px */
+
+    /* The sidebar block of 321px to 421px */
+    .rightsidebar {
+        grid-area: sd;
+        width: fit-content;
+        height: fit-content;
+        border: 2px solid red;
+        grid-area: sd;
+        margin-right: auto;
+        margin-left: auto;
+        list-style-type: none;
+        text-align: center;
+        align-items: center
+    }
+
+    /* End sidebar block of 321px to 421px */
+
+}
+
+;
+
+
+/* The block of 321px to 421px */
+
+
+
+/* ------------------------- The End of The block of 321px to 421px -------------------------- */
+
+
+
+/* ----------------------The Block of Min-width 422px and Max-width: 599px---------------------- */
+
+/* The block of 422px to 599px */
+@media(min-width: 422px) and (max-width: 599px) {
+
+    /* Modefiy the code of 320 px  */
+    .container {
+        display: grid;
+        width: 422px to 599px;
+        height: 100%;
+        background-color: yellow;
+        border: 5px solid rgb(40, 108, 255);
+        margin: 0 auto;
+        /* padding-left: 50px; */
+        grid-template-columns: 600px;
+        grid-template-rows: 200px 250px 350px 350px 50px;
+        grid-template-areas:
+            "hd"
+            "main"
+            "btn"
+            "sd"
+            "ft";
+    }
+
+
+    /* image block for 422px - 599px */
+    .Omar_image {
+        /* justify-content: center; */
+        width: fit-content;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        color: rgb(16, 5, 169);
+        border: 5px solid #000099;
+        grid-area: main;
+    }
+
+    .image_information {
+        width: 100%;
+        height: fit-content;
+        margin-top: 25px;
+        margin-right: 50px;
+        /* margin-left: auto; */
+        /* font-size: large; */
+        /* grid-area: img_info; */
+        /* grid-area: main; */
+        /* text-align: left; */
+        border: 5px solid rgb(0, 255, 47);
+    }
+
+    .image_details {
+        display: flex;
+        justify-content: space-between;
+        border: 10px solid rgb(255, 0, 17);
+    }
+
+
+
+    /* Btn of 422px - 599px */
+    .btn_container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        border: 5PX solid #009952;
+        /* width: 10px; */
+        height: 100px;
+        width: 100px;
+        /* margin-top: 80%; */
+        /* margin-bottom: 600px; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* margin: 10px 10px; */
+        /* padding: 10%; */
+        /* padding-top: 20px; */
+        grid-area: btn;
+    }
+
+    /* sidebar of 422px - 599px */
+    .rightsidebar {
+        grid-area: sd;
+        height: 100px;
+        width: 100px;
+        /* margin-right: auto; */
+        margin-left: auto;
+        margin-top: 10%;
+        /* float: right; */
+        /* width: 20%; */
+        /* height: fit-content; */
+        border: 5px solid red;
+        /* grid-area: sd; */
+        /* padding-left: 50px; */
+        /* list-style-type: none; */
+        /* padding-top: 30px;
+        padding-top: 50px; */
+        /* margin-bottom: 100%; */
+    }
+}
+
+;
+
+/* Modefiy the code of 320 px  */
+
+/* ----------------------My test with Min-width 422px and Max-width: 599px---------------------- */
+
+
+
+
+
 
 
 
@@ -603,33 +848,6 @@
 
 
 
-/* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
-
-
-/* @media(min-width:321px) and (max-width: 599px) {
-
-    .container {
-        display: grid;
-        /* width: 75%; */
-/* height: 100%; */
-/* background-color: yellow; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin: 0 auto; */
-/* padding-left: 50px; */
-/* grid-template-columns: 300px 300px 300px; */
-/* grid-template-rows: 100px 600px 70px; */
-/* grid-template-areas: */
-/* "hd hd hd hd hd hd hd hd" */
-/* "main main main main main main sd sd" */
-/* "ft ft ft ft ft ft ft ft"; */
-/* } */
-
-/* } */
-
-
-
-
-/* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
 
 
 
@@ -792,6 +1010,86 @@
 
 
 
+
+
+
+
+/* Unwanted code for 422px to 599px */
+
+/* .container {
+    display: grid;
+    width: 422px to 599px;
+    height: 100%;
+    background-color: yellow;
+    border: 2px solid rgb(40, 108, 255);
+    margin: 0 auto;
+    /* padding-left: 50px; */
+/* grid-template-columns: 321px;
+    grid-template-rows: 100px 600px 100px 300px 50px;
+    grid-template-areas:
+        "hd"
+        "main"
+        "btn"
+        "sd"
+        "ft"; 
+} */
+
+
+/* Image of 422px to 599px */
+/* .image_information {
+    width: 350px;
+    float: right;
+    height: fit-content;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: auto;
+    border: 5px solid #009930; 
+    font-size: large;
+    grid-area: img_info;
+    grid-area: main;
+    text-align: left;
+    border: 5px solid red; 
+ } */
+
+
+/* Buttons of 422px to 599px */
+
+/* .btn_container {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: space-between;
+    border: 5PX solid #009952;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 10px;
+    height: fit-content;
+    padding: 10%;
+    padding-top: 20px;
+    grid-area: btn;
+} */
+
+/* SideBar of 422px to 599px */
+
+/* .rightsidebar {
+    grid-area: sd;
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    border-left: 2px solid red;
+    grid-area: sd;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-top: 50px;
+} */
+
+
+
+/* Unwanted code for 422px to 599px */
 
 
 

@@ -342,9 +342,9 @@
 /* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
 
 
-@media(min-width:321px) and (max-width: 599px) {
+/* @media(min-width:321px) and (max-width: 599px) {
 
-    .container {
+    /* .container {
         display: grid;
         width: 75%;
         height: 100%;
@@ -361,7 +361,7 @@
             "ft ft ft ft ft";
     }
 
-}
+} 
 
 
 /* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
@@ -385,7 +385,7 @@
                 "hd hd hd hd hd hd hd hd"
                 "main main main main main main sd sd"
                 "ft ft ft ft ft ft ft ft"; */
-        }
+        /* } */
 
 
         /* ------------------------ Start of The Image Block for (min-width: 901px) ------------------------ */
@@ -458,7 +458,7 @@
             /* padding-left: 10PX; */
             /* margin-left: 100px; */
             /* margin-bottom: 10px; */
-        }
+        /* } */
 
 
         /* .Previous_btn {
