@@ -436,38 +436,7 @@
 
 @media(min-width: 321px) and (max-width:421px) {
 
-    /* .container {
-        display: grid;
-        width: 321px to 421px;
-        height: 100%;
-        background-color: yellow;
-        border: 2px solid rgb(40, 108, 255);
-        margin: 0 auto;
-        padding-left: 50px;
-        grid-template-columns: 321px;
-        grid-template-rows: 100px 600px 100px 300px 50px;
-        grid-template-areas:
-            "hd"
-            "main"
-            "btn"
-            "sd"
-            "ft";
-    }
 
-    .Omar_image {
-        margin-left: 50px;
-        float: left;
-        margin-left: 40px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        color: rgb(16, 5, 169);
-        width: fit-content;
-        border: 5px solid #000099;
-        margin-left: 30px;
-        grid-area: main;
-        margin-top: 25px;
-    } */
 
 
     .container {
@@ -557,37 +526,38 @@
 
 ;
 
-
-/* The block of 321px to 421px */
-
-
-
-/* ------------------------- The End of The block of 321px to 421px -------------------------- */
+/* --------- The End of The block of 321px to 421px ---------- */
 
 
 
-/* ----------------------The Block of Min-width 422px and Max-width: 599px---------------------- */
+
+
+
+/* -----------The Block of 422px to 599px ----------- */
 
 /* The block of 422px to 599px */
+/* @media(min-width: 422px) and (max-width: 599px) { */
+
 @media(min-width: 422px) and (max-width: 599px) {
+
 
     /* Modefiy the code of 320 px  */
     .container {
         display: grid;
-        width: 422px to 599px;
-        height: 100%;
-        background-color: yellow;
-        border: 5px solid rgb(40, 108, 255);
-        margin: 0 auto;
+        width: 599px;
+        /* height: 100%; */
+        /* background-color: yellow; */
+        /* border: 5px solid rgb(40, 108, 255); */
+        /* margin: 0 auto; */
         /* padding-left: 50px; */
-        grid-template-columns: 600px;
+        grid-template-columns: 300px 300px 300px;
         grid-template-rows: 200px 250px 350px 350px 50px;
         grid-template-areas:
-            "hd"
-            "main"
-            "btn"
-            "sd"
-            "ft";
+            "hd hd hd hd hd "
+            "main main main main main"
+            "btn btn btn btn btn"
+            "sd sd sd sd sd"
+            "ft ft ft ft ft";
     }
 
 
@@ -656,7 +626,6 @@
         /* width: 20%; */
         /* height: fit-content; */
         border: 5px solid red;
-        /* grid-area: sd; */
         /* padding-left: 50px; */
         /* list-style-type: none; */
         /* padding-top: 30px;
@@ -667,7 +636,6 @@
 
 ;
 
-/* Modefiy the code of 320 px  */
 
 /* ----------------------My test with Min-width 422px and Max-width: 599px---------------------- */
 
@@ -683,7 +651,7 @@
 
 
 
-/* ----------------------- The min-width: 600px and The max-width: 900px ----------------------- */
+/* ------ The min-width: 600px and The max-width: 900px ------- */
 
 /* @media(min-width: 600px) and (max-width: 900px) */
 @media(min-width: 600px) and (max-width: 900px) {
@@ -845,7 +813,7 @@
 
 
 
-/* -------------------- The min-width : 901px-------------------- */
+/* --------- The min-width : 901px--------- */
 
 /* @media(min-width: 901px) */
 @media(min-width:901px) {
@@ -1001,6 +969,48 @@
 
 
 
+/* Unwanted code for 321px to 421px  */
+
+/* .container {
+        display: grid;
+        width: 321px to 421px;
+        height: 100%;
+        background-color: yellow;
+        border: 2px solid rgb(40, 108, 255);
+        margin: 0 auto;
+        padding-left: 50px;
+        grid-template-columns: 321px;
+        grid-template-rows: 100px 600px 100px 300px 50px;
+        grid-template-areas:
+            "hd"
+            "main"
+            "btn"
+            "sd"
+            "ft";
+    } */
+
+/*  .Omar_image {
+        margin-left: 50px;
+        float: left;
+        margin-left: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        color: rgb(16, 5, 169);
+        width: fit-content;
+        border: 5px solid #000099;
+        margin-left: 30px;
+        grid-area: main;
+        margin-top: 25px;
+    } */
+
+/* Unwanted code for  321px to 421px */
+
+
+
+
+
+
 
 
 
@@ -1078,8 +1088,6 @@
     padding-top: 30px;
     padding-top: 50px;
 } */
-
-
 
 /* Unwanted code for 422px to 599px */
 
