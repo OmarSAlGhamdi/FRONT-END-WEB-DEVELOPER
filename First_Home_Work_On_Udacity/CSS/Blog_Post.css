@@ -17,7 +17,7 @@
     /* margin: 0 auto; */
     /* padding-left: 50px; */
     grid-template-columns: 300px;
-    grid-template-rows: 150px 100px 150px 100px;
+    grid-template-rows: 150px 300px 550px 100px;
     grid-template-areas:
         "hd"
         "main"
@@ -318,13 +318,14 @@
 /* ------ Start of The Image Block of (min-width: 320px) ---------- */
 
 
-/* 
+
 .image_details {
     display: flex;
     justify-content: space-between;
-    border: 2px solid rgb(0, 255, 13);
-} */
+    border: 2px solid rgb(25, 0, 255);
+}
 
+*/
 /* .Omar_image {
     margin-left: 50px;
     float: left;
@@ -353,7 +354,6 @@
     grid-area: main;
     text-align: left;
 } */
-
 /* -------------- End of The Image Block of (min-width: 320px) ---------------- */
 
 
@@ -477,11 +477,11 @@
 
     .container {
         display: grid;
-        width: 321px to 421px;
+        width: 421px;
         /* height: 100%; */
         border: 2px solid rgb(40, 108, 255);
         /* margin: 0 auto; */
-        grid-template-columns: 420px;
+        grid-template-columns: 421px;
         grid-template-rows: 100px 500px 200px 300px 70px;
         grid-template-areas:
             "hd hd"
@@ -509,21 +509,17 @@
 
 
     .image_information {
-        width: 330px;
-        /* float: right; */
-        /* height: fit-content; */
-        /* margin-top: 30px;
-        margin-right: 60px; */
-        margin-left: auto;
-        margin-right: auto;
+        width: 75%;
+        margin-top: 30px;
+        margin-right: 10%;
         border: 2px solid rgb(0, 255, 187);
         font-size: large;
         /* grid-area: img_info; */
         grid-area: main;
-        /* text-align: left; */
     }
 
     /* End image block of 321px to 421px */
+
 
     /* Start button block of 321px to 421px */
     .btn_container {
@@ -544,6 +540,7 @@
     }
 
     /* End button block of 321px to 421px */
+
 
     /* The sidebar block of 321px to 421px */
     .rightsidebar {
