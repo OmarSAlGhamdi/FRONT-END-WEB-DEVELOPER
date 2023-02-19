@@ -1,0 +1,159 @@
+/* ⬇︎Header block for 320px */
+/* ⬆︎Header block for 320px */
+
+/* ⬇︎ Image block for 320px */
+/* ⬆︎ Image block for 320px */
+
+/* ⬇︎ Buttons for 320px */
+/* ⬆︎ Buttons for 320px */
+
+/* ⬇︎ SideBar for 320px */
+/* ⬆︎ SideBar for 320px */
+
+/* ⬇︎ Main Body for 320px */
+/* ⬆︎ Main Body for 320px */
+
+/* ⬇︎ Footer Block for 320px */
+/* ⬆︎ Footer Block for 320px */
+
+
+
+/* -------------- ⬇︎ Block for 320px ---------------- */
+
+@media(max-width:320px) {
+
+    .container {
+        display: grid;
+        /* height: 100%; */
+        /* width: 100%; */
+        /* margin: auto; */
+        grid-template-columns: 320px;
+        grid-template-rows: 170px 100px 1000px 10px;
+        gap: 10px;
+        grid-template-areas:
+            "hd "
+            "main"
+            "sd"
+            "ft";
+        border: 5px solid rgb(55, 0, 255);
+    }
+
+    .sidebar {
+        border-left: 3px solid rgb(0, 238, 255);
+        padding-left: 10px;
+
+    }
+
+
+    .profile {
+        width: 80%;
+        /* align-items: center;
+            justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+    }
+}
+
+/* -------------- ⬆︎ Block for 320px ---------------- */
+
+/* ----------- ⬇︎ Block for 321px To 599px ------------- */
+@media (min-width: 321px) and (max-width: 599px) {
+    .container {
+        display: grid;
+        grid-template-columns: 599px;
+        grid-template-rows: 160px 600px 50px;
+        grid-template-areas:
+            "hd hd hd hd hd"
+            "sd sd main main main"
+            "ft ft ft ft ft";
+    }
+}
+
+/* ----------- ⬆︎ Block for 321px To 599px ------------- */
+
+/* ----------- ⬇︎ Block for 600px To 900px ------------- */
+@media(min-width: 600px) and (max-width: 900px) {
+
+    .container {
+        display: grid;
+        /* height: 100%; */
+        /* width: 100%; */
+        /* margin: auto; */
+        grid-template-columns: 300px;
+        grid-template-rows: 260px 100px 200px 200px 100px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "sd sd main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+        border: 15px solid rgb(0, 255, 38);
+    }
+
+
+    .profile {
+        width: 40%;
+        /* align-items: center;
+            justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+    }
+
+    .sidebar {
+        /* float: left; */
+        border-right: 3px solid rgb(0, 238, 255);
+        /* border: 2px solid rgb(0, 255, 55); */
+        padding-right: 20px;
+    }
+}
+
+/* ----------- ⬆︎ Block for 600px To 900px ------------- */
+
+
+/* ----------- ⬇︎ Block for 901px ------------- */
+@media(min-width:901px) {
+
+    .container {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        /* margin: auto; */
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: 160px 600px 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "sd main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+        border: 10px solid rgb(221, 255, 0);
+    }
+
+    .profile {
+        width: 30%;
+        /* align-items: center;
+            justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+    }
+
+    .sidebar {
+        /* float: left; */
+        border-right: 3px solid rgb(0, 238, 255);
+        /* border: 2px solid rgb(0, 255, 55); */
+        padding-right: 20px;
+    }
+}
+
+/* ----------- ⬆︎ Block for 901px ------------- */

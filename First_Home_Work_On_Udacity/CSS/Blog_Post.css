@@ -8,24 +8,219 @@
 }
 
 
+/* TODO: delete the Unnecessary code before sumbitting */
+
+
+
+/* ⬇︎ General Styling */
 .container {
     display: grid;
-    /* width: 75%; */
-    /* height: 100%; */
+    height: 100%;
     /* background-color: yellow; */
-    /* border: 2px solid rgb(40, 108, 255); */
-    /* margin: 0 auto; */
-    /* padding-left: 50px; */
-    grid-template-columns: 300px;
-    grid-template-rows: 150px 300px 550px 100px;
+    border: 5px solid red;
+    grid-template-columns: 320px;
+    grid-template-rows: 100px 650px 150px 70px;
     grid-template-areas:
         "hd"
         "main"
+        "btn"
         "sd"
         "ft";
 }
 
+/* ⬆︎ General Styling */
 
+
+/* ⬇︎Header block for General */
+.header {
+    /* height: 70px; */
+    /* width: 100%;  */
+    /* border: 2px solid red; */
+    background-color: #b1b8fa;
+    /* padding-top:10 px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* grid-area: hd; */
+
+}
+
+
+.Blog_title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+
+/* This belong to heading tag */
+/* .link_to_main_page {
+    margin-top: 500px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(40, 108, 255);
+ }  */
+
+/* ⬆︎Header block for General */
+
+
+/* ⬇︎ Image block for General */
+.image_details {
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    border: 5px solid rgb(0, 255, 13);
+}
+
+.Omar_image {
+    /* float: left; */
+    margin-left: 60px;
+    margin-top: 25px;
+    /* margin-bottom: 10px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: rgb(5, 41, 169);
+    width: fit-content;
+    border: 10px solid #000099;
+    /* grid-area: main; */
+}
+
+.image_information {
+    width: 80%;
+    /* height: fit-content; */
+    margin-top: 30px;
+    /* margin-right: 15%; */
+    margin-left: 40px;
+    border: 5px solid #ff0a0a;
+    /* font-size: large; */
+    /* grid-area: img_info; */
+    /* grid-area: main; */
+    text-align: left;
+}
+
+/* ⬆︎ Image block for General */
+
+
+
+/* ⬇︎ SideBar for General */
+.rightsidebar {
+    /* float: right; */
+    /* width: 20%; */
+    height: fit-content;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid red;
+    /* padding-left: 50px; */
+    list-style-type: none;
+    /* padding-top: 180px; */
+}
+
+.rightsidebar>ul {
+    list-style-type: none;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.fb {
+    padding-right: 5px;
+}
+
+/* ⬆︎ SideBar for General */
+
+
+
+/* Quick icons */
+
+/* ⬆︎⬇︎ */
+
+/* Quick icons */
+
+
+
+/* ⬇︎ Buttons for General */
+.btn_container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* width: fit-content; */
+    height: fit-content;
+    border: 7px solid #009952;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 10px 10px; */
+    /* display: block; */
+    /* padding: 10%; */
+    /* padding-top: -10; */
+}
+
+
+.btn {
+    height: 60px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: transparent;
+    margin: 15px;
+    /* border: 2px solid rgb(255, 40, 40); */
+    /* padding-left: 10PX; */
+    /* margin-left: 100px; */
+    /* margin-bottom: 10px; */
+}
+
+
+.Previous_btn {
+    /* display: inline; */
+    /* width: 50px; */
+    /* border: 2px solid #dfe705; */
+    color: white;
+    background: #475b9e;
+}
+
+.Next_btn {
+    /*border: 2px solid rgb(242, 230, 7); */
+    color: rgb(0, 0, 0);
+    /* margin-left: 10px; */
+    /* grid-area: nwr; */
+}
+
+/* ⬆︎ Buttons for General */
+
+
+
+
+/* ⬇︎ Grid area names for General */
+.rightsidebar {
+    grid-area: sd;
+    /* flex-direction: column; */
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.content {
+    grid-area: main;
+    /* flex-direction: row; */
+}
+
+.header {
+    grid-area: hd;
+}
+
+.btn {
+    grid-area: btn;
+    /* flex-direction: row; */
+    margin-top: 100px;
+}
+
+/* ⬆︎ Grid area names for General  */
+
+
+
+/* ⬇︎ Main Body for General */
 .box {
     /* display: flex;
     flex-direction: row-reverse; */
@@ -44,297 +239,144 @@
     /* margin-left: 10px; */
 }
 
+/* ⬆︎ Main Body for General */
 
-.rightsidebar {
-    grid-area: sd;
-    flex-direction: column;
-}
 
+/* ⬇︎ Footer Block for General */
 .footer {
-    grid-area: ft;
+    /* width: 50%; */
+    /* height: 10px; */
+    /* height: 50px; */
+    background-color: rgb(209, 206, 206);
+    padding-top: 25px;
+    padding-left: 10%;
+    /* margin-top: 60px; */
+    /* border: 2px solid rgb(40, 108, 255); */
+    /* margin-left: -10px !important; */
+    border-radius: 10px;
 }
 
-.content {
-    grid-area: main;
-    flex-direction: row;
-}
-
-.header {
-    grid-area: hd;
-}
-
-.btn {
-    grid-area: btn;
-    flex-direction: row;
-    margin-top: 100px;
-}
-
-
-/* ------------------------ Start of Heading Block ------------------------ */
-
-.header {
-    /* height: 70px;
-    width: 100%;
-    /* border: 2px solid red; */
-    background-color: #b1b8fa;
-    /* padding-top:10 px; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    grid-area: hd;
-}
-
-/* This belong to heading tag */
-.Blog_title {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1%;
-}
-
-/* This belong to heading tag */
-/* .link_to_main_page {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    border: 2px solid rgb(40, 108, 255); */
-/* } */
-
-/* ------------------------ The end of Heading Block ------------------------ */
-
+/* ⬆︎ Footer Block for General */
 
 
 
 /* ------------------------ Start of Aside Block ------------------------ */
 
-.rightsidebar {
-    grid-area: sd;
-    /* float: right; */
-    /* width: 20%; */
-    /* height: fit-content; */
-    /* border-left: 2px solid red; */
-    /* grid-area: sd; */
-    /* padding-left: 50px; */
-    list-style-type: none;
-    padding-top: 30px;
-}
-
-.rightsidebar>ul {
-    list-style-type: none;
-}
-
-.icon {
-    padding-right: 15px;
-
-}
-
-.fb {
-    padding-right: 5px;
-}
-
-
-/* ---------------------------- End of Aside Block ---------------------------- */
 
 
 
 
-
-/* ---------------------------- Main Content Block ---------------------------- */
-
-
-/* ------------------------ Start of The Image Block ------------------------ */
-
-
-.image_details {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* border: 2px solid rgb(208, 255, 0); */
-}
-
-.Omar_image {
-    /* margin-left: 50px;  */
-    float: left;
-    margin-left: 40px;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-bottom: 10px; */
-    color: rgb(5, 41, 169);
+/* .Omar_image {
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
     width: fit-content;
-    /* border: 2px solid #000099; */
-    /* margin-left: 30px; */
-    /* grid-area: main; */
+    margin-left: 30px;
+    grid-area: main;
     margin-top: 25px;
-}
+} */
 
-.image_information {
+
+/* .image_information {
     width: 15px;
     float: right;
     height: fit-content;
     margin-top: 60px;
     margin-right: 400px;
-    /* margin-left: 10px; */
-    /* border: 2px solid #990000; */
-    /* font-size: large; */
-    /* grid-area: img_info; */
-    /* grid-area: main; */
+    margin-left: 10px;
+    border: 2px solid #990000;
+    font-size: large;
+    grid-area: img_info;
+    grid-area: main;
     text-align: left;
-}
-
-/* ------------------------- End of The Logo Block ------------------------- */
+} */
 
 
 
 
-/* --------------------------- Start of Buttons Block --------------------------- */
+/* The name of each block with Signs */
 
+/* ⬇︎Header block for 320px */
+/* ⬆︎Header block for 320px */
 
-.btn_container {
-    display: flex;
-    justify-content: space-between;
-    /* border: 5PX solid #009952; */
-    /* width: 90px; */
-    margin-top: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    /* height: 100px; */
-    /* margin: 10px 10px; */
-    width: 90%;
-    height: 100px;
-    /* display: inline; */
-    /* padding: 10%; */
-    /* padding-top: 20px; */
-    /* grid-area: btn; */
-}
+/* ⬇︎ Image block for 320px */
+/* ⬆︎ Image block for 320px */
 
+/* ⬇︎ Buttons for 320px */
+/* ⬆︎ Buttons for 320px */
 
-.btn {
-    border-radius: 25px;
-    width: 100px;
-    height: 60px;
-    background-color: transparent;
-    margin: 15PX;
-    /* border: 2px solid rgb(255, 40, 40); */
-    /* padding-left: 10PX; */
-    /* margin-left: 100px; */
-    /* margin-bottom: 10px; */
-}
+/* ⬇︎ SideBar for 320px */
+/* ⬆︎ SideBar for 320px */
 
+/* ⬇︎ Main Body for 320px */
+/* ⬆︎ Main Body for 320px */
 
-.Previous_btn {
-    /* display: inline; */
-    /* width: 100px; */
-    /* border: 2px solid #000099; */
-    color: white;
-    background: #475b9e;
-    /* margin-left: 30%; */
-    /* grid-area: old; */
-}
+/* ⬇︎ Footer Block for 320px */
+/* ⬆︎ Footer Block for 320px */
 
-.Next_btn {
-    /* border: 2px solid gray; */
-    color: rgb(0, 0, 0);
-    /* margin-left: 10px; */
-    /* grid-area: nwr; */
-}
+/* The name of each block with Signs */
 
 
 
-/* ---------------------------- Start of The Footer Block ---------------------------- */
-.footer {
-    /* width: 50%; */
-    /* height: 10px; */
-    background-color: rgb(209, 206, 206);
-    /* height: 50px; */
-    padding-top: 25px;
-    padding-left: 10%;
-    /* margin-left: ; */
-    /* margin-top: 60px; */
-    /* border: 2px solid rgb(40, 108, 255); */
-    /* margin-left: -10px !important; */
-    grid-area: ft;
-    border-radius: 5px;
-}
 
-/* ------------------------------- End of The Footer Block ------------------------------- */
+
+
+
 
 
 /* -------------------- Start of The min-width : 320px -------------------- */
 
-@media(max-width: 320px) {
+/* @media(max-width: 320px) { */
 
-    .container {
-        display: grid;
-        /* width: 75%; */
-        /* height: 100%; */
-        /* background-color: yellow; */
-        /* border: 2px solid rgb(40, 108, 255); */
-        /* margin: 0 auto; */
-        /* padding-left: 50px; */
-        grid-template-columns: 320px;
-        grid-template-rows: 100px 550px 300px 50px;
-        grid-template-areas:
-            "hd"
-            "main"
-            "sd"
-            "ft";
-    }
-
-    .image_information {
+/* .image_information {
         width: 250px;
-        /* float: right; */
+        float: right;
         height: fit-content;
         margin-top: 30px;
         margin-right: 20px;
-        /* margin-left: auto; */
-        /* border: 2px solid #990000; */
-        /* font-size: large; */
-        /* grid-area: img_info; */
-        /* grid-area: main; */
-        /* text-align: left; */
-        /* border: 2px solid red; */
+        margin-left: auto;
+        border: 5px solid #990000;
+        font-size: large;
+        grid-area: img_info;
+        grid-area: main;
+        text-align: left;
+        border: 2px solid red;
+    } */
 
-    }
-
-    .rightsidebar {
+/* .rightsidebar {
+        width: 20%;
+        height: fit-content;
         grid-area: sd;
-        /* float: right; */
-        /* width: 20%; */
-        /* height: fit-content; */
-        /* border-left: 2px solid red; */
-        /* grid-area: sd; */
-        /* padding-left: 50px; */
+        padding-left: 50px;
         list-style-type: none;
-        padding-top: 30px;
-        padding-top: 50px;
-    }
-}
+        padding-top: 140px;
+    } */
 
 
 /* ------ Start of The Image Block of (min-width: 320px) ---------- */
 
+/* .image_details {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(25, 0, 255);
+    } */
 
 
-.image_details {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(25, 0, 255);
-}
-
-*/
 /* .Omar_image {
-    margin-left: 50px;
-    float: left;
-    margin-left: 40px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    color: rgb(5, 41, 169);
-    width: fit-content;
-    border: 2px solid #000099;
-    margin-left: 30px;
-    grid-area: main;
-    margin-top: 25px; 
-} */
+        margin-left: 50px;
+        margin-left: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        color: rgb(5, 41, 169);
+        width: fit-content;
+        border: 2px solid #000099;
+        margin-left: 30px;
+        grid-area: main;
+        margin-top: 25px;
+    } */
+
 
 /*.image_information {
     width: 40%;
@@ -349,42 +391,21 @@
     grid-area: main;
     text-align: left;
 } */
+
 /* -------------- End of The Image Block of (min-width: 320px) ---------------- */
 
-
-
-
 /* --------------- Start of Buttons Block of (min-width: 320px) ---------------- */
-.btn_container {
-    display: flex;
-    justify-content: space-between;
-    /* border: 5PX solid #009952; */
-    width: 90px;
-    margin-top: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    margin: 10px 10px;
-    width: 90%;
-    height: 100px;
-    display: inline;
-    /* padding: 10%; */
-    padding-top: 20px;
-    grid-area: btn;
-}
-
 
 /* .btn {
- border-radius: 25px;
     width: 100px;
     height: 60px;
     background-color: transparent;
     margin: 15PX; 
- border: 2px solid rgb(255, 40, 40); 
- padding-left: 10PX; 
- margin-left: 100px; 
- margin-bottom: 10px; 
- } */
+    border: 2px solid rgb(255, 40, 40); 
+    padding-left: 10PX; 
+    margin-left: 100px; 
+    margin-bottom: 10px; 
+    } */
 
 
 /*.Previous_btn {
@@ -403,284 +424,312 @@
     margin-left: 10px;
     grid-area: nwr;
 } */
-
-
 /* --------------------------- End of Buttons Block of (min-width: 320px) --------------------------- */
 
 
 /* ------------------ Start Footer Block of (min-width: 320px) ----------------- */
 /* .footer {
     width: 50%; 
-/* height: 10px;
+    /* height: 10px;
     background-color: rgb(209, 206, 206);
     /* height: 50px; 
-/* padding-top: 25px;
+    /* padding-top: 25px;
     padding-left: 10%; 
-/* margin-left: ;
-/* margin-top: 60px; 
-/* border: 2px solid rgb(40, 108, 255); 
-/* margin-left: -10px !important; 
-/* grid-area: ft;
+    /* margin-left: ;
+    /* margin-top: 60px; 
+    /* border: 2px solid rgb(40, 108, 255); 
+    /* margin-left: -10px !important; 
+    /* grid-area: ft;
     border-radius: 5px; 
 /* } 
 /* ------------------ End Footer Block of (min-width: 320px) ----------------- */
 
 /* ------------------------- End of The min-width : 320px -------------------------- */
 
+/* 
+/* -------------- ⬇︎ Block for 320px ---------------- */
+/* @media(max-width: 320px) {
+    .container {
+        display: grid;
+        /* height: 100%; */
+        /* background-color: yellow; */
+        /* border: 10px solid rgb(0, 255, 55);
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 250px 500px 300px 70px;
+        grid-template-areas:
+            "hd"
+            "main"
+            "btn"
+            "sd"
+            "ft"; */
+     /* } */  
+
+    /* ⬇︎ Image block for 320px */
+    /* .Omar_image {
+        /* float: left; */
+        /* width: 10px; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* margin-left: 30px; */
+        /* margin-top: 25px; */
+        /* margin-bottom: 30px; */
+        /* color: rgb(33, 211, 45); */
+        /* width: fit-content; */
+        /* border: 5px solid #0000ff; */
+        /* grid-area: main; */
+    /* } 
+
+    .image_information {
+        width: 75%;
+        /* height: fit-content; */
+        /* margin-top: 30px; */
+        /* margin-right: auto;
+        margin-left: auto;
+        border: 5px solid #ff0a0a; */
+        /* font-size: large; */
+        /* grid-area: img_info; */
+        /* grid-area: main; */
+        /* text-align: left; */
+    /* } */
+
+    /* ⬆︎ Image block for 320px */
+
+
+    /* ⬇︎ Buttons for 320px */
+    /* .btn_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 5PX solid #140099;
+        height: fit-content;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+         margin-bottom: auto;  
+        grid-area: btn;
+    } */
+
+    /* .btn {
+        height: 60px;
+        width: 100px;
+        border-radius: 15px;
+        background-color: transparent;
+        margin: 10px;
+        /* border: 2px solid rgb(255, 40, 40); */
+        /* padding-left: 10PX; */
+        /* margin-left: 100px; */
+        /* margin-bottom: 10px; */
+    /* } */
+
+    /* .Previous_btn {
+        /* display: inline; */
+        /* width: 50px; */
+        /* border: 2px solid #dfe705; */
+        /* color: white;
+        background: #475b9e; */
+    /* } */
+
+    /* .Next_btn { */
+        /*border: 2px solid rgb(242, 230, 7); */
+        /* color: rgb(0, 0, 0); */
+        /* margin-left: 10px; */
+        /* grid-area: nwr; */
+    /* } */
+
+    /* ⬆︎ Buttons for 320px */
+
+
+    /* ⬇︎ SideBar for 320px */
+    /* .rightsidebar {
+        /* float: right; */
+        /* width: 20%; */
+        /* height: fit-content;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        border: 5px solid red; */
+        /* padding-left: 50px; */
+        /* list-style-type: none; */
+        /* padding-top: 180px; */
+    /* } */ 
+
+    /* ⬆︎ SideBar for 320px */
+
+
+    /* ⬇︎ Footer Block for 320px */
+
+
+    /* ⬆︎ Footer Block for 320px */
+
+/* }  */
+/* -------------- ⬆︎ Block for 320px ---------------- */
 
 
 
-/* ------------------------- start of The block of 321px to 421px -------------------------- */
-
-/* The block of 321px to 421px */
-
-@media(min-width: 321px) and (max-width:421px) {
 
 
 
+
+
+
+/* ----------- ⬇︎ Block for 321px To 599px ------------- */
+/* @media(min-width: 321px) and (max-width: 599px) {
 
     .container {
         display: grid;
-        width: 421px;
+        /* width: 421px; */
         /* height: 100%; */
-        border: 2px solid rgb(40, 108, 255);
+        /* border: 10px solid rgb(101, 40, 255); */
         /* margin: 0 auto; */
-        grid-template-columns: 421px;
-        grid-template-rows: 100px 500px 200px 300px 70px;
+        /* grid-template-columns: 100%;
+        grid-template-rows: 100px 500px 300px 300px 70px;
         grid-template-areas:
             "hd hd"
             "main main"
             "btn btn"
             "sd sd"
             "ft ft";
-    }
+    } */
 
-
-    /* Start image block of 321px to 421px */
-    .Omar_image {
-        margin-left: 20%;
-        /* margin-left: auto; */
+    /* ⬇︎ Image block for 321px to 421px */
+    /* .Omar_image {
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 10px;
         margin-top: 25px;
-        /* justify-content: center; */
-        /* align-items: center; */
-        color: rgb(5, 41, 169);
+        color: rgb(169, 5, 79);
         width: fit-content;
-        border: 5px solid #000099;
-        /* margin-left: 30px; */
+        border: 10px solid #6600ff !important;
         grid-area: main;
-    }
+    } */
 
 
-    .image_information {
+    /* .image_information {
         width: 75%;
-        margin-top: 30px;
-        margin-right: 10%;
-        border: 2px solid rgb(0, 255, 187);
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid rgb(72, 0, 255);
         font-size: large;
-        /* grid-area: img_info; */
         grid-area: main;
-    }
+    } */
 
-    /* End image block of 321px to 421px */
+    /* ⬆︎ Image block for 321px to 421px */
 
 
-    /* Start button block of 321px to 421px */
-    .btn_container {
+    /* ⬇︎ Buttons for 321px to 421px */
+    /* .btn_container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        border: 5PX solid #009952;
+        border: 5PX solid #140099;
         height: fit-content;
         width: fit-content;
-        margin-top: 520px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 100px;
-        /* margin: 10px 10px; */
-        /* padding: 10%; */
-        /* padding-top: 20px; */
-        grid-area: btn;
-    }
+        margin-top: 20%;
+        /* margin-bottom: auto;  */
+        /* grid-area: btn; */
+    /* } */ 
 
-    /* End button block of 321px to 421px */
+    /* .btn {
+        height: 60px;
+        width: 100px;
+        border-radius: 15px;
+        background-color: transparent;
+        margin: 15px;
+        /* border: 2px solid rgb(255, 40, 40); */
+        /* padding-left: 10PX; */
+        /* margin-left: 100px; */
+        /* margin-bottom: 10px; */
+    /* }  */
+
+    /* .Previous_btn {
+        /* display: inline; */
+        /* width: 50px; */
+        /* border: 2px solid #dfe705; */
+        /* color: white;
+        background: #475b9e;
+    } */ 
+
+    /* .Next_btn { */
+        /*border: 2px solid rgb(242, 230, 7); */
+        /* color: rgb(0, 0, 0); */
+        /* margin-left: 10px; */
+        /* grid-area: nwr; */
+    /* } */
+
+    /* ⬆︎ Buttons for 321px to 421px */
 
 
-    /* The sidebar block of 321px to 421px */
-    .rightsidebar {
-        grid-area: sd;
+
+    /* ⬇︎ SideBar for 321px to 421px */
+    /* .rightsidebar {
+        /* grid-area: sd; */
+        /* grid-area: sd;
         width: fit-content;
         height: fit-content;
-        border: 2px solid red;
-        grid-area: sd;
+        border: 5px solid rgb(38, 0, 255);
         margin-right: auto;
         margin-left: auto;
+        margin-top: -5px;
+        margin-bottom: auto;
         list-style-type: none;
-        text-align: center;
-        align-items: center
-    }
+        text-align: center; */
+        /* align-items: center */
+    /* } */ 
 
-    /* End sidebar block of 321px to 421px */
+    /* ⬆︎ SideBar for 321px to 421px */
+/* } */
 
-}
-
-;
-
-/* --------- The End of The block of 321px to 421px ---------- */
+/* ----------- ⬆︎ Block for 321px To 599px ------------- */
 
 
 
-
-
-
-/* -----------The Block of 422px to 599px ----------- */
-
-/* The block of 422px to 599px */
-/* @media(min-width: 422px) and (max-width: 599px) { */
-
-@media(min-width: 422px) and (max-width: 599px) {
-
-
-    /* Modefiy the code of 320 px  */
-    .container {
-        display: grid;
-        width: 599px;
-        /* height: 100%; */
-        /* background-color: yellow; */
-        /* border: 5px solid rgb(40, 108, 255); */
-        /* margin: 0 auto; */
-        /* padding-left: 50px; */
-        grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 200px 250px 350px 350px 50px;
-        grid-template-areas:
-            "hd hd hd hd hd "
-            "main main main main main"
-            "btn btn btn btn btn"
-            "sd sd sd sd sd"
-            "ft ft ft ft ft";
-    }
-
-
-    /* image block for 422px - 599px */
-    .Omar_image {
-        /* justify-content: center; */
-        width: fit-content;
-        align-items: center;
-        margin-left: 50px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        color: rgb(16, 5, 169);
-        border: 5px solid #000099;
-        grid-area: main;
-    }
-
-    .image_information {
-        width: 100%;
-        height: fit-content;
-        margin-top: 25px;
-        margin-right: 50px;
-        /* margin-left: auto; */
-        /* font-size: large; */
-        /* grid-area: img_info; */
-        /* grid-area: main; */
-        /* text-align: left; */
-        border: 5px solid rgb(0, 255, 47);
-    }
-
-    .image_details {
-        display: flex;
-        justify-content: space-between;
-        border: 10px solid rgb(255, 0, 17);
-    }
-
-
-
-    /* Btn of 422px - 599px */
-    .btn_container {
-        display: flex;
-        flex-direction: column;
-        /* justify-content: space-evenly; */
-        border: 5PX solid #009952;
-        /* width: 10px; */
-        height: 100px;
-        width: 100px;
-        /* margin-top: 80%; */
-        /* margin-bottom: 600px; */
-        /* margin-left: auto;
-        margin-right: auto; */
-        /* margin: 10px 10px; */
-        /* padding: 10%; */
-        /* padding-top: 20px; */
-        grid-area: btn;
-    }
-
-    /* sidebar of 422px - 599px */
-    .rightsidebar {
-        grid-area: sd;
-        height: 100px;
-        width: 100px;
-        /* margin-right: auto; */
-        margin-left: auto;
-        margin-top: 10%;
-        /* float: right; */
-        /* width: 20%; */
-        /* height: fit-content; */
-        border: 5px solid red;
-        /* padding-left: 50px; */
-        /* list-style-type: none; */
-        /* padding-top: 30px;
-        padding-top: 50px; */
-        /* margin-bottom: 100%; */
-    }
-}
-
-;
-
-
-/* ----------------------My test with Min-width 422px and Max-width: 599px---------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------ The min-width: 600px and The max-width: 900px ------- */
-
+/* ----------- ⬇︎ Block for 600px To 900px ------------- */
 /* @media(min-width: 600px) and (max-width: 900px) */
-@media(min-width: 600px) and (max-width: 900px) {
+/* @media(min-width: 600px) and (max-width: 900px) { */
 
-    .container {
+    /* .container {
         display: grid;
         /* width: 75%; */
         /* height: 100%; */
         /* background-color: yellow; */
-        /* border: 2px solid rgb(40, 108, 255); */
+        /* border: 10px solid rgb(255, 158, 40); */
         /* margin: 0 auto; */
         /* padding-left: 50px; */
-        grid-template-columns: 300px 300px 300px;
+        /* grid-template-columns: 300px 300px;
         grid-template-rows: 100px 600px 70px;
         grid-template-areas:
             "hd hd hd hd hd hd"
             "main main main main sd sd"
             "ft ft ft ft ft ft";
-    }
+    } */ 
 
+    /* .header {
+        height: 70px;
+        width: 100%;
+        border: 2px solid red;
+        background-color: #b1fadf;
+        padding-top: 10 px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        grid-area: hd;
+    } */
 
 
     /* .rightsidebar {
         grid-area: sd;
     }
 
-    .footer {
+     .footer {
         grid-area: ft;
-    }
+    } 
 
     .content {
         grid-area: main;
@@ -693,71 +742,93 @@
 
     .btn {
         grid-area: btn;
-    } */
+    }  */
 
 
 
 
+    /* ⬇︎ SideBar for 600px and 900px */
+    /* .rightsidebar {
+        /* float: right; */
+        /* width: 20%; */
+        /* height: fit-content;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 40%;
+        border: 5px solid rgb(51, 0, 255); */
+        /* padding-left: 50px; */
+        /* list-style-type: none; */
+        /* padding-top: 180px; */
+    /* }  */
+
+    /* ⬆︎ SideBar for 600px and 900px */
 
 
-    .image_details {
+
+    /* ⬇︎ Image block for 600px and 900px */
+    /* .image_details {
         display: flex;
-        justify-content: space-between;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        /* flex-direction: row; */
         /* border: 2px solid rgb(0, 255, 13); */
-    }
+    /* }  */
 
-    .Omar_image {
+    /* .Omar_image {
         /* margin-left: 50px;  */
-        float: left;
-        margin-left: 40px;
+        /* float: left; */
+        /* margin-left: 40px; */
         /* justify-content: center; */
         /* align-items: center; */
-        /* margin-bottom: 10px; */
-        color: rgb(5, 41, 169);
-        width: fit-content;
-        /* border: 2px solid #000099; */
+        /* margin-bottom: 30px; */
+        /* color: rgb(33, 211, 45); */
+        /* width: fit-content; */
+        /* border: 5px solid #0000ff; */
         /* margin-left: 30px; */
         /* grid-area: main; */
-        margin-top: 25px;
-    }
+        /* margin-top: 25px; */
+    /* }  */
 
-    .image_information {
-        width: 40%;
+    /* .image_information {
+        width: 30%;
         float: right;
         height: fit-content;
-        margin-top: 45px;
-        margin-right: 50%;
-        /* margin-left: 10px; */
+        margin-top: -150px;
+        margin-right: 20%;
+        margin-left: 10٪;
+        /* margin-bottom: 1000px; */
         /* border: 2px solid #990000; */
         /* font-size: large; */
         /* grid-area: img_info; */
         /* grid-area: main; */
-        text-align: left;
-    }
+        /* text-align: left; */
+    /* }  */
+
+    /* ⬆︎ Image block for 600px and 900px */
 
 
-    /* -------------------- Buttons Block of (min-width: 600px and The max-width: 900px) -------------------- */
-
-    .btn_container {
+    /* ⬇︎ Buttons for 600px and 900px */
+    /* .btn_container {
         display: flex;
         justify-content: space-between;
-        /* border: 5PX solid #009952; */
+        width: fit-content;
+        height: fit-content;
+        border: 5px solid #240099;
         /* width: fit-content; */
-        margin-top: 460px;
+        /* margin-top: 180px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
         /* height: 100px; */
         /* margin: 10px 10px; */
-        width: 30%;
-        height: 100px;
         /* display: inline; */
         /* padding: 10%; */
         /* padding-top: 20px; */
         /* grid-area: btn; */
-    }
+    /* }  */
 
 
-    .btn {
+    /* .btn {
         border-radius: 25px;
         width: 100px;
         height: 60px;
@@ -767,44 +838,223 @@
         /* padding-left: 10PX; */
         /* margin-left: 100px; */
         /* margin-bottom: 10px; */
-    }
+    /* }  */
 
 
-    .Previous_btn {
+    /* .Previous_btn {
         /* display: inline; */
         /* width: 100px; */
         /* border: 2px solid #000099; */
-        color: white;
-        background: #475b9e;
+        /* color: white;
+        background: #475b9e; */
         /* margin-left: 30%; */
         /* grid-area: old; */
-    }
+    /* }  */
 
-    .Next_btn {
+    /* .Next_btn { */
         /* border: 2px solid gray; */
-        color: rgb(0, 0, 0);
+        /* color: rgb(0, 0, 0); */
         /* margin-left: 10px; */
         /* grid-area: nwr; */
-    }
+    /* } */
+
+    /* ⬆︎ Buttons for 600px and 900px */
 
 
-    /* ------------------- Footer Block of The (min-width: 600px and The max-width: 900px) ------------------ */
-    .footer {
+
+    /* ⬇︎ Footer Block for 600px and 900px */
+    /* .footer {
         /* width: 50%; */
         /* height: 10px; */
-        background-color: rgb(209, 206, 206);
+        /* background-color: rgb(209, 206, 206); */
         /* height: 50px; */
-        padding-top: 25px;
-        padding-left: 10%;
+        /* padding-top: 25px;
+        padding-left: 10%; */
         /* margin-left: ; */
         /* margin-top: 60px; */
         /* border: 2px solid rgb(40, 108, 255); */
         /* margin-left: -10px !important; */
-        grid-area: ft;
-        border-radius: 5px;
+        /* grid-area: ft;
+        border-radius: 5px; */
+    /* }  */
+
+    /* ⬆︎ Footer Block for 600px and 900px */
+/* } */
+
+
+
+
+
+/* @media(min-width: 901px) {
+    .container {
+        display: grid;
+        border: 15px solid rgb(18, 223, 69);
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 100px 600px 70px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "main main main main main main sd sd"
+            "ft ft ft ft ft ft ft ft";
     }
 
 }
+
+; */
+
+/* @media(min-width: 901px) { 
+    /* .container {
+        display: grid;
+        /* width: 75%;
+        height: 100%; */
+        /* background-color: yellow; */
+        /* border: 15px solid rgb(40, 219, 255); */
+        /* margin: 0 auto; */
+        /* padding-left: 50px; */
+        /* grid-template-columns: 300px 300px 300px; 
+        grid-template-rows: 100px 600px 200px 50px;  */
+        /* grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "main main main main main sd sd sd"
+            "btn btn btn btn btn btn btn btn"
+            "ft ft ft ft ft ft ft ft"; */
+    /* }  */
+
+
+    /* /* ⬇︎ SideBar for 901px */
+    /* .rightsidebar {
+        /* float: right; */
+        /* width: 20%;
+        height: fit-content;
+        width: fit-content; */
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+        /* margin-top: 40%;
+        border: 5px solid rgb(51, 0, 255); */
+        /* padding-left: 50px; */
+        /* list-style-type: none; */
+        /* padding-top: 180px; */
+    /* }  */
+
+    /* ⬆︎ SideBar for 900px */
+
+
+    /* ⬇︎ Image block for 900px */
+    /* .image_details {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(0, 255, 13);
+    } */
+
+    /* .Omar_image {
+        float: left;
+        margin-left: 30px;
+        width: fit-content;
+        /* justify-content: center;
+        align-items: center; */
+        /* margin-left: 50px; */
+        /* margin-left: 30px; */
+        /* margin-top: 25px; */
+        /* margin-bottom: 10px; */
+        /* color: rgb(5, 41, 169);
+        border: 5px solid #000099; */
+        /* grid-area: main; */
+    /* }  */
+
+    /* .image_information {
+        width: 40%;
+        float: right;
+        height: fit-content;
+        margin-top: 30px;
+        margin-right: 20%;
+        margin-left: 3%;
+        border: 5px solid red;
+        font-size: large;
+        /* grid-area: img_info; */
+        /* grid-area: main;
+        text-align: left;
+    } */ 
+
+    /* ⬆︎ Image block for 900px */
+
+
+    /* ⬇︎ Buttons for 900px */
+    /* .btn_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: fit-content;
+        height: fit-content;
+        /* border: 5px solid #240099; */
+        /* width: fit-content; */
+        /* margin-top: 60%; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* height: 100px; */
+        /* margin: 10px 10px; */
+        /* display: inline; */
+        /* padding: 10%; */
+        /* padding-top: 20px; */
+        /* grid-area: btn; */
+    /* }  */
+
+    /* .btn {
+        border-radius: 25px;
+        width: 100px;
+        height: 60px;
+        background-color: transparent;
+        margin: 1% 1% 1% 1%;
+        /* border: 2px solid rgb(255, 40, 40);
+        padding-left: 10PX;
+        margin-left: 100px;
+        margin-bottom: 10px; */
+    /* }  */
+
+    /* .Previous_btn {
+        /* display: inline;
+        width: 100px; */
+        /* border: 2px solid #000099;
+        color: white;
+        background: #475b9e; */
+        /* margin-left: 30%; */
+        /* grid-area: old; */
+    /* }  */
+
+    /* .Next_btn {
+        /* border: 2px solid gray; */
+        /* color: rgb(0, 0, 0); */
+        /* margin-left: 10px; */
+        /* grid-area: nwr; */
+    /* }  */
+
+    /* ⬆︎ Buttons for 900px */
+
+
+    /* ⬇︎ Footer Block for 900px */
+    /* .footer {
+        /* width: 50%; */
+        /* height: 10px; */
+        /* background-color: rgb(209, 206, 206); */
+        /* height: 50px; */
+        /* padding-top: 25px; */
+        /* padding-left: 10%;
+        margin-top: 60px;
+        border: 2px solid rgb(40, 108, 255); */
+        /* margin-left: -10px !important; */
+        /* grid-area: ft; */
+        /* border-radius: 5px; */
+    /* }  */
+
+    /* ⬆︎ Footer Block for 900px */
+/* } */
+
+/* ; */ 
+
+/*
+
+
+
+
+
 
 
 
@@ -816,139 +1066,25 @@
 /* --------- The min-width : 901px--------- */
 
 /* @media(min-width: 901px) */
-@media(min-width:901px) {
+/* @media(min-width:901px) {
     .container {
         display: grid;
-        /* width: 75%; */
-        /* height: 100%; */
-        /* background-color: yellow; */
-        /* border: 2px solid rgb(40, 108, 255); */
-        /* margin: 0 auto; */
-        /* padding-left: 50px; */
+        width: 75%;
+        height: 100%;
+        background-color: yellow;
+        border: 2px solid rgb(255, 40, 105);
+        margin: 0 auto;
+        padding-left: 50px;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 100px 600px 70px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
             "main main main main main main sd sd"
             "ft ft ft ft ft ft ft ft";
-    }
+    } */
 
 
-    /* ------------------------ Start of The Image Block for (min-width: 901px) ------------------------ */
-
-    .image_details {
-        display: flex;
-        justify-content: space-between;
-        /* border: 2px solid rgb(0, 255, 13); */
-    }
-
-    .Omar_image {
-        /* margin-left: 50px;  */
-        float: left;
-        margin-left: 40px;
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* margin-bottom: 10px; */
-        color: rgb(5, 41, 169);
-        width: fit-content;
-        /* border: 2px solid #000099; */
-        /* margin-left: 30px; */
-        /* grid-area: main; */
-        margin-top: 25px;
-    }
-
-    .image_information {
-        width: 40%;
-        float: right;
-        height: fit-content;
-        margin-top: 65px;
-        margin-right: 250px;
-        /* margin-left: 10px; */
-        /* border: 2px solid #990000; */
-        /* font-size: large; */
-        /* grid-area: img_info; */
-        /* grid-area: main; */
-        text-align: left;
-    }
-
-
-
-    /* ------------ Buttons Block of (min-width: 901px) ------------ */
-
-    .btn_container {
-        display: flex;
-        justify-content: space-between;
-        /* border: 5PX solid #009952; */
-        /* width: fit-content; */
-        margin-top: 460px;
-        margin-left: auto;
-        margin-right: auto;
-        /* height: 100px; */
-        /* margin: 10px 10px; */
-        width: 30%;
-        height: 100px;
-        /* display: inline; */
-        /* padding: 10%; */
-        /* padding-top: 20px; */
-        /* grid-area: btn; */
-    }
-
-
-    .btn {
-        border-radius: 25px;
-        width: 100px;
-        height: 60px;
-        background-color: transparent;
-        margin: 5% 5% 1% 5%;
-        /* border: 2px solid rgb(255, 40, 40); */
-        /* padding-left: 10PX; */
-        /* margin-left: 100px; */
-        /* margin-bottom: 10px; */
-    }
-
-
-    .Previous_btn {
-        /* display: inline; */
-        /* width: 100px; */
-        border: 2px solid #000099;
-        color: white;
-        background: #475b9e;
-        /* margin-left: 30%; */
-        /* grid-area: old; */
-    }
-
-    .Next_btn {
-        /* border: 2px solid gray; */
-        color: rgb(0, 0, 0);
-        /* margin-left: 10px; */
-        /* grid-area: nwr; */
-    }
-
-
-
-    /* ------------------ Footer Block of (min-width: 901px) ----------------- */
-    .footer {
-        /* width: 50%; */
-        /* height: 10px; */
-        background-color: rgb(209, 206, 206);
-        /* height: 50px; */
-        padding-top: 25px;
-        padding-left: 10%;
-        /* margin-left: ; */
-        /* margin-top: 60px; */
-        /* border: 2px solid rgb(40, 108, 255); */
-        /* margin-left: -10px !important; */
-        grid-area: ft;
-        border-radius: 5px;
-    }
-
-
-    /* TODO: finish the rest of the code here  */
-
-    /* ---------------------------------------------- */
-
-
-}
+/* ------------------------ Start of The Image Block for (min-width: 901px) ------------------------ */
 
 
 
@@ -958,19 +1094,107 @@
 
 
 
+/* ------------ Buttons Block of (min-width: 901px) ------------ */
+
+
+
+
+/* .btn {
+    border-radius: 25px;
+    width: 100px;
+    height: 60px;
+    background-color: transparent;
+    margin: 5% 5% 1% 5%;
+    border: 2px solid rgb(255, 40, 40);
+    padding-left: 10PX;
+    margin-left: 100px;
+    margin-bottom: 10px;
+} */
+
+
+/* .Previous_btn {
+    display: inline;
+    width: 100px;
+    border: 2px solid #000099;
+    color: white;
+    background: #475b9e;
+    margin-left: 30%;
+    grid-area: old;
+} */
+
+/* .Next_btn {
+    border: 2px solid gray;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    grid-area: nwr;
+} */
+
+
+
+/* ------------------ Footer Block of (min-width: 901px) ----------------- */
+
+
+
+/* ---------------------------------------------- */
+
+
+/* } 
 
 
 
 
 
 
+
+/* Unwanted code for General  */
+
+/* .container {
+    display: grid;
+    height: 100%;
+    background-color: yellow;
+    border: 5px solid red;
+    grid-template-columns: 520px;
+    grid-template-rows: 100px 250px 500px 250px 70px;
+    grid-template-areas:
+        "hd"
+        "main"
+        "btn"
+        "sd"
+        "ft";
+} */
+
+/* Unwanted code for General  */
+
+
+
+
+
+
+
+/* Unwanted code for 320 px  */
+/* .container {
+    display: grid;
+    width: 75%;
+    height: 100%;
+    background-color: yellow;
+    border: 2px solid rgb(40, 108, 255);
+    margin: 0 auto;
+    padding-left: 50px;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 300px 550px 100px;
+    grid-template-areas:
+        "hd"
+        "main"
+        "sd"
+        "ft";
+} */
+/* Unwanted code for 320 px  */
 
 
 
 
 
 /* Unwanted code for 321px to 421px  */
-
 /* .container {
         display: grid;
         width: 321px to 421px;
@@ -1003,21 +1227,140 @@
         grid-area: main;
         margin-top: 25px;
     } */
-
 /* Unwanted code for  321px to 421px */
-
-
-
-
-
-
-
-
 
 
 
 /* Unwanted code for 422px to 599px */
 
+/* @media(min-width: 422px) and (max-width: 599px) { */
+
+/* @media(min-width: 422px) and (max-width: 599px) { */
+
+/* .container {
+    display: grid;
+    width: 599px;
+    height: 100%;
+    background-color: rgb(25, 0, 255);
+    border: 15px solid rgb(40, 248, 255);
+    margin: 0 auto;
+    padding-left: 50px;
+    grid-template-columns: 500px;
+    grid-template-rows: 200px 250px 350px 350px 50px;
+    grid-template-areas:
+        "hd hd hd hd"
+        "main main main main "
+        "btn btn btn btn "
+        "sd sd sd sd "
+        "ft ft ft ft ";
+} */
+
+
+
+
+/* @media(min-width: 422px) and (max-width: 599px) {
+    
+    
+     /* .container { 
+        display: grid;
+        width: 421px;
+        height: 100%; 
+        border: 15px solid rgb(223, 255, 40);
+        margin: 0 auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 500px 300px 300px 70px;
+        grid-template-areas: "hd hd"
+        "main main"
+        "btn btn"
+        "sd sd"
+        "ft ft";
+        } 
+        */
+
+
+/* image block for 422px - 599px */
+/* .Omar_image {
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: rgb(16, 5, 169);
+    border: 5px solid #000099;
+    grid-area: main;
+} */
+
+/* .image_information {
+    width: 100%;
+    height: fit-content;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: auto;
+    font-size: large;
+    grid-area: img_info;
+    grid-area: main;
+    text-align: left;
+    border: 5px solid rgb(0, 255, 47);
+} */
+
+/* .image_details {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid rgb(255, 0, 17);
+} */
+
+
+
+/* Btn of 422px - 599px */
+/* .btn_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 5px solid #009952;
+    width: 10px;
+    height: 100px;
+    width: 100px;
+    margin-top: 80%;
+    margin-bottom: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 10px;
+    padding: 10%;
+    padding-top: 20px;
+    grid-area: btn;
+} */
+
+
+/* sidebar of 422px - 599px */
+/*.rightsidebar {
+    grid-area: sd;
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    float: right;
+    width: 20%;
+    height: fit-content;
+    border: 5px solid red;
+    padding-left: 50px;
+    list-style-type: none;
+    padding-top: ˝30px;
+    padding-top: 50px;
+    margin-bottom: 100%;
+} */
+
+
+/* } */
+
+/* ; */
+/* Unwanted code for 422px to 599px */
+
+
+
+
+/* Unwanted code for 422px to 599px */
 /* .container {
     display: grid;
     width: 422px to 599px;
@@ -1025,8 +1368,8 @@
     background-color: yellow;
     border: 2px solid rgb(40, 108, 255);
     margin: 0 auto;
-    /* padding-left: 50px; */
-/* grid-template-columns: 321px;
+     padding-left: 50px; 
+ grid-template-columns: 321px;
     grid-template-rows: 100px 600px 100px 300px 50px;
     grid-template-areas:
         "hd"
@@ -1034,7 +1377,7 @@
         "btn"
         "sd"
         "ft"; 
-} */
+/* } */
 
 
 /* Image of 422px to 599px */
@@ -1045,17 +1388,16 @@
     margin-top: 30px;
     margin-right: 20px;
     margin-left: auto;
-    border: 5px solid #009930; 
+    border: 5px solid #009930;
     font-size: large;
     grid-area: img_info;
     grid-area: main;
     text-align: left;
-    border: 5px solid red; 
- } */
+    border: 5px solid red;
+} */
 
 
 /* Buttons of 422px to 599px */
-
 /* .btn_container {
     display: flex;
     width: fit-content;
@@ -1073,7 +1415,6 @@
 } */
 
 /* SideBar of 422px to 599px */
-
 /* .rightsidebar {
     grid-area: sd;
     float: right;
@@ -1088,15 +1429,34 @@
     padding-top: 30px;
     padding-top: 50px;
 } */
-
 /* Unwanted code for 422px to 599px */
 
 
 
 
+/* Unwanted code for 600px to 900px */
+/* @media(min-width:600px) and (max-width: 900px) {
+    .container {
+        display: grid;
+        /* height: 100%; 
+        /* background-color: yellow;
+        border: 15px solid rgb(255, 65, 151);
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 100px 250px 500px 250px 70px;
+        grid-template-areas: 
+            /* "hd hd hd"
+            "main main main"
+            "btn btn btn"
+            "sd sd sd"
+            "ft ft ft"; 
+    } 
+ } 
+/* Unwanted code for 600px to 900px */
 
 
-/* ------------------------------- Unnecessary code ------------------------------- */
+
+
+/* ------------------------------- Unnecessary General code ------------------------------- */
 
 /* aside {
         width: 20%;
