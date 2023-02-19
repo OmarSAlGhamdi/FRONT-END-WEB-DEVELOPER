@@ -1,41 +1,40 @@
-/* ⬇︎Header block for 320px */
-/* ⬆︎Header block for 320px */
+/* ⬇︎ Header block for 320px ⬇︎ */
+/* ⬆︎ Header block for 320px ⬆︎ */
 
-/* ⬇︎ Image block for 320px */
-/* ⬆︎ Image block for 320px */
+/* ⬇︎ Image block for 320px ⬇︎ */
+/* ⬆︎ Image block for 320px ⬆︎ */
 
-/* ⬇︎ Buttons for 320px */
-/* ⬆︎ Buttons for 320px */
+/* ⬇︎ Buttons for 320px ⬇︎ */
+/* ⬆︎ Buttons for 320px ⬆︎ */
 
-/* ⬇︎ SideBar for 320px */
-/* ⬆︎ SideBar for 320px */
+/* ⬇︎ SideBar for 320px ⬇︎ */
+/* ⬆︎ SideBar for 320px ⬆︎ */
 
-/* ⬇︎ Main Body for 320px */
-/* ⬆︎ Main Body for 320px */
+/* ⬇︎ Main Body for 320px ⬇︎ */
+/* ⬆︎ Main Body for 320px ⬆︎ */
 
-/* ⬇︎ Footer Block for 320px */
-/* ⬆︎ Footer Block for 320px */
+/* ⬇︎ Footer Block for 320px ⬇︎ */
+/* ⬆︎ Footer Block for 320px ⬆︎ */
 
 
 
-/* -------------- ⬇︎ Block for 320px ---------------- */
-
+/* -------------- ⬇︎ Block for 320px ⬇︎ ---------------- */
 @media(max-width:320px) {
 
     .container {
         display: grid;
         /* height: 100%; */
-        /* width: 100%; */
+        width: 100%;
         /* margin: auto; */
         grid-template-columns: 320px;
-        grid-template-rows: 170px 100px 1000px 10px;
+        grid-template-rows: 170px 100px 50px 10px;
         gap: 10px;
         grid-template-areas:
             "hd "
             "main"
             "sd"
             "ft";
-        border: 5px solid rgb(55, 0, 255);
+        /* border: 5px solid rgb(55, 0, 255); */
     }
 
     .sidebar {
@@ -46,37 +45,73 @@
 
 
     .profile {
-        width: 80%;
+        width: 65%;
         /* align-items: center;
             justify-content: center; */
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
-        margin-top: 10px;
+        /* margin-top: 15px; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         /* width: 40%; */
+        /* border: 2px solid red; */
     }
 }
 
-/* -------------- ⬆︎ Block for 320px ---------------- */
+/* -------------- ⬆︎ Block for 320px ⬆︎ ---------------- */
 
-/* ----------- ⬇︎ Block for 321px To 599px ------------- */
+
+
+/* ----------- ⬇︎ Block for 321px To 599px ⬇︎ ------------- */
 @media (min-width: 321px) and (max-width: 599px) {
     .container {
         display: grid;
-        grid-template-columns: 599px;
+        grid-template-columns: 10px repeat(1, 1fr);
         grid-template-rows: 160px 600px 50px;
         grid-template-areas:
-            "hd hd hd hd hd"
-            "sd sd main main main"
-            "ft ft ft ft ft";
+            "hd hd"
+            "main main"
+            "sd sd"
+            "ft ft";
     }
+
+
+    /* ⬇︎ Main Body for 321px To 599px ⬇︎ */
+    .content {
+        display: flex;
+        flex-direction: column;
+        grid-area: main;
+        border: 2px solid rgb(98, 0, 255);
+        width: 100%;
+        height: fit-content;
+        background-color: rgb(0, 255, 34);
+    }
+
+    /* ⬆︎ Main Body for 321px To 599px ⬆︎ */
+
+
+    /* ⬇︎ Card for 321px To 599px ⬇︎ */
+    .profile {
+        width: 50%;
+        /* align-items: center;
+        justify-content: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        /* width: 40%; */
+        border: 2px solid red;
+    }
+
+    /* ⬆︎ Card for 321px To 599px ⬆︎ */
 }
 
-/* ----------- ⬆︎ Block for 321px To 599px ------------- */
+/* ----------- ⬆︎ Block for 321px To 599px ⬆︎ ------------- */
 
-/* ----------- ⬇︎ Block for 600px To 900px ------------- */
+/* ----------- ⬇︎ Block for 600px To 900px ⬇︎ ------------- */
 @media(min-width: 600px) and (max-width: 900px) {
 
     .container {
@@ -84,16 +119,16 @@
         /* height: 100%; */
         /* width: 100%; */
         /* margin: auto; */
-        grid-template-columns: 300px;
-        grid-template-rows: 260px 100px 200px 200px 100px;
+        grid-template-columns: auto;
+        grid-template-rows: 260px 500px 200px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
-            "sd sd main main main main main main"
+            "sd sd sd main main main main main"
             "ft ft ft ft ft ft ft ft";
         border: 15px solid rgb(0, 255, 38);
     }
 
-
+    /* ⬇︎ Card for 600px To 900px ⬇︎ */
     .profile {
         width: 40%;
         /* align-items: center;
@@ -107,18 +142,23 @@
         /* width: 40%; */
     }
 
+    /* ⬆︎ Card for 600px To 900px ⬆︎ */
+
+    /* ⬇︎ SideBar for 600px To 900px ⬇︎ ⬇︎ */
     .sidebar {
-        /* float: left; */
+        float: left;
         border-right: 3px solid rgb(0, 238, 255);
-        /* border: 2px solid rgb(0, 255, 55); */
+        border: 2p0x solid rgb(0, 255, 55);
         padding-right: 20px;
     }
+
+    /* ⬆︎ SideBar for 600px To 900px ⬆︎ */
 }
 
-/* ----------- ⬆︎ Block for 600px To 900px ------------- */
+/* ----------- ⬆︎ Block for 600px To 900px ⬆︎ ------------- */
 
 
-/* ----------- ⬇︎ Block for 901px ------------- */
+/* ----------- ⬇︎ Block for 901px ⬇︎ ------------- */
 @media(min-width:901px) {
 
     .container {
@@ -135,6 +175,7 @@
         border: 10px solid rgb(221, 255, 0);
     }
 
+    /* ⬇︎ Card for 901px ⬇︎ */
     .profile {
         width: 30%;
         /* align-items: center;
@@ -148,12 +189,18 @@
         /* width: 40%; */
     }
 
+    /* ⬆︎ Card for 901px ⬆︎ */
+
+
+    /* ⬇︎ SideBar for 901px ⬇︎ */
     .sidebar {
         /* float: left; */
         border-right: 3px solid rgb(0, 238, 255);
         /* border: 2px solid rgb(0, 255, 55); */
         padding-right: 20px;
     }
+
+    /* ⬆︎ SideBar for 901px ⬆︎ */
 }
 
-/* ----------- ⬆︎ Block for 901px ------------- */
+/* ----------- ⬆︎ Block for 901px ⬆︎ ------------- */

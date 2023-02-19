@@ -1,28 +1,35 @@
 /* ---------------------------- General code ---------------------------- */
-
+/* ⬇︎ General Code ⬇︎  */
 .container {
     display: grid;
     /* height: 100%;
     width: 100%; */
     /* margin: auto; */
-    grid-template-columns: 200px 300px 300px;
-    grid-template-rows: 160px 500px 50px;
+    grid-template-columns: 320px;
+    grid-template-rows: 160px 500px 1000px 1000px;
     grid-template-areas:
-        "hd hd hd hd hd hd hd hd"
-        "sd main main main main main main main"
-        "ft ft ft ft ft ft ft ft";
-    /* border: 5px solid rgb(0, 234, 255); */
+        "hd"
+        "main"
+        "sd"
+        "ft";
+    border: 5px solid rgb(0, 234, 255);
 }
 
+/* ⬆︎ General Code ⬆︎  */
 
 
 /* ------------------------ Start of Heading Block ------------------------ */
-
+/* ⬇︎ Header block for General ⬇︎ */
 .header {
+    width: 100%;
+    height: 100%;
     background-image: url('/First_Home_Work_On_Udacity/Images/download.png');
     background-repeat: no-repeat;
     /* padding: px; */
+    border: 2px solid rebeccapurple;
 }
+
+/* ⬆︎ Header block for General ⬆︎ *
 
 /* ------------------------ The end of Heading Block ------------------------ */
 
@@ -30,81 +37,15 @@
 
 /* ---------------------------- Start of The Main Content Block ---------------------------- */
 
-/* .box {
-        /* display: flex; */
-/* flex-direction: column; */
-/* border: 2px solid red; */
-/* background-color: #f8fa0d; */
-/* } */
 
 
-.nestedContainer {
-    display: flex;
-    flex-direction: column;
-    /* height: 100px; */
-    /* width: 80%; */
-    grid-template-columns: 1fr;
-    grid-template-rows: 250px repeat(8, 1fr);
-    /* grid-template-areas: */
-    /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
-    /* "pn1 pn2 pn3"; */
-    /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3" */
-    /* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
-    /* "pn1 pn2 pn2 pn2 pn2 pn2 pn3 pn3" 
-        "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3" */
-    /* column-gap: 75px; */
-    /* row-gap: 10px; */
-    /* padding-left: 90px; */
-    justify-content: center;
-    align-items: flex-end;
 
-    /* border: 2px solid red; */
-    /* padding-top: 5%; */
-}
 
-/* .panel {
-    display: flex;
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); */
-/* padding: 10px;
-        margin: 10px; */
-/* }  */
 
-.images_logo {
-    width: 30px;
-    height: 30px;
-    /* background-image: url('/First_Home_Work_On_Udacity/Images/download.png'); */
-    /* background-repeat: no-repeat; */
-    /* align-items: center;
-    justify-content: center;
-    /* padding-bottom: 0px; */
-}
-
-/* .panel1,
-.panel2,
-.panel3 {
-    background-color: rgb(217, 222, 222);
-    border-radius: 10px;
-    padding: 10px;
-    width: 180px;
-}
-
-.panel1 {
-    grid-area: pn1;
-}
-
-.panel2 {
-    grid-area: pn2;
-}
-
-.panel3 {
-    grid-area: pn3;
-} */
-
-/* ⬇︎ Grid area names for General */
+/* ⬇︎ Grid area names for General ⬇︎ */
 .header {
     grid-area: hd;
-    /* border: 5px solid rebeccapurple; */
+
     /* margin-bottom: ; */
 }
 
@@ -113,26 +54,32 @@
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     grid-area: main;
+    border: 2px solid rgb(98, 0, 255);
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
 }
 
-.nestedContainer {
-    grid-area: nstcont;
-}
-/* ⬆︎ Grid area names for General */
+/* ⬆︎ Grid area names for General ⬆︎ */
 
 
 
+/* ⬇︎ Card for General ⬇︎ */
 .profile {
-    width: 30%;
+    width: 40%;
     /* align-items: center;
         justify-content: center; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+    margin-top: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     /* width: 40%; */
+    border: 2px solid red;
 
 }
 
@@ -146,10 +93,12 @@
     /* height: 300px; */
     /* justify-content: center;
         align-items: center; */
+    border: 2px solid rgb(0, 255, 42);
 }
 
 .profile_details {
     padding: 2px 16px;
+    border: 2px solid rgb(0, 47, 255);
 
 }
 
@@ -157,23 +106,26 @@
     border: 1px solid rgb(0, 204, 255);
     /* align-items: center;
         text-align: center; */
-    margin-left: 50px;
+    margin-left: 17%;
 }
+
+/* ⬆︎ Card for General ⬆︎ */
 
 /* ---------------------------- End of The Main Content Block ---------------------------- */
 
 
-/* ------------------------ Start of Aside Block ------------------------ */
-/* .sidebar { */
-/* float: left; */
-/* border-right: 3px solid rgb(0, 238, 255); */
-/* border: 2px solid rgb(0, 255, 55); */
-/* padding-right: 20px; */
 
-/* } */
+/* ⬇︎ SideBar for General ⬇︎ */
+.sidebar {
+    float: left;
+    display: block;
+    border-right: 3px solid rgb(0, 238, 255);
+    border: 2px solid rgb(0, 255, 55);
+    padding-right: 20px;
+}
 
-/* --------- Start of Buttons Block ---------- */
 
+/* ⬇︎ Buttons for Gernal ⬇︎ */
 button {
     width: 90px;
     height: 40px;
@@ -182,6 +134,13 @@ button {
     margin: 15px;
     margin-left: 25px;
     /* color: aqua; */
+
+}
+
+.btn_container {
+    border: 2px solid red;
+    width: fit-content;
+    height: fit-content;
 }
 
 .btn_follow {
@@ -196,36 +155,44 @@ button {
     background-color: transparent;
 }
 
-/* -------------- End of Buttons Block -------------- */
+/* ⬆︎ Buttons for General ⬆︎ */
 
 
-/*-------- list items on Aside-------- */
+/* ⬇︎ list items on sidebar ⬇︎ */
 li {
     /* list-style-type:none; */
     color: rgb(0, 204, 255);
     line-height: 40px;
+    border: 2px solid red;
+    width: fit-content;
 }
 
-/* ------------------------ End of Aside Block ------------------------ */
+/* ⬆︎ list items on sidebar ⬆︎ */
+
+/* ⬆︎ SideBar for General ⬆︎ */
 
 
 
-
-
-/* ---------------------------- Start of The Footer Block ---------------------------- */
-
+/* ⬇︎ Footer Block for General ⬇︎ */
 .footer {
-    /* background-color: gray; */
+    background-color: rgb(26, 4, 4);
     /* color: white; */
     grid-area: ft;
     background-color: rgb(239, 239, 239);
     height: 100%;
     border-radius: 5px;
     padding-left: 10px;
+    border: 2px solid rgb(55, 0, 255);
 }
+
+/* ⬆︎ Footer Block for General ⬆︎ */
 
 
 /* ------------------------------- End of The Footer Block ------------------------------- */
+
+
+
+
 
 
 
@@ -246,9 +213,9 @@ li {
     /* .container {
         display: grid;
         /* height: 100%; */
-        /* width: 100%; */
-        /* margin: auto; */
-        /* grid-template-columns: 320px;
+/* width: 100%; */
+/* margin: auto; */
+/* grid-template-columns: 320px;
         grid-template-rows: 170px 100px 1000px 10px;
         gap: 10px;
         grid-template-areas:
@@ -257,26 +224,26 @@ li {
             "sd"
             "ft";
         border: 5px solid rgb(55, 0, 255); */
-    /* }  */
+/* }  */
 
-    /* .sidebar {
+/* .sidebar {
         border-left: 3px solid rgb(0, 238, 255);
         padding-left: 10px;
 
     } */
 
-    /* .profile {
+/* .profile {
         width: 80%;
         /* align-items: center;
             justify-content: center; */
-        /* margin-left: auto;
+/* margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
         margin-top: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s; */
-        /* width: 40%; */
-    /* } */ 
+/* width: 40%; */
+/* } */
 
 /* }  */
 
@@ -309,7 +276,7 @@ li {
         height: 100%;
         width: 100%;
         /* margin: auto; */
-        /* grid-template-columns: 300px 300px 300px;
+/* grid-template-columns: 300px 300px 300px;
         grid-template-rows: 160px 600px 50px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
@@ -319,25 +286,25 @@ li {
     } */
 
 
-    /* .profile {
+/* .profile {
         width: 40%;
         /* align-items: center;
             justify-content: center; */
-        /* margin-left: auto;
+/* margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
         margin-top: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s; */
-        /* width: 40%; */
-    /* }  */
+/* width: 40%; */
+/* }  */
 
-    /* .sidebar {
+/* .sidebar {
         /* float: left; */
-        /* border-right: 3px solid rgb(0, 238, 255); */
-        /* border: 2px solid rgb(0, 255, 55); */
-        /* padding-right: 20px; */
-    /* } */
+/* border-right: 3px solid rgb(0, 238, 255); */
+/* border: 2px solid rgb(0, 255, 55); */
+/* padding-right: 20px; */
+/* } */
 /* }  */
 
 
@@ -369,7 +336,7 @@ li {
         height: 100%;
         width: 100%;
         /* margin: auto; */
-        /* grid-template-columns: 200px 300px 300px;
+/* grid-template-columns: 200px 300px 300px;
         grid-template-rows: 160px 600px 50px;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
@@ -378,25 +345,25 @@ li {
         border: 10px solid rgb(221, 255, 0);
     } */
 
-    /* .profile {
+/* .profile {
         width: 30%;
         /* align-items: center;
             justify-content: center; */
-        /* margin-left: auto;
+/* margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
         margin-top: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s; */
-        /* width: 40%; */
-    /* } */ 
+/* width: 40%; */
+/* } */
 
-    /* .sidebar {
+/* .sidebar {
         /* float: left; */
-        /* border-right: 3px solid rgb(0, 238, 255); */
-        /* border: 2px solid rgb(0, 255, 55); */
-        /* padding-right: 20px; */
-    /* } */
+/* border-right: 3px solid rgb(0, 238, 255); */
+/* border: 2px solid rgb(0, 255, 55); */
+/* padding-right: 20px; */
+/* } */
 /* } */
 
 
@@ -469,3 +436,94 @@ background-color: yellow;
         "hd hd hd hd hd hd hd hd"
         "sd sd sd main main main main main"
         "ft ft ft ft ft ft ft ft"; */
+
+
+
+
+
+
+
+/* Unwanted General Code */
+
+/*.panel {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    margin: 10px;
+
+} */
+
+
+
+
+
+/* .images_logo {
+    width: 30px;
+    height: 30px;
+    /* background-image: url('/First_Home_Work_On_Udacity/Images/download.png'); */
+    /* background-repeat: no-repeat; */
+    /* align-items: center;
+    justify-content: center;
+    /* padding-bottom: 0px; */
+    /* border: 20px solid red; */
+/* } */
+
+
+
+/* .nestedContainer {
+    display: flex;
+    flex-direction: row;
+    /* height: 100px; */
+/* width: 80%; */
+/* grid-template-columns: 300px;
+    grid-template-rows: 100px 200px 200px 100px; */
+/* grid-template-areas: */
+/* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
+/* "pn1 pn2 pn3"; */
+/* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3" */
+/* "pn1 pn1 pn2 pn2 pn2 pn3 pn3 pn3"; */
+/* "pn1 pn2 pn2 pn2 pn2 pn2 pn3 pn3" 
+        "pn1 pn2 pn2 pn2 pn3 pn3 pn3 pn3" */
+/* column-gap: 75px; */
+/* row-gap: 10px; */
+/* padding-left: 90px; */
+/* justify-content: center; */
+/* align-items: flex-end; */
+/* border: 5px solid rgb(0, 225, 255); */
+
+/* border: 2px solid red; */
+/* padding-top: 5%; */
+/* } */
+
+
+
+
+/* .nestedContainer {
+    grid-area: nstcont;
+} */
+
+
+
+/* .panel1,
+.panel2,
+.panel3 {
+    background-color: rgb(217, 222, 222);
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+}
+
+.panel1 {
+    grid-area: pn1;
+}
+
+.panel2 {
+    grid-area: pn2;
+}
+
+.panel3 {
+    grid-area: pn3;
+} */
+
+/* Unwanted General Code */
