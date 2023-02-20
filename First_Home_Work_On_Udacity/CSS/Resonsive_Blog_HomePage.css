@@ -34,7 +34,7 @@
             "main"
             "sd"
             "ft";
-        border: 5px solid rgb(55, 0, 255);
+        /* border: 5px solid rgb(55, 0, 255); */
     }
 
     .sidebar {
@@ -59,7 +59,7 @@
 
     .btn_container {
         display: flex;
-        border: 3px solid red;
+        /* border: 3px solid red; */
         width: fit-content;
         height: fit-content;
         margin-top: 10%;
@@ -89,7 +89,7 @@
             "main main"
             "sd sd"
             "ft ft";
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
 
 
@@ -98,7 +98,7 @@
         display: flex;
         flex-direction: column;
         grid-area: main;
-        border: 2px solid rgb(98, 0, 255);
+        /* border: 2px solid rgb(98, 0, 255); */
         width: 100%;
         height: fit-content;
         /* background-color: rgb(98, 0, 255); */
@@ -119,7 +119,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         /* width: 40%; */
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
 
     /* ⬆︎ Card for 321px To 599px ⬆︎ */
@@ -132,6 +132,7 @@
         /* margin-top: 10px; */
         margin-bottom: 50px;
         /* border-top: 5px solid red; */
+        /* border-top: 3px solid rgb(0, 204, 255);  */
     }
 
     .btn_container {
@@ -164,11 +165,11 @@
             "hd hd hd hd hd hd hd"
             "sd main main main main main main"
             "ft ft ft ft ft ft ft";
-        border: 15px solid rgb(0, 55, 255);
+        /* border: 15px solid rgb(0, 55, 255); */
     }
 
     .content {
-        border: 5px solid red;
+        /* border: 5px solid red; */
         width: fit-content;
         height: fit-content;
         /* display: grid; */
@@ -197,7 +198,7 @@
         float: left;
         /* width: fit-content; 
         height: fit-content; */
-        border-right: 5px solid rgb(0, 238, 255);
+        border-right: 3px solid rgb(0, 238, 255);
         /* border: 5px solid rgb(0, 255, 55); */
         /* padding-right: 20px; */
     }
@@ -237,7 +238,7 @@
             "hd hd hd hd hd hd hd hd"
             "sd main main main main main main main"
             "ft ft ft ft ft ft ft ft";
-        border: 10px solid rgb(221, 255, 0);
+        /* border: 10px solid rgb(221, 255, 0); */
     }
 
     /* ⬇︎ Card for 901px ⬇︎ */

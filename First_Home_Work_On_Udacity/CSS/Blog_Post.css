@@ -17,7 +17,7 @@
     display: grid;
     height: 100%;
     /* background-color: yellow; */
-    border: 5px solid red;
+    /* border: 5px solid red; */
     grid-template-columns: 320px;
     grid-template-rows: 100px 650px 150px 70px;
     grid-template-areas:
@@ -68,7 +68,7 @@
     /* display: flex; */
     /* flex-direction: row; */
     justify-content: space-between;
-    border: 5px solid rgb(0, 255, 13);
+    /* border: 5px solid rgb(0, 255, 13); */
 }
 
 .Omar_image {
@@ -80,7 +80,7 @@
     /* align-items: center; */
     color: rgb(5, 41, 169);
     width: fit-content;
-    border: 10px solid #000099;
+    /* border: 10px solid #000099; */
     /* grid-area: main; */
 }
 
@@ -90,7 +90,7 @@
     margin-top: 30px;
     /* margin-right: 15%; */
     margin-left: 40px;
-    border: 5px solid #ff0a0a;
+    /* border: 5px solid #ff0a0a; */
     /* font-size: large; */
     /* grid-area: img_info; */
     /* grid-area: main; */
@@ -109,7 +109,7 @@
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     /* padding-left: 50px; */
     list-style-type: none;
     /* padding-top: 180px; */
@@ -146,7 +146,7 @@
     /* justify-content: space-evenly; */
     /* width: fit-content; */
     height: fit-content;
-    border: 7px solid #009952;
+    /* border: 7px solid #009952; */
     width: fit-content;
     margin-top: 30px;
     margin-left: auto;
