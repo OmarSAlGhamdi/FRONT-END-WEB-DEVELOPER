@@ -1,4 +1,4 @@
-/* -------------- ⬇︎ Block for 320px ---------------- */
+/* -------------- ⬇︎ Block for 320px ⬇︎ ---------------- */
 @media(max-width: 320px) {
     .container {
         display: grid;
@@ -15,51 +15,33 @@
             "ft";
     }
 
-    /* ⬇︎ Image block for 320px */
+    /* ------- ⬇︎ Image block for 320px ⬇︎ ------- */
     .Omar_image {
-        /* float: left; */
-        /* width: 10px; */
-        /* justify-content: center; */
-        /* align-items: center; */
         margin-left: auto;
         margin-right: auto;
-        /* margin-left: 30px; */
-        /* margin-top: 25px; */
-        /* margin-bottom: 30px; */
         color: rgb(33, 211, 45);
-        /* width: fit-content; */
-        /* border: 5px solid #0000ff; */
-        /* grid-area: main; */
     }
 
     .image_information {
         width: 75%;
-        /* height: fit-content; */
-        /* margin-top: 30px; */
         margin-right: auto;
         margin-left: auto;
-        /* border: 5px solid #ff0a0a; */
-        /* font-size: large; */
-        /* grid-area: img_info; */
-        /* grid-area: main; */
         text-align: left;
     }
 
-    /* ⬆︎ Image block for 320px */
+    /* ------- ⬆︎ Image block for 320px ⬆︎ ------- */
 
 
-    /* ⬇︎ Buttons for 320px */
+    /* ------- ⬇︎ Buttons for 320px ⬇︎ ------- */
     .btn_container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* border: 5PX solid #140099; */
         height: fit-content;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
         margin-top: 30%;
-        /* margin-bottom: auto;  */
         grid-area: btn;
     }
 
@@ -69,46 +51,31 @@
         border-radius: 15px;
         background-color: transparent;
         margin: 10px;
-        /* border: 2px solid rgb(255, 40, 40); */
-        /* padding-left: 10PX; */
-        /* margin-left: 100px; */
-        /* margin-bottom: 10px; */
     }
 
     .Previous_btn {
-        /* display: inline; */
-        /* width: 50px; */
-        /* border: 2px solid #dfe705; */
         color: white;
         background: #475b9e;
     }
 
     .Next_btn {
-        /*border: 2px solid rgb(242, 230, 7); */
         color: rgb(0, 0, 0);
-        /* margin-left: 10px; */
-        /* grid-area: nwr; */
     }
 
-    /* ⬆︎ Buttons for 320px */
+    /* ------- ⬆︎ Buttons for 320px ⬆︎ ------- */
 
 
     /* ⬇︎ SideBar for 320px */
     .rightsidebar {
-        /* float: right; */
-        /* width: 20%; */
         height: fit-content;
         width: fit-content;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 5px;
-        /* border: 5px solid red; */
-        /* padding-left: 50px; */
         list-style-type: none;
-        /* padding-top: 180px; */
     }
 
-    /* ⬆︎ SideBar for 320px */
+    /* ------- ⬆︎ SideBar for 320px ⬆︎ ------- */
 
 
     /* ⬇︎ Footer Block for 320px */
@@ -118,20 +85,16 @@
 
 }
 
-/* -------------- ⬆︎ Block for 320px ---------------- */
+/* -------------- ⬆︎ Block for 320px ⬆︎ ---------------- */
 
 
 
 
-/* ----------- ⬇︎ Block for 321px To 599px ------------- */
+/* ----------- ⬇︎ Block for 321px To 599px ⬇︎ ------------- */
 @media(min-width: 321px) and (max-width: 599px) {
 
     .container {
         display: grid;
-        /* width: 421px; */
-        /* height: 100%; */
-        /* border: 10px solid rgb(101, 40, 255); */
-        /* margin: 0 auto; */
         grid-template-columns: 100%;
         grid-template-rows: 100px 500px 300px 300px 70px;
         grid-template-areas:
@@ -142,7 +105,7 @@
             "ft ft";
     }
 
-    /* ⬇︎ Image block for 321px to 421px */
+    /* ------- ⬇︎ Image block for 321px to 421px ⬇︎ ------- */
     .Omar_image {
         margin-left: auto;
         margin-right: auto;
@@ -150,7 +113,6 @@
         margin-top: 25px;
         color: rgb(169, 5, 79);
         width: fit-content;
-        /* border: 10px solid #6600ff !important; */
         grid-area: main;
     }
 
@@ -160,26 +122,23 @@
         margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
-        /* border: 5px solid rgb(72, 0, 255); */
         font-size: large;
         grid-area: main;
     }
 
-    /* ⬆︎ Image block for 321px to 421px */
+    /* ------- ⬆︎ Image block for 321px to 421px ⬆︎ ------- */
 
 
-    /* ⬇︎ Buttons for 321px to 421px */
+    /* ------- ⬇︎ Buttons for 321px to 421px ⬇︎ ------- */
     .btn_container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* border: 5PX solid #140099; */
         height: fit-content;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20%;
-        /* margin-bottom: auto;  */
         grid-area: btn;
     }
 
@@ -189,66 +148,46 @@
         border-radius: 15px;
         background-color: transparent;
         margin: 15px;
-        /* border: 2px solid rgb(255, 40, 40); */
-        /* padding-left: 10PX; */
-        /* margin-left: 100px; */
-        /* margin-bottom: 10px; */
     }
 
     .Previous_btn {
-        /* display: inline; */
-        /* width: 50px; */
-        /* border: 2px solid #dfe705; */
         color: white;
         background: #475b9e;
     }
 
     .Next_btn {
-        /*border: 2px solid rgb(242, 230, 7); */
         color: rgb(0, 0, 0);
-        /* margin-left: 10px; */
-        /* grid-area: nwr; */
     }
 
-    /* ⬆︎ Buttons for 321px to 421px */
+    /* ------- ⬆︎ Buttons for 321px to 421px ⬆︎ ------- */
 
 
 
-    /* ⬇︎ SideBar for 321px to 421px */
+    /* ------- ⬇︎ SideBar for 321px to 421px ⬇︎ ------- */
     .rightsidebar {
-        /* grid-area: sd; */
         grid-area: sd;
         width: fit-content;
         height: fit-content;
-        /* border: 5px solid rgb(38, 0, 255); */
         margin-right: auto;
         margin-left: auto;
         margin-top: -5px;
         margin-bottom: auto;
         list-style-type: none;
         text-align: center;
-        /* align-items: center */
     }
 
-    /* ⬆︎ SideBar for 321px to 421px */
+    /* ------- ⬆︎ SideBar for 321px to 421px ⬆︎ ------- */
 }
 
-/* ----------- ⬆︎ Block for 321px To 599px ------------- */
+/* ----------- ⬆︎ Block for 321px To 599px ⬆︎ ------------- */
 
 
 
-/* ----------- ⬇︎ Block for 600px To 900px ------------- */
-/* @media(min-width: 600px) and (max-width: 900px) */
+/* ----------- ⬇︎ Block for 600px To 900px ⬇︎ ------------- */
 @media(min-width: 600px) and (max-width: 900px) {
 
     .container {
         display: grid;
-        /* width: 75%; */
-        /* height: 100%; */
-        /* background-color: yellow; */
-        /* border: 10px solid rgb(255, 158, 40); */
-        /* margin: 0 auto; */
-        /* padding-left: 50px; */
         grid-template-columns: 300px 300px;
         grid-template-rows: 100px 600px 70px;
         grid-template-areas:
@@ -257,84 +196,30 @@
             "ft ft ft ft ft ft";
     }
 
-    /* .header {
-        height: 70px;
-        width: 100%;
-        border: 2px solid red;
-        background-color: #b1fadf;
-        padding-top: 10 px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        grid-area: hd;
-    } */
 
-
-    /* .rightsidebar {
-        grid-area: sd;
-    }
-
-     .footer {
-        grid-area: ft;
-    } 
-
-    .content {
-        grid-area: main;
-        flex-direction: row;
-    }
-
-    .header {
-        grid-area: hd;
-    }
-
-    .btn {
-        grid-area: btn;
-    }  */
-
-
-
-
-    /* ⬇︎ SideBar for 600px and 900px */
+    /* ------- ⬇︎ SideBar for 600px and 900px ⬇︎ ------- */
     .rightsidebar {
-        /* float: right; */
-        /* width: 20%; */
         height: fit-content;
         width: fit-content;
         margin-right: auto;
         margin-left: auto;
         margin-top: 40%;
-        /* border: 5px solid rgb(51, 0, 255); */
-        /* padding-left: 50px; */
         list-style-type: none;
-        /* padding-top: 180px; */
     }
 
-    /* ⬆︎ SideBar for 600px and 900px */
+    /* ------- ⬆︎ SideBar for 600px and 900px ⬆︎ ------- */
 
 
 
-    /* ⬇︎ Image block for 600px and 900px */
+    /* ------- ⬇︎ Image block for 600px and 900px ⬇︎ ------- */
     .image_details {
         display: flex;
-        /* flex-direction: row; */
         justify-content: space-between;
-        /* flex-direction: row; */
-        /* border: 2px solid rgb(0, 255, 13); */
     }
 
     .Omar_image {
-        /* margin-left: 50px;  */
-        /* float: left; */
         margin-left: 40px;
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* margin-bottom: 30px; */
         color: rgb(33, 211, 45);
-        /* width: fit-content; */
-        /* border: 5px solid #0000ff; */
-        /* margin-left: 30px; */
-        /* grid-area: main; */
-        /* margin-top: 25px; */
     }
 
     .image_information {
@@ -344,34 +229,21 @@
         margin-top: -150px;
         margin-right: 20%;
         margin-left: 10٪;
-        /* margin-bottom: 1000px; */
-        /* border: 2px solid #990000; */
-        /* font-size: large; */
-        /* grid-area: img_info; */
-        /* grid-area: main; */
         text-align: left;
     }
 
-    /* ⬆︎ Image block for 600px and 900px */
+    /* ------- ⬆︎ Image block for 600px and 900px ⬆︎ ------- */
 
 
-    /* ⬇︎ Buttons for 600px and 900px */
+    /* ⬇︎ ------- Buttons for 600px and 900px ⬇︎ ------- */
     .btn_container {
         display: flex;
         justify-content: space-between;
         width: fit-content;
         height: fit-content;
-        /* border: 5px solid #240099; */
-        /* width: fit-content; */
         margin-top: 180px;
         margin-left: auto;
         margin-right: auto;
-        /* height: 100px; */
-        /* margin: 10px 10px; */
-        /* display: inline; */
-        /* padding: 10%; */
-        /* padding-top: 20px; */
-        /* grid-area: btn; */
     }
 
 
@@ -381,85 +253,44 @@
         height: 60px;
         background-color: transparent;
         margin: 5% 5% 1% 5%;
-        /* border: 2px solid rgb(255, 40, 40); */
-        /* padding-left: 10PX; */
-        /* margin-left: 100px; */
-        /* margin-bottom: 10px; */
     }
 
 
     .Previous_btn {
-        /* display: inline; */
-        /* width: 100px; */
-        /* border: 2px solid #000099; */
         color: white;
         background: #475b9e;
-        /* margin-left: 30%; */
-        /* grid-area: old; */
     }
 
     .Next_btn {
-        /* border: 2px solid gray; */
         color: rgb(0, 0, 0);
-        /* margin-left: 10px; */
-        /* grid-area: nwr; */
     }
 
-    /* ⬆︎ Buttons for 600px and 900px */
+    /* ------- ⬆︎ Buttons for 600px and 900px ⬆︎ ------- */
 
 
 
-    /* ⬇︎ Footer Block for 600px and 900px */
+    /* ------- ⬇︎ Footer Block for 600px and 900px ⬇︎ ------- */
     .footer {
-        /* width: 50%; */
-        /* height: 10px; */
         background-color: rgb(209, 206, 206);
-        /* height: 50px; */
         padding-top: 25px;
         padding-left: 10%;
-        /* margin-left: ; */
-        /* margin-top: 60px; */
-        /* border: 2px solid rgb(40, 108, 255); */
-        /* margin-left: -10px !important; */
         grid-area: ft;
         border-radius: 5px;
     }
 
-    /* ⬆︎ Footer Block for 600px and 900px */
+    /* ------- ⬆︎ Footer Block for 600px and 900px ⬆︎ ------- */
 }
 
-/* ----------- ⬆︎ Block for 600px To 900px ------------- */
+/* ----------- ⬆︎ Block for 600px To 900px ⬆︎ ------------- */
 
 
 
-/* @media(min-width: 901px) {
-    .container {
-        display: grid;
-        border: 15px solid rgb(18, 223, 69);
-        grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 100px 600px 70px;
-        grid-template-areas:
-            "hd hd hd hd hd hd hd hd"
-            "main main main main main main sd sd"
-            "ft ft ft ft ft ft ft ft";
-    }
-}
-; */
 
-
-/* ----------- ⬇︎ Block for 901px ------------- */
+/* ----------- ⬇︎ Block for 901px ⬇︎ ------------- */
 
 @media(min-width: 901px) {
     .container {
         display: grid;
-        /* width: 75%;
-        height: 100%; */
-        /* background-color: yellow; */
-        /* border: 15px solid rgb(40, 219, 255); */
-        /* margin: 0 auto; */
-        /* padding-left: 50px; */
-        /* grid-template-columns: 300px 300px 300px; 
-        grid-template-rows: 100px 600px 200px 50px;  */
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
             "main main main main main sd sd sd"
@@ -468,44 +299,30 @@
     }
 
 
-    /* /* ⬇︎ SideBar for 901px */
+    /* ------- ⬇︎ SideBar for 901px ⬇︎ ------- */
     .rightsidebar {
-        /* float: right; */
         width: 20%;
         height: fit-content;
         width: fit-content;
-        /* margin-right: auto; */
-        /* margin-left: auto; */
         margin-top: 40%;
-        /* border: 5px solid rgb(51, 0, 255); */
-        /* padding-left: 50px; */
         list-style-type: none;
-        /* padding-top: 180px; */
     }
 
-    /* ⬆︎ SideBar for 900px */
+    /* ------- ⬆︎ SideBar for 900px ⬆︎ ------- */
 
 
-    /* ⬇︎ Image block for 900px */
+    /* ------- ⬇︎ Image block for 900px ⬇︎ ------- */
     .image_details {
         display: flex;
         justify-content: space-between;
-        /* border: 2px solid rgb(0, 255, 13); */
     }
 
     .Omar_image {
         float: left;
         margin-left: 30px;
         width: fit-content;
-        /* justify-content: center;
-        align-items: center; */
-        /* margin-left: 50px; */
-        /* margin-left: 30px; */
         margin-top: 25px;
-        /* margin-bottom: 10px; */
         color: rgb(5, 41, 169);
-        /* border: 5px solid #000099; */
-        /* grid-area: main; */
     }
 
     .image_information {
@@ -515,34 +332,22 @@
         margin-top: 30px;
         margin-right: 20%;
         margin-left: 3%;
-        /* border: 5px solid red; */
         font-size: large;
-        /* grid-area: img_info; */
         grid-area: main;
         text-align: left;
     }
 
-    /* ⬆︎ Image block for 900px */
+    /* ------- ⬆︎ Image block for 900px ⬆︎ ------- */
 
 
-    /* ⬇︎ Buttons for 900px */
+    /* ------- ⬇︎ Buttons for 900px ⬇︎ ------- */
     .btn_container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: fit-content;
         height: fit-content;
-        /* border: 5px solid #240099; */
-        /* width: fit-content; */
         margin-top: 60%;
-        /* margin-left: auto;
-        margin-right: auto; */
-        /* height: 100px; */
-        /* margin: 10px 10px; */
-        /* display: inline; */
-        /* padding: 10%; */
-        /* padding-top: 20px; */
-        /* grid-area: btn; */
     }
 
     .btn {
@@ -551,596 +356,29 @@
         height: 60px;
         background-color: transparent;
         margin: 1% 1% 1% 1%;
-        /* border: 2px solid rgb(255, 40, 40);
-        padding-left: 10PX;
-        margin-left: 100px;
-        margin-bottom: 10px; */
     }
 
     .Previous_btn {
-        /* display: inline;
-        width: 100px; */
-        /* border: 2px solid #000099; */
         color: white;
         background: #475b9e;
-        /* margin-left: 30%; */
-        /* grid-area: old; */
     }
 
     .Next_btn {
-        /* border: 2px solid gray; */
         color: rgb(0, 0, 0);
-        /* margin-left: 10px; */
-        /* grid-area: nwr; */
     }
 
-    /* ⬆︎ Buttons for 900px */
+    /* ------- ⬆︎ Buttons for 900px ⬆︎ ------- */
 
 
-    /* ⬇︎ Footer Block for 900px */
+    /* ------- ⬇︎ Footer Block for 900px ⬇︎ ------- */
     .footer {
-        /* width: 50%; */
-        /* height: 10px; */
         background-color: rgb(209, 206, 206);
-        /* height: 50px; */
         padding-top: 25px;
-        /* padding-left: 10%;
-        margin-top: 60px;
-        border: 2px solid rgb(40, 108, 255); */
-        /* margin-left: -10px !important; */
-        /* grid-area: ft; */
         border-radius: 5px;
     }
 
-    /* ⬆︎ Footer Block for 900px */
+    /* ------- ⬆︎ Footer Block for 900px ⬆︎ ------- */
 }
 
 ;
-/* ----------- ⬆︎ Block for 901px ------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Unnecessary Code */
-
-/* Type the responsive of Blog_Post here */
-
-/* -------------------- Start of The min-width : 320px -------------------- */
-
-/* @media(max-width: 320px) {
-
-    .container {
-        display: grid;
-        /* width: 75%; */
-/* height: 100%; */
-/* background-color: yellow; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin: 0 auto; */
-/* padding-left: 50px; */
-/* grid-template-columns: 320px;
-        grid-template-rows: 100px 550px 300px 50px;
-        grid-template-areas:
-            "hd"
-            "main"
-            "sd"
-            "ft"; */
-/* } */
-
-/* .image_information {
-        width: 250px;
-        /* float: right; */
-/* height: fit-content;
-        margin-top: 30px;
-        margin-right: 20px; */
-/* margin-left: auto; */
-/* border: 2px solid #990000; */
-/* font-size: large; */
-/* grid-area: img_info; */
-/* grid-area: main; */
-/* text-align: left; */
-/* border: 2px solid red; */
-
-/* } */
-
-/* .rightsidebar { */
-/* grid-area: sd; */
-/* float: right; */
-/* width: 20%; */
-/* height: fit-content; */
-/* border-left: 2px solid red; */
-/* grid-area: sd; */
-/* padding-left: 50px; */
-/* list-style-type: none;
-        padding-top: 30px;
-        padding-top: 50px; */
-/* } */
-
-
-/* ------ Start of The Image Block of (min-width: 320px) ---------- */
-
-
-/* 
-.image_details {
-    display: flex;
-    justify-content: space-between;
-    /* border: 2px solid rgb(0, 255, 13); */
-/* } 
-
-/* .Omar_image {
-    /* margin-left: 50px;  */
-/* float: left; */
-/* margin-left: 40px; */
-/* justify-content: center; */
-/* align-items: center; */
-/* margin-bottom: 10px; */
-/* color: rgb(5, 41, 169);
-    width: fit-content; */
-/* border: 2px solid #000099; */
-/* margin-left: 30px; */
-/* grid-area: main; */
-/* margin-top: 25px; */
-/* } */
-
-/* .image_information {
-    width: 40%;
-    float: right;
-    height: fit-content;
-    margin-top: 60px;
-    margin-right: 400px;
-    /* margin-left: 10px; */
-/* border: 2px solid #990000; */
-/* font-size: large; */
-/* grid-area: img_info; */
-/* grid-area: main; */
-/* text-align: left; */
-/* }
-
-/* ------------------------ End of The Image Block of (min-width: 320px) ------------------------ */
-
-
-
-
-/* --------------------------- Start of Buttons Block of (min-width: 320px) --------------------------- */
-/* .btn_container {
-    display: flex;
-    justify-content: space-between;
-    border: 5PX solid #009952;
-    width: 90px;
-    margin-top: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    margin: 10px 10px;
-    width: 90%;
-    height: 100px;
-    display: inline;
-    padding: 10%;
-    padding-top: 20px;
-    grid-area: btn;
-} */
-
-
-/* .btn {
-/* border-radius: 25px;
-    width: 100px;
-    height: 60px;
-    background-color: transparent;
-    margin: 15PX; */
-/* border: 2px solid rgb(255, 40, 40); */
-/* padding-left: 10PX; */
-/* margin-left: 100px; */
-/* margin-bottom: 10px; */
-/* }
-
-
-/* .Previous_btn {
-    /* display: inline; */
-/* width: 100px; */
-/* border: 2px solid #000099; */
-/* color: white; */
-/* background: #475b9e; */
-/* margin-left: 30%; */
-/* grid-area: old; */
-
-/* } 
-
-/* .Next_btn { */
-/* border: 2px solid gray; */
-/* color: rgb(0, 0, 0); */
-/* margin-left: 10px; */
-/* grid-area: nwr; */
-/* }
-/* --------------------------- End of Buttons Block of (min-width: 320px) --------------------------- */
-
-
-
-
-/* ------------------ Start Footer Block of (min-width: 320px) ----------------- */
-/* .footer {
-    width: 50%; */
-/* height: 10px;
-    background-color: rgb(209, 206, 206);
-    /* height: 50px; */
-/* padding-top: 25px;
-    padding-left: 10%; */
-/* margin-left: ; */
-/* margin-top: 60px; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin-left: -10px !important; */
-/* grid-area: ft;
-    border-radius: 5px; */
-/* } 
-/* ------------------ End Footer Block of (min-width: 320px) ----------------- */
-
-
-
-
-
-
-
-/* ------------------------- End of The min-width : 320px -------------------------- */
-
-
-/* ----------------------- The min-width: 600px and The max-width: 900px ----------------------- */
-
-/* @media(min-width: 600px) and (max-width: 900px) */
-/* @media(min-width: 600px) and (max-width: 900px) {
-
-    .container {
-        display: grid;
-        /* width: 75%; */
-/* height: 100%; */
-/* background-color: yellow; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin: 0 auto; */
-/* padding-left: 50px; */
-/* grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 100px 600px 70px;
-        grid-template-areas:
-            "hd hd hd hd hd hd"
-            "main main main main sd sd"
-            "ft ft ft ft ft ft"; */
-/* } */
-
-
-
-/* .rightsidebar {
-        grid-area: sd;
-    }
-
-    .footer {
-        grid-area: ft;
-    }
-
-    .content {
-        grid-area: main;
-        flex-direction: row;
-    }
-
-    .header {
-        grid-area: hd;
-    }
-
-    .btn {
-        grid-area: btn;
-    } */
-
-
-
-
-
-
-/* .image_details {
-        display: flex;
-        justify-content: space-between;
-        /* border: 2px solid rgb(0, 255, 13); */
-/* }  */
-
-/* .Omar_image {
-        /* margin-left: 50px;  */
-/* float: left;
-        margin-left: 40px; */
-/* justify-content: center; */
-/* align-items: center; */
-/* margin-bottom: 10px; */
-/* color: rgb(5, 41, 169);
-        width: fit-content; */
-/* border: 2px solid #000099; */
-/* margin-left: 30px; */
-/* grid-area: main; */
-/* margin-top: 25px; */
-/* } */
-
-/* .image_information {
-        width: 40%;
-        float: right;
-        height: fit-content;
-        margin-top: 45px;
-        margin-right: 50%;
-        /* margin-left: 10px; */
-/* border: 2px solid #990000; */
-/* font-size: large; */
-/* grid-area: img_info; */
-/* grid-area: main; */
-/* text-align: left; */
-/* } */
-
-
-/* -------------------- Buttons Block of (min-width: 600px and The max-width: 900px) -------------------- */
-
-/* .btn_container {
-        display: flex;
-        justify-content: space-between;
-        /* border: 5PX solid #009952; */
-/* width: fit-content; */
-/* margin-top: 460px;
-        margin-left: auto;
-        margin-right: auto; */
-/* height: 100px; */
-/* margin: 10px 10px; */
-/* width: 30%;
-        height: 100px; */
-/* display: inline; */
-/* padding: 10%; */
-/* padding-top: 20px; */
-/* grid-area: btn; */
-/* } */
-
-
-/* .btn {
-        border-radius: 25px;
-        width: 100px;
-        height: 60px;
-        background-color: transparent;
-        margin: 5% 5% 1% 5%; */
-/* border: 2px solid rgb(255, 40, 40); */
-/* padding-left: 10PX; */
-/* margin-left: 100px; */
-/* margin-bottom: 10px; */
-/* } */
-
-
-/* .Previous_btn { */
-/* display: inline; */
-/* width: 100px; */
-/* border: 2px solid #000099; */
-/* color: white;
-        background: #475b9e; */
-/* margin-left: 30%; */
-/* grid-area: old; */
-/* } */
-
-/* .Next_btn { */
-/* border: 2px solid gray; */
-/* color: rgb(0, 0, 0); */
-/* margin-left: 10px; */
-/* grid-area: nwr; */
-/* } */
-
-
-/* ------------------- Footer Block of The (min-width: 600px and The max-width: 900px) ------------------ */
-/* .footer { */
-/* width: 50%; */
-/* height: 10px; */
-/* background-color: rgb(209, 206, 206); */
-/* height: 50px; */
-/* padding-top: 25px; */
-/* padding-left: 10%; */
-/* margin-left: ; */
-/* margin-top: 60px; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin-left: -10px !important; */
-/* grid-area: ft;
-        border-radius: 5px; */
-/* } */
-
-/* } */
-
-
-
-/* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
-
-
-/* @media(min-width:321px) and (max-width: 599px) {
-
-    .container {
-        display: grid;
-        width: 75%;
-        height: 100%;
-        background-color: yellow; 
-        border: 2px solid rgb(40, 108, 255);
-        margin: 0 auto;
-        padding-left: 50px;
-        grid-template-columns: 300px;
-        grid-template-rows: 100px 600px 70px;
-        grid-template-areas:
-            "hd hd hd hd hd"
-            "main main main main"
-            "sd sd sd sd sd"
-            "ft ft ft ft ft";
-} 
-
-
-/* ----------------------My test with Min-width 321px and Max-width: 599px---------------------- */
-
-
-/* -------------------- The min-width : 901px-------------------- */
-
-/* @media(min-width: 901px) */
-/* @media(min-width:901px) {
-        .container {
-            display: grid;
-            /* width: 75%; */
-/* height: 100%; */
-/* background-color: yellow; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin: 0 auto; */
-/* padding-left: 50px; */
-/* grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 100px 600px 70px;
-            grid-template-areas:
-                "hd hd hd hd hd hd hd hd"
-                "main main main main main main sd sd"
-                "ft ft ft ft ft ft ft ft"; */
-/* } */
-
-
-/* ------------------------ Start of The Image Block for (min-width: 901px) ------------------------ */
-
-/* .image_details {
-            display: flex;
-            justify-content: space-between;
-            /* border: 2px solid rgb(0, 255, 13); */
-/* } */
-*/
-/* .Omar_image {
-            /* margin-left: 50px;  */
-/* float: left;
-            margin-left: 40px;
-            /* justify-content: center; */
-/* align-items: center; */
-/* margin-bottom: 10px; */
-/* color: rgb(5, 41, 169); */
-/* width: fit-content; */
-/* border: 2px solid #000099; */
-/* margin-left: 30px; */
-/* grid-area: main; */
-/* margin-top: 25px; */
-/* } */
-
-/* .image_information {
-            width: 40%;
-            float: right;
-            height: fit-content;
-            margin-top: 65px;
-            margin-right: 250px;
-            /* margin-left: 10px; */
-/* border: 2px solid #990000; */
-/* font-size: large; */
-/* grid-area: img_info; */
-/* grid-area: main; */
-/* text-align: left; */
-/* } */
-
-
-
-/* ------------ Buttons Block of (min-width: 901px) ------------ */
-
-/* .btn_container {
-            display: flex;
-            justify-content: space-between;
-            /* border: 5PX solid #009952; */
-/* width: fit-content; */
-/* margin-top: 460px;
-            margin-left: auto;
-            margin-right: auto; */
-/* height: 100px; */
-/* margin: 10px 10px; */
-/* width: 30%;
-            height: 100px; */
-/* display: inline; */
-/* padding: 10%; */
-/* padding-top: 20px; */
-/* grid-area: btn; */
-/* } */
-
-
-/* .btn {
-            border-radius: 25px;
-            width: 100px;
-            height: 60px;
-            background-color: transparent;
-            margin: 5% 5% 1% 5%;
-            /* border: 2px solid rgb(255, 40, 40); */
-/* padding-left: 10PX; */
-/* margin-left: 100px; */
-/* margin-bottom: 10px; */
-/* } */
-
-
-/* .Previous_btn {
-            /* display: inline; */
-/* width: 100px; */
-/* border: 2px solid #000099;
-            color: white;
-            background: #475b9e;
-            /* margin-left: 30%; */
-/* grid-area: old; */
-/* } */
-
-/* .Next_btn {
-            /* border: 2px solid gray; */
-/* color: rgb(0, 0, 0); */
-/* margin-left: 10px; */
-/* grid-area: nwr; */
-/* }  */
-
-
-
-/* ------------------ Footer Block of (min-width: 901px) ----------------- */
-/* .footer {
-            /* width: 50%; */
-/* height: 10px; */
-/* background-color: rgb(209, 206, 206); */
-/* height: 50px; */
-/* padding-top: 25px; */
-/* padding-left: 10%; */
-/* margin-left: ; */
-/* margin-top: 60px; */
-/* border: 2px solid rgb(40, 108, 255); */
-/* margin-left: -10px !important; */
-/* grid-area: ft; */
-/* border-radius: 5px; */
-/* } */
-
-
-/* TODO: finish the rest of the code here  */
-
-/* ---------------------------------------------- */
-
-
-/* } */
-
-
-
-
-
-
-
-
-/* The end of responsive of Blog_Post here */
-
-
-
-/* Type the responsive of HomePage here */
-
-
-
-/* The end of responsive of HomePage here */
+/* ----------- ⬆︎ Block for 901px ⬆︎ ------------- */
