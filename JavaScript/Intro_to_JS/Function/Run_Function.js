@@ -1,7 +1,7 @@
-function sayHello(name) {
+function sayHello() {
     
     var message = "Hello";
-    // return sayHello;
+    return message;
 }
-
-console.log(sayHello("Omar"));
+ 
+console.log(sayHello());
