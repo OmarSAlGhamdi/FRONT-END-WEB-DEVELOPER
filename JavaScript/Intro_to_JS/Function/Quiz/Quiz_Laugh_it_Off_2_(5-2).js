@@ -24,4 +24,4 @@ function laugh(num) {
     return sound;
 }
 
-console.log(laugh(3));
+console.log(laugh(8));
