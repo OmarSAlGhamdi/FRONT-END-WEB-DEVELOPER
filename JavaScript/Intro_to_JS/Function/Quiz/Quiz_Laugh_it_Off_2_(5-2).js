@@ -20,7 +20,7 @@ function laugh(num) {
     for (var x = 0; x < num; x++){
         sound += "ha";
     }
-    sound = sound + "!";
+    sound  += "!";
     return sound;
 }
 
