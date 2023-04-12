@@ -51,22 +51,21 @@
 
 // var lineLength = "";
 
-function makeLine(lineLength) {
+function makeLine(number_of_asterisks) {
 
     var line = "";
-    for (var x = 1; x <= lineLength; x++) {
+    for (var x = 1; x <= number_of_asterisks; x++) {
         line += "* ";
     }
-
     return line + "\n";
 }
 
-function buildTriangle(lineHeight) {
+function buildTriangle(number_of_lines_of_asterisks) {
     var triangle = "";
-    var lineNumberLoop = "";
+    // var lineNumberLoop = "";
 
-    for (lineNumberLoop = 1; lineNumberLoop <= lineHeight; lineNumberLoop++) {
-        triangle += makeLine(lineNumberLoop);
+    for (var j = 1; j <= number_of_lines_of_asterisks; j++) {
+        triangle += makeLine(j);
     }
     return triangle;
 }
