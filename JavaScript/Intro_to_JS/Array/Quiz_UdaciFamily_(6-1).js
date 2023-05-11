@@ -11,8 +11,13 @@
 
 // Mrthod 3 : 
 
-var udaciFamily = ["Julia", "James", "Omar"];
+// var udaciFamily = ["Julia", "James", "Omar"];
 
-console.log(udaciFamily);
+// console.log(udaciFamily);
 
+
+
+var udciFamily = ["Omar", "khalid" ,"Bandar"];
+
+console.log(udciFamily);
 
