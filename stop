@@ -1,0 +1,1339 @@
+[33mcommit 4d5dead1a43397271b41726a084dd1f93339c174[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu May 11 22:47:51 2023 +0300
+
+    update the name of the bug files for windows
+
+[33mcommit 81b78538748da74b505603aed8e50437635e21d4[m
+Merge: d51a6f8 2435153
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue May 9 20:03:59 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit d51a6f863ddcc7c295566c3ae936c9ebaa40e7aa[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue May 9 20:03:16 2023 +0300
+
+    adding files to different folders
+
+[33mcommit 24351535a3e8af1d104d6a29a94ecd8067edb043[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Apr 12 16:29:37 2023 +0300
+
+    last update on js folders
+
+[33mcommit b799e610ce22d4804f364aa05e521f50706f6301[m
+Merge: 9f7f760 a62c7ef
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Apr 7 19:08:27 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 9f7f760709f8c6d4f310df79c2fe562ae91cd2af[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Apr 7 18:43:01 2023 +0300
+
+    finish the example of triangle exercise
+
+[33mcommit a62c7efb9d441d227d3a99bd089abab6b425d99e[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Apr 7 18:38:49 2023 +0300
+
+    make a line file
+
+[33mcommit 79b1c28fcd6c443e2ee4111d1f323ab5f20bbdc3[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Mar 31 17:12:51 2023 +0300
+
+    adding functions and experimental  files
+
+[33mcommit 8ba09c6cde218a2070ec4f89623657bdd9b12bf4[m
+Merge: 5a0b3aa cf71e70
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Mar 24 15:54:45 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 5a0b3aacab97683855833c0a2e0d68b85bad36d8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Mar 24 15:54:40 2023 +0300
+
+    Update Quiz_Laugh_it_Off_2_(5-2).js
+
+[33mcommit cf71e705181e36e7494b7de6fa225a80a2c4dae0[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Mar 24 15:53:32 2023 +0300
+
+    Add function_laugh files
+
+[33mcommit a2082e87968cf88de77bf674958b88828dff2cc2[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Mar 22 06:45:15 2023 +0300
+
+    adding functions and quizes to JS files
+
+[33mcommit f9a46876f775c4287958be87f94f0d6762d2fbf8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Mar 21 16:55:28 2023 +0300
+
+    update the files in JavaScript
+
+[33mcommit 7b6ecafebdf0e11967b45c4efe1a26d461d4a337[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Mar 20 16:40:03 2023 +0300
+
+    change the name of files that bugs the github
+
+[33mcommit ee2ed6f6367f9ba4d5f8b79edd634d0ff7311a68[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Mar 20 16:37:25 2023 +0300
+
+    adding new files in Intro_to_JS
+
+[33mcommit 3fcec042d629db147e1051f27068d60e4193f201[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Mar 16 03:22:54 2023 +0300
+
+    complete while loop
+
+[33mcommit 9935cdc337f19688c4446597533b085ca86b033e[m
+Merge: 0e01cf3 4945185
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Mar 15 05:49:10 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 0e01cf3d14c47b31b04383333f230a34144d245d[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Mar 15 05:48:42 2023 +0300
+
+    Create JuliaJames.js
+
+[33mcommit 49451855644d78a71bcf789c35eea50950fcd66e[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Mar 15 05:48:16 2023 +0300
+
+    add loops files
+
+[33mcommit 218f734136de483995d9b8f5825967c63fbb65a5[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Mar 14 03:15:46 2023 +0300
+
+    add Loops files
+
+[33mcommit 78292f116e890c5c302f410c6ebfac83ab8340c1[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Mar 14 01:32:36 2023 +0300
+
+    create and fill Js folder
+
+[33mcommit 3a6d9a2374c888cb29786791744dcfd3a5624fb1[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Mar 2 02:56:30 2023 +0300
+
+    Create JavaScript folder in My_experiment_folder
+
+[33mcommit 47c0382a5d1e59d32be7f64690df5db129c791a8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Feb 21 21:41:55 2023 +0300
+
+    complete the homework 5.0
+
+[33mcommit 27eefbd911b1a63f6e943b48bf9389d96b8dcd7c[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Feb 21 18:50:05 2023 +0300
+
+    complete the homework 4.9
+
+[33mcommit 91c30f009ebe764be27aa6b27c1cf735f21c99af[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Feb 21 00:15:47 2023 +0300
+
+    complete the homework 4.8
+
+[33mcommit 7a668d0b890d89e3cc34f8be18d11fb9351e5cd4[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Feb 20 22:31:55 2023 +0300
+
+    complete the homework 4.7
+
+[33mcommit edd7623b1577f8edf2aa90baaf8f5baec16cc492[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Feb 20 00:41:55 2023 +0300
+
+    complete the homework 4.6.1
+
+[33mcommit f65c08a11a2c9ce5de95f842358a3244e664f8cc[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Feb 19 12:55:07 2023 +0300
+
+    complete the homework 4.6
+
+[33mcommit f4ab9ef67866a5a97f3c2b2e1a863a241bec6ab1[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Feb 13 01:58:59 2023 +0300
+
+    complete the homework 4.5
+
+[33mcommit d1f8a551a41890adb9832c8e6270bf672252524a[m
+Merge: e5ffb08 bf6b5de
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Feb 13 01:38:52 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit e5ffb0867394019677dc44e1fd97132a574e843b[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Feb 13 01:38:19 2023 +0300
+
+    orgnize the code
+
+[33mcommit bf6b5de22545c31ed74b235e13b59ed764cf5781[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Feb 13 01:37:21 2023 +0300
+
+    complete the homeowrk 4.5
+
+[33mcommit cceab4f8957bcbe8806af07271492b6bc696f899[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Feb 12 19:08:03 2023 +0300
+
+    complete the homework 4.4
+    
+    finish the 321px dimension
+
+[33mcommit 85ff1b6100ae90dad0cbf023b930b7bad0732a9d[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Feb 10 16:06:41 2023 +0300
+
+    complete the homework 4.3
+
+[33mcommit 778c858e3d71ff43489db75dd4d1b8082d78de95[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 8 20:02:55 2023 +0300
+
+    complete the homework 4.2.1
+
+[33mcommit 86b69272978c568d56ac403f6c25f498672f2edd[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 8 17:36:33 2023 +0300
+
+    complete the homework 4.2
+
+[33mcommit 6e54cfb5cc7f4f4218a890b32f8977a9cb769e8f[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 8 17:23:36 2023 +0300
+
+    complete the homework 4.1
+
+[33mcommit 0bfbed2f55fdffe390aa474fdccd2a96c3a6f4bc[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 8 17:13:15 2023 +0300
+
+    complete the homework 4.0
+
+[33mcommit 3243ffc5522a4000c70dd95df15c0ad4124db3d3[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 8 16:34:51 2023 +0300
+
+    complete the homework 3.9
+
+[33mcommit d161a697ff1602931cea64409447e635287e86d2[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Feb 8 03:30:46 2023 +0300
+
+    complete the homework 3.8
+
+[33mcommit 4de8d07fec846cbda7a75a124494bc18dc2192f0[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 8 02:41:36 2023 +0300
+
+    complete the homework 3.7
+
+[33mcommit a3496768cd95628f8ee33209eb7453b50c60b85e[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Feb 6 18:35:15 2023 +0300
+
+    complete the homework 3.6
+
+[33mcommit ab20ac30716194d975caf1ef6683b92999983dcb[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Feb 6 06:30:57 2023 +0300
+
+    complete the homework 3.5
+
+[33mcommit c30d68801b89022351daa1c3856950a29a86fcf0[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sun Feb 5 19:04:46 2023 +0300
+
+    complete the homewrok 3.4
+
+[33mcommit 3ef6a9a3061e57ee350228517b57e67135a6b272[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Feb 5 19:03:34 2023 +0300
+
+    complete the homework 3.4
+    
+    clean up the code from unnecessary items
+
+[33mcommit aee4fcb0f66636c9a48cceab9aed585b289cb8e2[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Feb 5 18:54:36 2023 +0300
+
+    complete the homework 3.3
+
+[33mcommit a8dee699830f8ab47f6b0ab70b44aa8bf35582a6[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Feb 4 22:13:42 2023 +0300
+
+    complete copying the files
+    
+    Finish copying the files to experimental folder successfully
+
+[33mcommit c9ba9aae9191154024fbd9b70f31ca722e92ba83[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Feb 4 22:07:19 2023 +0300
+
+    orgnize files 2.0
+
+[33mcommit ef48fd48bc5abfb6b6b4b0200f02f1b1a0b7b6d2[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Feb 4 22:00:00 2023 +0300
+
+    orgnize files
+
+[33mcommit a0745c701628b2bf57320e0924acd26177ddd180[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Feb 4 21:58:56 2023 +0300
+
+    Create General Experimental folder
+    
+    Create General Experimental folder and orgnize files
+
+[33mcommit abbf8f6ddc363a27a458dfa57ec47de3ffae8e30[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Feb 4 18:30:03 2023 +0300
+
+    complete the homewrok 3.3
+
+[33mcommit afb7d4bbe80690a32cddada995752ecd0d4fd1af[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Feb 4 15:43:07 2023 +0300
+
+    complete the homework 3.2
+    
+    complete the requirment of homework phase one
+
+[33mcommit 6132188cce34df233c3a2cb10e3cd73c930b75ee[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Feb 3 11:20:56 2023 +0300
+
+    complete the homework 3.1
+
+[33mcommit cf5a969a6c396e5bfdd87454eea93210eb4c1ad7[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Feb 3 04:24:53 2023 +0300
+
+    complete the homework 3.0
+    
+    orgnize the content on Blog Post
+
+[33mcommit d30a5467e1b91e3d713da348ba78f0307f10b6bc[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Feb 3 04:06:19 2023 +0300
+
+    complete the homework 2.9
+    
+    change the palce and sizes of buttons
+
+[33mcommit 283abb85b0a83d353b0231023db4bdd635da17e6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Feb 3 04:01:57 2023 +0300
+
+    complete the homework 2.8
+    
+    change the place of footer in blog post
+
+[33mcommit f0490f9d6a9cb84cffe6575118e802bd1696c877[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Feb 3 03:56:14 2023 +0300
+
+    complete the homework 2.7
+    
+    change the names of comments in CSS to be easy to read
+
+[33mcommit e9e0419418895363cfa06ef4423599728b25b895[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Feb 3 03:36:12 2023 +0300
+
+    change the names of elements
+
+[33mcommit 6fb838eb9c22aebfba198c79b126f4c2e13bf3b8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Feb 3 03:27:24 2023 +0300
+
+    complete homework 2.6
+    
+    change the names of few elements
+
+[33mcommit ff4d38a94c8b14576cf46c92636fde50ccec6e6f[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Feb 2 18:33:17 2023 +0300
+
+    complete the homework 2.5.5.5
+    
+    fix some issues
+
+[33mcommit 4e6c8250c43c263292b51bf11f9966e5776a500b[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Feb 2 18:32:32 2023 +0300
+
+    complete the homework 2.5.5
+
+[33mcommit d8b88cb90f0c8d0f1b0b63ce9a0c6c0fa4cad1db[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Feb 2 18:31:15 2023 +0300
+
+    complete the homework 2.5
+    adding the profile images
+
+[33mcommit 529a072bbcd250ffd5fb34f92100ab05b58d8759[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Feb 2 16:41:12 2023 +0300
+
+    complete thew homework 2.4
+    change the colors of few items
+
+[33mcommit b67cfd086bb56cbfdd8fd459c0c4f434c8ebf57a[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Feb 2 16:32:03 2023 +0300
+
+    Update Blog Post.html
+    
+    I deleted the span on About title
+
+[33mcommit 44895f5503e8efea996afa96af5158e26b5a5d54[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Feb 1 08:41:45 2023 +0300
+
+    Complete the homework 2.3
+    
+    change thew names of files of HTML and CSS to be identical.
+
+[33mcommit 75a6b083bb9b8b104a481304bef6e8c7f93bcace[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 31 23:52:28 2023 +0300
+
+    complete the homework 2.2
+
+[33mcommit 82b61ffadfa1f33a775deace012d5895f9cc0504[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 31 19:10:41 2023 +0300
+
+    complete the homework 2.1
+
+[33mcommit 2bf430787ee488e7a1c7db50ca65d22584181292[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 31 18:48:56 2023 +0300
+
+    complete the homework 2.0
+
+[33mcommit 4181705340a3c21e4c48bbbcd699af4ad3524c2b[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 31 18:47:22 2023 +0300
+
+    complete the homework 1.9
+
+[33mcommit b93e810cde546dd315b11c50287412c53449f7f0[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 31 13:35:35 2023 +0300
+
+    finish the homework 1.8
+
+[33mcommit 188cca7270742c9e0fb12541ca2aee0766c0adc3[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 22:51:18 2023 +0300
+
+    complete the homework 1.7
+
+[33mcommit 547f0d06b5e9229e7d18973529d029e3991309c7[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 20:07:28 2023 +0300
+
+    complete the homework 1.6
+
+[33mcommit ce981e5037a64cce2b331d78eb0be1909ce5a9e8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 19:17:05 2023 +0300
+
+    Update Style.css
+
+[33mcommit 7e40660f479e66a9e2e68c85bf882952b2e4345f[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 19:16:45 2023 +0300
+
+    complete the homework 1.5
+
+[33mcommit 7c1e362c930df4fc8c0c46866c9761f60a7ffdb3[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 16:30:25 2023 +0300
+
+    add the conflict file on Mac to Github
+
+[33mcommit d24811f190b7052b6dba1f2176a15c7bb1c32f13[m
+Merge: 7ce0a51 6d59b0d
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 16:29:40 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 7ce0a51fc8017c71e8539139fd4087d9a4011929[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 16:28:01 2023 +0300
+
+    Update Style.css
+
+[33mcommit 6d59b0d0084950aa69be5ef991acf92704439b20[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 16:27:11 2023 +0300
+
+    add comments to fix the bug on Mac
+
+[33mcommit f5ddbfdc2ee3008aabe71795a25fe33e9102365c[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 16:24:53 2023 +0300
+
+    Update Style.css
+
+[33mcommit 0e1075b03c7c472c7e6156f095109925c4fe787d[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 16:24:17 2023 +0300
+
+    complete the homework 1.3
+
+[33mcommit f5fadd0c691a809195c9ffd51a89ea36f48d06b9[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 16:19:07 2023 +0300
+
+    complete the homework 1.3
+
+[33mcommit ab56d4b5358f39862e478f94ea6392be0defc512[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 16:03:49 2023 +0300
+
+    complete homework 1.2
+
+[33mcommit bc24527082cf5c8592acabee757b4b2b14054169[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 30 16:00:53 2023 +0300
+
+    complete the Home work 1.1
+
+[33mcommit 7f66bbe1a689722ee4f9e9c19f9e687fd7585c00[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 14:52:02 2023 +0300
+
+    Update Style.css
+
+[33mcommit bac606609e0b0a27da90fbf1e764be1713249455[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 14:50:54 2023 +0300
+
+    complete homework 1.0
+
+[33mcommit d94c6dd3ab7df5477b51439261b61a079d657608[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 14:08:53 2023 +0300
+
+    Update Style.css
+
+[33mcommit a79b92eaf8acf6dca4f92047002c80ffbf0d04f3[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 30 14:07:43 2023 +0300
+
+    complete the requirment of homework
+
+[33mcommit 0765b3b22b9e3567f3d48cb02c818a4013b4d710[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sun Jan 29 22:56:02 2023 +0300
+
+    finish few comments on project
+
+[33mcommit 07d2dbdebe3b9d01f840eec6a2e7e1f363b47504[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 28 13:25:33 2023 +0300
+
+    create experiment folder
+
+[33mcommit b03c35c47a775ab2ff570178f5daad2c49af7781[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 23:23:42 2023 +0300
+
+    change some names
+
+[33mcommit eb22bd00f60e4b682518467f98cdad101f848452[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Jan 27 23:20:44 2023 +0300
+
+    change the name of the page
+
+[33mcommit 17b99250f63b385cd657e99cdb18834d5f5e0abd[m
+Merge: f985224 254e1c4
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Jan 27 23:16:19 2023 +0300
+
+    Merge branches 'master' and 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit f985224c55f62f75beb7f2ecaebb970bb5629782[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Jan 27 23:16:05 2023 +0300
+
+    create style file in homework
+
+[33mcommit 254e1c427361115e2954b6aabd95795350f90564[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 23:08:30 2023 +0300
+
+    create the folders of the first homework
+
+[33mcommit 0edff158ff61979f61882674df05ded18cdfedb4[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 21:31:23 2023 +0300
+
+    create my firsr home work for Udacity
+
+[33mcommit c222a879f8a23242cdb361edee886d5dd6b778b1[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 21:11:44 2023 +0300
+
+    finish the experiment
+
+[33mcommit 31d5c18c1f8f206ab2dfaec64738a2c76806bf0d[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 21:03:44 2023 +0300
+
+    complete the project 6.0
+
+[33mcommit 6daee0ff309d654bf6dd38bd2ae760bc8b3262d0[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 20:26:43 2023 +0300
+
+    fill the information of Udacity Homework on nestedGrid
+
+[33mcommit 8442e4a2f387a15bca53cbf4d16f4024a1e40647[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 20:23:15 2023 +0300
+
+    fix the bug in the project 5.0
+
+[33mcommit d86a000e4260eac579a1fc641604b35b03fe3f11[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 20:09:26 2023 +0300
+
+    complete project 5.0
+
+[33mcommit de9ef300c8de2427de7641fefbfe5246ea4f8548[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 20:06:51 2023 +0300
+
+    complete the project 4.0
+
+[33mcommit 1a084420813f985049ab29f84dce344db91544ec[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 19:48:17 2023 +0300
+
+    complete the project 3.0
+
+[33mcommit a0e099e481e61bd83370ec1934d2d93b1217ca43[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 27 17:07:10 2023 +0300
+
+    complete the project 2.0
+
+[33mcommit 854bdaa2ed930977e82b2c5d272497125b3d882a[m
+Merge: 859487c 5c27ec6
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 23:51:50 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 859487c14c17db242e1693e485dcd1d070c26b6f[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 23:50:54 2023 +0300
+
+    continue the project 3.0
+
+[33mcommit 5c27ec6e50b6265f0173559a0ffec2cd82aa7aa5[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 25 23:47:12 2023 +0300
+
+    continue the project 2.0
+
+[33mcommit 76f86c7a07929884ae934e40740e2a9b12ca71de[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 19:10:57 2023 +0300
+
+    complete the first part of the project
+
+[33mcommit e042be227077aad19695665abb50d40d0ed3d36c[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 25 18:46:47 2023 +0300
+
+    complete my test of multiple breakpoints
+
+[33mcommit 80449ef47ff11b0993b0b1610063589ebf2717fc[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 18:28:12 2023 +0300
+
+    finish the refinment of the files
+
+[33mcommit 26e6bbd7be05f663c40d95d814fc5e23e94313d0[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 18:24:01 2023 +0300
+
+    complete the missing box property
+
+[33mcommit 14e302c514972d6b6e53b0930e168db8466c90ef[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 18:03:40 2023 +0300
+
+    create instruction.md file
+
+[33mcommit 1ae67f8506b660a1c088d87e192b0ee6506520b1[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 18:02:30 2023 +0300
+
+    create Multiple breakpoints folder and its files
+
+[33mcommit a69ea28df5965c154d71f3288bfe445f0b50036a[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 25 17:47:39 2023 +0300
+
+    complete the multiple breakpoints
+
+[33mcommit 01d42bc3eea7689f43362d563d8303e234c709f7[m
+Merge: 4ef99e1 c770b28
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 25 17:27:22 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 4ef99e1a9a78fca78081b500fd8375a157600b9e[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 25 17:25:27 2023 +0300
+
+    delete unnecceary comment
+
+[33mcommit c770b281b93f56e12881d45904552e3701c4dada[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 25 10:07:38 2023 +0300
+
+    complete the comments of breakpoints
+
+[33mcommit 048d94a1057961337893975be795eb3f25ac59b8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 24 21:10:04 2023 +0300
+
+    centering the link of the sidebar :)
+
+[33mcommit 9eb1aad8757b906a30e6505de9c81ab17a8ab052[m
+Merge: 3436efe db8c28f
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 24 20:56:32 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 3436efe605ef2c3d1326f8ad871a3fda2f0d528e[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 24 20:55:42 2023 +0300
+
+    testing 1.0
+
+[33mcommit db8c28f72d9301a6c965309c201a4e658fc14ba7[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 24 19:59:48 2023 +0300
+
+    complete the Resposive_website
+
+[33mcommit 534f79d04d5a5a80bfd387cc03c4ca433256b71b[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 24 10:11:27 2023 +0300
+
+    test the link
+
+[33mcommit c66009395f8e26df570d53dcf86b86b3c787c78c[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 24 02:27:22 2023 +0300
+
+    fixing the bug on media queries
+
+[33mcommit 6389575ae0db45c1ca1505b3aa001882bdf6c605[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 24 01:48:12 2023 +0300
+
+    fix the bugs
+
+[33mcommit c765ea7e56e7fda2affd0cdc92fcc586b39fa4c4[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 23 23:18:28 2023 +0300
+
+    change the values in style.css
+
+[33mcommit 8df0eb6fa9206e12f90084c816e0047727bd848c[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 02:12:24 2023 +0300
+
+    My first independent work
+
+[33mcommit c5f612ce06a50fed280940c8846b0037dda75b91[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 01:56:41 2023 +0300
+
+    create the responsive website
+
+[33mcommit 6ee0e25d2dc242dee7692f24572f6146c67f0766[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 01:49:34 2023 +0300
+
+    orgnize files 5.0
+
+[33mcommit ebd5d20b85abc5b6112cad7e64ed511d38ad27c6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 01:47:46 2023 +0300
+
+    Orgnize files 4.0
+
+[33mcommit 6ff04a9fcb4ca6c199d6796daffc0f00bc3be312[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 01:45:42 2023 +0300
+
+    orgnize files 3.0
+
+[33mcommit 1f7947af0f526c787eaec87717ab61d906e5be48[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 01:44:36 2023 +0300
+
+    Orgnigze files 2.0
+
+[33mcommit d028815c285b30ba4067abbff50ff4454912881c[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 23 01:40:29 2023 +0300
+
+    Orgnize the files into folders
+
+[33mcommit 4d519e8aad49dd8e6d8561f53efb28df2e82a6a1[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 23 01:32:12 2023 +0300
+
+    finish the exercise files and add media queries
+
+[33mcommit 7b1189cbe35b8f7c398c59e45296a53088ffa083[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 23 00:30:09 2023 +0300
+
+    complete the information of the exam
+
+[33mcommit c09c3bc4cf4ee862996635facae23bb0cd9c162f[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 23 00:03:41 2023 +0300
+
+    fix bugs
+
+[33mcommit 6b442fb2d414f70bc80f54e99307e005f87538c3[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Jan 22 12:26:06 2023 +0300
+
+    complete the exercise 1.0
+
+[33mcommit faded133f45edf83787942fa7225f4c8094f6a36[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 21 23:39:14 2023 +0300
+
+    3.5
+
+[33mcommit 324aef0d74177aca6b5a9123d2cc4b02127f3cf9[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 21 23:37:26 2023 +0300
+
+    3.0
+
+[33mcommit bf7018cd168cae04f583235ece7492da66691956[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 21 23:32:06 2023 +0300
+
+    2.1
+
+[33mcommit 927c64d42205111a7165348d5d8430e0e2d1d4a6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 21 23:29:10 2023 +0300
+
+    2.0
+
+[33mcommit 8d0adea3dbfb518f45952b8102d9dc44595e0806[m
+Merge: cf4be48 0c5f598
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Jan 21 23:25:05 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit cf4be4803a374f10406d02abdb0dabac8adca198[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Jan 21 23:24:55 2023 +0300
+
+    adding image folder
+
+[33mcommit 0c5f598f94bb0f73f3e60f6cb8f36448baec0bb7[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 21 23:24:36 2023 +0300
+
+    update 1.0
+
+[33mcommit 1860794b58d2607b1f4bac8a53ff0c20bc324a27[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Jan 21 23:21:18 2023 +0300
+
+    last update
+
+[33mcommit 8e2deab53141740f4d3b5d9c0dada99c5e014b8a[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sat Jan 21 23:04:19 2023 +0300
+
+    complete the practical information
+
+[33mcommit a2b957c9c645297b24e86b091f1a3727f9d369f6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Jan 19 12:11:32 2023 +0300
+
+    finish the linking post.html to their css file
+
+[33mcommit 8bfc2af1211f59e1b56ba03ff4fa9e74a5d5bef6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Jan 19 12:08:30 2023 +0300
+
+    finish experment file
+
+[33mcommit 96f7175282ac932457c43be1ca3a1434b94a2c12[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Thu Jan 19 12:07:45 2023 +0300
+
+    practice real project
+
+[33mcommit 7ecf82772ef51fcecdbccf40782f8cae4e6d69e2[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Thu Jan 19 06:37:36 2023 +0300
+
+    test my idea
+
+[33mcommit c47274b11c2e782bb4a20a5c528fdcfb667a83d0[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 17 00:10:01 2023 +0300
+
+    change the grid-template-rows on diffrent screens
+
+[33mcommit f4174b486a978f52a5c32dd9a288c1ecbd9cbdaa[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 16 22:13:06 2023 +0300
+
+    complete the information
+
+[33mcommit 542bab93794e43625bdc0cfdf50ad9aee5ca0d49[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 16 17:01:19 2023 +0300
+
+    create advanced grid folder and its files
+
+[33mcommit b40fb03fca1bea1e1f05102ea1ec8a3747f03708[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 16 13:23:42 2023 +0300
+
+    modifiy the name of the files
+
+[33mcommit 0dab80e57752413467b2c2b544094202c8328fbb[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 16 13:00:28 2023 +0300
+
+    change the name of files
+
+[33mcommit d6bca8d02a3db1699238862b14fddfaf13156c60[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Mon Jan 16 12:25:52 2023 +0300
+
+    change the name of files
+
+[33mcommit 10b3c2a833fdee414ce3ee948e2c28318c07539e[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Jan 15 21:59:47 2023 +0300
+
+    complete my traning
+
+[33mcommit 597852677e450e0ce500641ab4deffdde0e5132d[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 18:07:29 2023 +0300
+
+    complete the information
+
+[33mcommit 824dfef61f0c2b40de90bc6334a23c39b0b204dd[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 14:49:21 2023 +0300
+
+    complete the test
+
+[33mcommit 06356512414bd46602efcfced69cf827c37fab26[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 12:54:34 2023 +0300
+
+    complete the exercise
+
+[33mcommit a578621f2780085bb37b910daded0b46ca9590d2[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 12:39:33 2023 +0300
+
+    create the grid-template-grid-exercise file
+
+[33mcommit e6b01e21e07c89ea344c5728c3fcdeb74577c4e9[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 04:25:14 2023 +0300
+
+    fix the bug
+
+[33mcommit 24254007a90253e97469fdc7f58c1f8cc5f6b90f[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 04:04:48 2023 +0300
+
+    finish the exercise
+
+[33mcommit 811ef6b75a63b67e11b9d3ad051bf4ca57b54f77[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 14 00:18:40 2023 +0300
+
+    Adding my contribution
+
+[33mcommit 673cbd901575f96b559a5abb1f777fc4bf437a02[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Jan 13 15:53:32 2023 +0300
+
+    finish the excersie information with bugs
+
+[33mcommit 3846e2945678d319c47ed6df8e7a17344660c0f0[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Thu Jan 12 00:07:37 2023 +0300
+
+    Complete the information of GridArea
+
+[33mcommit 982e82323b8802a161f2b34f54ad7f7377c0e0c7[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 10 10:44:59 2023 +0300
+
+    rows and columns comment
+
+[33mcommit ce5c4018a81891da683782290c093131bd8872df[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 10 10:41:46 2023 +0300
+
+    finish the first phase
+
+[33mcommit 58adee639e0af1a2756dffcc5e3dce4868a4e594[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 10 10:02:25 2023 +0300
+
+    delete the divs in GridArea
+
+[33mcommit 558bf062dcfcd5d942edd141a6493db673d28906[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 9 00:24:05 2023 +0300
+
+    complete the style of the wire frame
+
+[33mcommit 458e0f3150f87e172012dcd408f7f5d4c36ca3ea[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 9 00:22:16 2023 +0300
+
+    complete the wire frame exercise
+
+[33mcommit ddca17ad9e67968d9491c0c5d49c67c02f152188[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 9 00:20:14 2023 +0300
+
+    grid aread wire frame exercise
+
+[33mcommit 94dfcbe69dec5ec418dad8b5d3947f174be68941[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sun Jan 8 22:46:33 2023 +0300
+
+    adding the exercise and sloution of Rows and columns
+
+[33mcommit ac873420cc7d353aa3efe8af7d5514d845b17f9b[m
+Merge: adabd2d 3fc84b5
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sun Jan 8 22:40:27 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit adabd2d18220c4e543343e878ea1dce25a5ec8fd[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Sun Jan 8 22:39:54 2023 +0300
+
+    complete the exeercise of rows and columns in grid
+
+[33mcommit 3fc84b54276e170e2d0d1bc2a03f6bf1d65c1fc5[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 7 11:17:59 2023 +0300
+
+    complete the align and justify the items
+
+[33mcommit 2edd7dcb28578feca5d50b11a94ace1ff91eb1aa[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Jan 7 09:58:14 2023 +0300
+
+    change the direction of the flex
+
+[33mcommit 7724718f3d7b84f98f6dbb5c3094010e3e7b2045[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Jan 6 15:39:37 2023 +0300
+
+    finish the comment of the file
+
+[33mcommit 2c6de31a4a69ed860ddd67b6259ad9b3cf9ef3cc[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Thu Jan 5 12:56:29 2023 +0300
+
+    Auxilary files
+
+[33mcommit 694fc6ac926660f2ed52fd09fc7ff6cac6474e41[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 4 23:16:44 2023 +0300
+
+    the way of reordering elements in html
+
+[33mcommit 1e4a017b085dd091a86e2935fef84bf970c13e3b[m
+Merge: 9835ff6 e677552
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 4 22:50:15 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 9835ff659a93098af89bb60b7fb77b1acd8fa602[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 4 22:49:57 2023 +0300
+
+    fill new information
+
+[33mcommit e677552800827704ffa40407cae74b31f1ab3f6c[m
+Merge: 24c94e5 c370369
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 4 22:47:51 2023 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 24c94e5e487e6dd1e9680c0d294b47501469c7e5[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Wed Jan 4 22:43:58 2023 +0300
+
+    previous information
+
+[33mcommit c37036983ab8d52cc5f660a5c4c2a78195305b50[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Wed Jan 4 22:02:44 2023 +0300
+
+    create Axes folder and their files
+
+[33mcommit 9c9396572a4a26cb463701f7abb75535be49ee24[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 23:53:18 2023 +0300
+
+    create the divs of css Flexbox
+
+[33mcommit 8e77e0722918e2b0ddd0e70e2221a9d468f292b6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 23:51:37 2023 +0300
+
+    create a CSS Flexbox files and complete recap files
+
+[33mcommit fc69c9ea1ad6803556a775ab5a0f1ef308da119d[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 23:17:23 2023 +0300
+
+    complete the .box style
+
+[33mcommit ae91a45488ee724d4f94b924688cf813448927e7[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 23:14:56 2023 +0300
+
+    complete the comment of the style
+
+[33mcommit 47dde832762cfad276bfb84c372afde71d14c684[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 23:12:59 2023 +0300
+
+    fill the Divs
+
+[33mcommit f172ede5244ec14bb3d453ab980ebaa934e37bf6[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 23:09:57 2023 +0300
+
+    create the 4 divs
+
+[33mcommit 147437deeee1c4c0c88adf6faf175851524677a3[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 18:45:39 2023 +0300
+
+    create recap folder and create their files
+
+[33mcommit 135a47c480b496d33bfb9322130dce3c0624a41c[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 10:21:50 2023 +0300
+
+    fix the bug
+
+[33mcommit 019bd562fa848f2c161faeb2690f992753176026[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 10:20:55 2023 +0300
+
+    fill the exercise information
+
+[33mcommit b36d6240b557f7469e668e035580f8b9711b3c7a[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 10:19:23 2023 +0300
+
+    create debugging folder and debugging_excercise
+
+[33mcommit e2549d075bcd1adecba5d75fb7f2a7d6892c4ced[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Tue Jan 3 10:18:21 2023 +0300
+
+    font weight property
+
+[33mcommit f59287bc2283ee4b59b7ff3c81a43cd1338d7f41[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Tue Jan 3 06:35:04 2023 +0300
+
+    test the code with my input
+
+[33mcommit 9de509f5275718d9654659fe19cb1bc4322e58ea[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Mon Jan 2 14:30:38 2023 +0300
+
+    complete css property
+
+[33mcommit 6ce16266b2394988a03e74a5a08ff07b0991a799[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Jan 1 23:59:13 2023 +0300
+
+    fill the information
+
+[33mcommit a74bce123b609604760d30f9248ec4b5e80ddb12[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Dec 31 21:19:28 2022 +0300
+
+    comment the requirment
+
+[33mcommit 327c17ee3e4aa773871660aab5399a998351dc81[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 30 12:29:04 2022 +0300
+
+    create folder for Overlap files
+
+[33mcommit 9bbc459e474e8ff29c367faa7418a2383d992242[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 30 12:19:48 2022 +0300
+
+    exercise the lesson
+
+[33mcommit 435971b36c7d74e371220e4028875d3eeee917f5[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Dec 30 11:03:23 2022 +0300
+
+    create overlap file
+
+[33mcommit f2ba1380d47175d55ef3e407f72f7965b2d309b8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sun Dec 25 21:57:11 2022 +0300
+
+    create display file and boxmodel
+
+[33mcommit 7f3f0206941ec3042dae6e03e833f35efe8838e1[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Dec 24 22:48:44 2022 +0300
+
+    fix the dimension
+
+[33mcommit 5e0dbefed83ace7e8811535cd41a8147f21611ec[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Dec 24 22:39:09 2022 +0300
+
+    create 2 boxes and the style it
+
+[33mcommit 9bf19968ac3727c4288b08166ea8c6eaca0a5f26[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Dec 24 22:29:36 2022 +0300
+
+    create box information
+
+[33mcommit c7e7d869f98f2eb71c5d99c9243ee66c797a0bb8[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Dec 24 06:24:21 2022 +0300
+
+    typing the comments of the work
+
+[33mcommit dbd5365c360fc60bbdb44740dcbe79f3a385e427[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Sat Dec 24 04:11:39 2022 +0300
+
+    create the main css file
+
+[33mcommit 444b8e6ab40e3bf883fc44c9cb763e6a06e1f8a7[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 23 21:56:11 2022 +0300
+
+    complete the 3 ways to link css
+
+[33mcommit 45369fdad6d9b121db617f780b6d9ac730348706[m
+Merge: 14e47da fba0552
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 23 21:55:50 2022 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit 14e47da59c02f7b0b5ea73218a5653f2180669ad[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 23 21:54:02 2022 +0300
+
+    complete the 3 ways of link CSS
+
+[33mcommit fba0552c496b764d7f4a763bc30275cd7455554a[m
+Merge: a48b3bd 6434fd9
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Dec 23 18:22:13 2022 +0300
+
+    Merge branch 'master' of https://github.com/OmarSAlGhamdi/FRONT-END-WEB-DEVELOPER
+
+[33mcommit a48b3bd023d166cef36b5df24e2fb31dbf6e75f9[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Dec 23 18:21:57 2022 +0300
+
+    apply styles
+
+[33mcommit 6434fd9d378638e805a99d9e16bf2ce4107cf111[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 23 18:09:58 2022 +0300
+
+    fill the test decoration: line through example
+
+[33mcommit 5b743bfcbe1f37c587ec5b216a1639f8ab269885[m
+Author: Omar S AlGhamdi <goncr@hotmail.com>
+Date:   Fri Dec 23 12:51:27 2022 +0300
+
+    complete the information
+
+[33mcommit 5e91f554900e9948a0b309d29b390383c074a748[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Dec 23 00:50:21 2022 +0300
+
+    enter the comment
+
+[33mcommit 94eac4f7b3f99e035657453e440df914c456f41f[m
+Author: Omar S AlGhamdi <31236422+OmarSAlGhamdi@users.noreply.github.com>
+Date:   Fri Dec 23 00:48:50 2022 +0300
+
+    first commit
