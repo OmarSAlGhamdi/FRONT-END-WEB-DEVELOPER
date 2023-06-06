@@ -21,15 +21,48 @@ var numbers = [
     [76, 7, 9, 6, 3, 73, 77, 100, 56, 100]
 ];
 
-// your code goes here
+// // your code goes here
+// for (var i = 0; i < numbers.length; i++) {
+//     for (var j = 0; j < numbers[i].length; j++) {
+
+//         if (numbers[i][j] % 2 === 0)
+//             numbers[i][j] = "Even";
+//         else
+//             numbers[i][j] = "Odd";
+//         // console.log();
+
+//     }
+// }
+// console.log(numbers);
+
+
+// for (let i = 0; i < numbers.length; i++) {
+//     /* We type the index of i [i] to refere to First For Loop */
+//     for (let j = 0; j < numbers[i]; j++) {
+
+//         if (numbers[i][j] % 2 === 0)
+//             numbers[i][j] = "Even";
+
+//         else
+//             numbers[i][j] = "Odd";
+
+//     }
+// }
+
+// console.log(numbers);
+
+
+
+
+
 for (var i = 0; i < numbers.length; i++) {
-    for (var j = 0; j < numbers[i]; j++) {
+    for (var j = 0; j < numbers[i].length; j++) {
+        if (numbers[i][j] % 3 === 0)
+            numbers[i][j] = "even";
 
-        if (numbers[i][j] % 2 === 0)
-            numbers[i][j] = "Even";
         else
-            numbers[i][j] = "Odd";
-
+            numbers[i][j] = "odd";
     }
 }
+
 console.log(numbers);

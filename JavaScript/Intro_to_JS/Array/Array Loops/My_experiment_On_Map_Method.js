@@ -1,6 +1,6 @@
 var bills = [10, 20 , 30 , 40];
 
-// #First Test
+// #First Method
 // var total = bills.map(function(element){
 
 //     element *= 1.15;
@@ -8,7 +8,7 @@ var bills = [10, 20 , 30 , 40];
 // });
 
 
-// #Second Test
+// #Second Method
 
 var total = bills.map(function(element){
 
