@@ -25,9 +25,8 @@
 
 let person = {
      myName: 'Omar',
-     greeting: `Hello, my name is ${person.myName}`,
-
+    //  greeting: `Hello, my name is ${person.myName}`,
 };
 
-message = ` the person name is ${person.name}`; 
-console.log(person.greeting);
+greeting = ` Hello my name is  ${person.myName}`;
+console.log(greeting);

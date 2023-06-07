@@ -3,5 +3,5 @@
  */
 
 const myName = '[Omar]';
-const greeting = 'Hello, my name is ' + myName;
+const greeting = `Hello, my name is   ${myName}`;
 console.log(greeting);
