@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Get the HTML content of an element with id="myP": -->
+
+    <h1>The Element Object</h1>
+    <h2>The innerHTML property</h2>
+
+    <p id="myP">I'm a paragraph.</p>
+
+    <p>The content of"myP"" the paragraph is : </p>
+    <p id="demo"></p>
+
+
+    <script>
+        let html = document.getElementById('myP').innerHTML;
+        document.getElementById('demo').innerHTML = html
+    </script>
+    
+</body>
+</html>

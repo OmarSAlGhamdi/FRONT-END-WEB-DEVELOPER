@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>The Element object</h1>
+    <h2>The innerHTML property</h2>
+    
+    <!-- <p id="demo" onclick="myFunction()">click me to change the HTML content on the page.</p> -->
+    <p class="demo" onclick="myFunction2(this)"> click here to change the text 1</p>
+    <p class="demo" onclick="myFunction2(this)"> click here to change the text 2</p>
+    <p class="demo" onclick="myFunction2(this)"> click here to change the text 3</p>
+
+    <script>
+        /* function myFunction() {
+            document.getElementById('demo').innerHTML = "I have changed";
+        } */
+
+        function myFunction() {
+            document.getElementById('demo').innerHTML = "You clicked me";
+        }
+
+        function myFunction2(element){
+            element.innerHTML = "you've clicked the line";
+            console.log('A paragraph was clicked ' + element.target.textContent);
+        }
+
+
+
+
+        /* function respondToTheClick(evt){
+            console.log('A paragraph was clicked: '+ evt.target.textContent);} */
+
+    </script>
+</body>
+</html>
