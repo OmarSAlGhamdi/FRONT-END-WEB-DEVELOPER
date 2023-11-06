@@ -43,7 +43,7 @@ fvfv */
 
 /* Create Ul in a dynimc way */
 
-// var navbar_list = document.getElementById('navbar__list');
+var navbar_list = document.getElementById('navbar__list');
 
 
 // getBoundingClientRect for all section : 
@@ -94,9 +94,9 @@ if (section1New) {
 
 
 
-addEventListener('click' , ){
-    preventde
-}
+/* addEventListener('click' , ){
+    
+} */
 // For test purpos only 
 
 /* var footer = document.querySelectorAll(".page_footer");
