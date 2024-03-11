@@ -57,4 +57,4 @@ function ShowInfo(
   document.write(`</div>`);
 }
 
-ShowInfo("Omar", 30, 20, "yes", "HTML", "CSS", "JavaScript");
+ShowInfo("Omar", 30, 20, "yes", "HTML", "CSS", "JavaScript", "PS");
