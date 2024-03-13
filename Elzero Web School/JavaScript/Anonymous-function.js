@@ -7,6 +7,8 @@ Function :
 -   SetTimeout
 */
 
+document.write(`<h1 style = 'color : red; font-size: 30px;'> Hello Sir </h1>`)
+
 let fontSize = "76px";
 let color = "red";
 // The function calc name : ⬇︎
