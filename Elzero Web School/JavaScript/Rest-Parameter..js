@@ -7,7 +7,9 @@ Function Advanced Practice :
 - Condition
 */
 
-var fontSize = "30px";
+var fontSize = "35px";
+var styleElement = "color : red";
+
 function ShowInfo(
   user = "Unknown",
   age = "Unknown",
@@ -33,7 +35,7 @@ function ShowInfo(
       //⬇︎We put the '' before and after the style of the paragraph (<p>) or headings(h1 - h6)⬇︎
       //⬇︎We use ; at the end of each style like font-size: 10px ; color: red ;⬇︎
       document.write(
-        `<p style = 'font-size: 30px; color: #11ff33';> ${skills.join(
+        `<p style = 'font-size: 30px; ${styleElement} ';> ${skills.join(
           " | "
         )} </p>`
       );
