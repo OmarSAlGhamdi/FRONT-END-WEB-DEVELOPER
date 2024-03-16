@@ -31,13 +31,11 @@ function sayMessage(firstName, lastName) {
   let message = "Hello";
   //   Nested Function
   function concatMsg() {
-
     function getFullName() {
-
       return `${firstName} ${lastName}`;
     }
-    //!when you call a function don't forgot to call them 
-    // with their parentheses ()
+    /* !when you call a function ⚠ DON'T ⚠  forgot to call them
+     with their parentheses () */
     return `${message} ${getFullName()}`;
   }
   return concatMsg();
