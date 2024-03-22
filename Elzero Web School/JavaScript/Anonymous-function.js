@@ -7,7 +7,7 @@ Function :
 -   SetTimeout
 */
 
-document.write(`<h1 style = 'color : red; font-size: 30px;'> Hello Sir </h1>`)
+document.write(`<h1 style = 'color : red; font-size: 30px;'> Hello Sir </h1>`);
 
 let fontSize = "76px";
 let color = "red";
@@ -24,3 +24,10 @@ function calc(num1, num2) {
 }
 
 document.write(calc(10, 20));
+
+// Anynomous Function ⬇︎
+
+let show = function () {
+  return 10;
+};
+console.log(show());
