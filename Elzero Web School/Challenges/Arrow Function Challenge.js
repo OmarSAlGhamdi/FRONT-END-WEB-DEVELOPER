@@ -16,6 +16,7 @@ console.log(people("Ahmed", "Omar", "Ali", "Ibrahim"));
 // Person.join() the method to concatenate the string to array
 let names2 = (...person) => `String [${person.join("],[")}] => Done!`;
 console.log(names2("Osama", "Mohammed", "Ali", "Ibrahim"));
+// document.write(names2("Osama", "Mohammad", "Ali", "Ibrahim"));
 // String [Osama], [Mohamed], [Ali], [Ibrahim], => Done !
 
 /* ============================================= */
