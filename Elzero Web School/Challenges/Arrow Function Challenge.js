@@ -8,15 +8,16 @@ Function Arrow Challenges
 
 // [1] One statment In Function :⬇︎ (DONE) - Regular Function
 let people = function (...person) {
-  return `String [${person.join("],[")}]`;
+  return `String [${person.join("],[")}] => Done`;
 };
 console.log(people("Ahmed", "Omar", "Ali", "Ibrahim"));
 
 // [2] Convert To Arrow Function (solution) :⬇︎ (DONE) - Arrow Function
 // Person.join() is the method to concatenate the string to array
 let names2 = (...person) => `String [${person.join("],[")}] => Done!`;
+
 console.log(names2("Osama", "Mohammed", "Ali", "Ibrahim"));
-// document.write(names2("Osama", "Mohammad", "Ali", "Ibrahim"));
+document.write(names2("Osama", "Mohammad", "Ali", "Ibrahim")); //Another Test
 // String [Osama], [Mohamed], [Ali], [Ibrahim], => Done !
 
 /* ============================================= */
