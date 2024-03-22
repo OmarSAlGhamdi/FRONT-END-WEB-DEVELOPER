@@ -13,13 +13,13 @@ let people = function (...person) {
 console.log(people("Ahmed", "Omar", "Ali", "Ibrahim"));
 
 // [2] Convert To Arrow Function (solution) :⬇︎ (DONE) - Arrow Function
-// Person.join() the method to concatenate the string to array
+// Person.join() is the method to concatenate the string to array
 let names2 = (...person) => `String [${person.join("],[")}] => Done!`;
 console.log(names2("Osama", "Mohammed", "Ali", "Ibrahim"));
 // String [Osama], [Mohamed], [Ali], [Ibrahim], => Done !
 
 /* ============================================= */
-
+// 
 // [1] replace ??? in return statment To Get The Output
 // [2] Create The Same Function With Regular Syntax
 // [3] Use Array Inside The Argument To Get The Output
