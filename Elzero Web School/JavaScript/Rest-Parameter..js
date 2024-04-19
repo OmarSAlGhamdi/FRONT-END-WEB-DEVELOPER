@@ -24,7 +24,7 @@ function ShowInfo(
     `<p style = 'font-size : ${fontSize}';> Hour Rate: $${rate}</p>`
   );
   /* As you can see he I convert the comparing value to lowercase 
-  while it's already on lowercase to make the if condition check all 
+  while it's already on lowercase to make the (if condition) check all 
   possiblities like "yes" , "YES" , "Yes" at the same time (WELL Done Omar honey🤴🏻 :) ). 
   */
   if (show.toLowerCase() === "yes") {
