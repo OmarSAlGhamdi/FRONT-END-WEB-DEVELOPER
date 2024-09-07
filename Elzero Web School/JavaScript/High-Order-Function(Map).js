@@ -99,9 +99,9 @@ let sw2 = swappingCases
   .split("")
   .map(
     /* function */ (element) =>
-      element === element.toUpperCase()
-        ? element.toLowerCase()
-        : element.toUpperCase()
+      element === element.toUpperCase() //This is the condition
+        ? element.toLowerCase() // This is the true result
+        : element.toUpperCase() // This is the false result
   )
   .join("");
 
@@ -122,7 +122,7 @@ let sw3 = swappingCases
 console.log(sw3);
 
 /* 
- My personal Experiment To change the random letters to Capital litter or small letter : ⬇
+My personal Experiment To change the random letters to Capital litter or small letter : ⬇
 Using Arrow Function : ⬇
 */
 
