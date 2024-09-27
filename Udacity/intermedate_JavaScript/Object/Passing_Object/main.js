@@ -26,6 +26,7 @@ setColorToWhite(orginalcar);
 
 console.log(orginalcar.color);
 
+//Another example 
 let oldName = {
   name: "Ahmed",
 };
