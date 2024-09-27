@@ -7,3 +7,4 @@ let n = 7; //We pass the global variable n and assign it to 7
 changeToEight(n);
 
 console.log(n); // The result will be 7
+
