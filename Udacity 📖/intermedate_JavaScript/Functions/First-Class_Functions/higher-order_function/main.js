@@ -11,7 +11,8 @@
 function alertThenReturn() {
     alert('Message 1!');
 //   اذا اردنا استدعاء الوظيفة الثانية(وظيفة الاسترجاع) نخزنها في متغير ونستدعيها
-// We can call the return function by storing him in a variable like this :
+// We can call the return function by storing it in a variable like this :
+    // let/var/const VariableName = functionName(); 
     // let innerFunction = alertThenReturn();
     //Last things we will call him like this :
     //  innerFunction();
