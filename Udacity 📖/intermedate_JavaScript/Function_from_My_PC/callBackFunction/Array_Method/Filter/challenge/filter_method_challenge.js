@@ -28,9 +28,8 @@ const musicData = [
 ];
 
 const results = musicData.filter(function (NewFilter) {
-  return NewFilter <= 10 || NewFilter >= 25;
+  return NewFilter.name.length >= 10 && NewFilter.name.length <= 25;
 });
 
-("Replace this message with your code!");
 
 console.log(results);
