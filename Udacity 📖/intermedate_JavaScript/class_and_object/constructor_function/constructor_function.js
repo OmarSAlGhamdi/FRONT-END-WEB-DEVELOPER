@@ -1,4 +1,4 @@
-/* ⬇️ Second Example Video On Udacity ⬇️ : */
+/* ⬇️ ----------------------- Second Example Video On Udacity : ----------------------- ⬇️  */
 /* function Hero(name, role) {
   
   
@@ -33,11 +33,11 @@ omar.introduce(); */
 /* console.log(omar.name);
 console.log(omar.role); */
 
-/* ⬆️ Second Example Video On Udacity ⬆️ : */
+/* ⬆️ ----------------------- Second Example Video On Udacity  -----------------------  ⬆️ */
 
 /* -------------------------------------------------- */
 
-// ⬇️ First Example Video On Udacity ⬇️ :
+// ⬇️ ----------------------- First Example Video On Udacity : ----------------------- ⬇️ 
 
 /* function SoftwareDeveloper() {
   this.favoritLangauge = 'JavaScript';
@@ -47,11 +47,11 @@ let developer = new SoftwareDeveloper();
 
 developer() */
 
-// ⬆️ First Example Video On Udacity ⬆️ :
+// ⬆️ ----------------------- First Example Video On Udacity ----------------------- ⬆️ :
 
 /* -------------------------------------------------- */
 
-// ----------------------- ⬇️  تجربتي في تطبيق الدرس   ----------------------- ⬇️
+// ⬇️ -----------------------  : تجربتي في تطبيق الدرس  ----------------------- ⬇️
 
 /* function family(name, age, education) {
   this.name = name;
@@ -76,11 +76,11 @@ Ahmed.ShowInformation();
 Bndr.ShowInformation();
 Meshari.ShowInformation(); */
 
-// ----------------------- ⬆️  تجربتي في تطبيق الدرس   ----------------------- ⬆️
+// ⬆️ -----------------------   تجربتي في تطبيق الدرس   ----------------------- ⬆️
 
 
 
-// ----------------------- ⬇️ Check if an object was created ----------------------- ⬇️
+// ⬇️ -----------------------  Check if an object was created : ----------------------- ⬇️
 
 function Developer(name) {
   this.name = name;
@@ -89,13 +89,13 @@ function Developer(name) {
 const dev = new Developer("Veronika");
 
 /* ⬇️ Check if the value of the dev is object ⬇️ */
-console.log(typeof dev); 
+console.log(typeof dev); // the result is true ✅
  
 
  /* ⬇️ (🟰)Check if the dev is instance of Developer or not ⬇️ */
 console.log(dev instanceof Developer) ; 
-// ⬆️ we don't type () for the developer because we reference to it ⬆️
+// ⬆️ we don't type parenthese() for the developer above because we only reference to it ⬆️
 
 
 
-// ----------------------- ⬆️ Check if an object was created ----------------------- ⬆️
+// ⬆️ -----------------------  Check if an object was created ----------------------- ⬆️
