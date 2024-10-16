@@ -1,4 +1,21 @@
+// ⬇️ ----------------------- First Example Video On Udacity : ----------------------- ⬇️ 
+
+/* function SoftwareDeveloper() {
+  this.favoritLangauge = 'JavaScript';
+}
+
+let developer = new SoftwareDeveloper();
+
+developer() */
+
+// ⬆️ ----------------------- First Example Video On Udacity ----------------------- ⬆️ 
+
+
+/* -------------------------------------------------- */
+
+
 /* ⬇️ ----------------------- Second Example Video On Udacity : ----------------------- ⬇️  */
+
 /* function Hero(name, role) {
   
   
@@ -35,21 +52,9 @@ console.log(omar.role); */
 
 /* ⬆️ ----------------------- Second Example Video On Udacity  -----------------------  ⬆️ */
 
-/* -------------------------------------------------- */
-
-// ⬇️ ----------------------- First Example Video On Udacity : ----------------------- ⬇️ 
-
-/* function SoftwareDeveloper() {
-  this.favoritLangauge = 'JavaScript';
-}
-
-let developer = new SoftwareDeveloper();
-
-developer() */
-
-// ⬆️ ----------------------- First Example Video On Udacity ----------------------- ⬆️ :
 
 /* -------------------------------------------------- */
+
 
 // ⬇️ -----------------------  : تجربتي في تطبيق الدرس  ----------------------- ⬇️
 
@@ -79,6 +84,8 @@ Meshari.ShowInformation(); */
 // ⬆️ -----------------------   تجربتي في تطبيق الدرس   ----------------------- ⬆️
 
 
+/* -------------------------------------------------- */
+
 
 // ⬇️ -----------------------  Check if an object was created : ----------------------- ⬇️
 
@@ -92,9 +99,9 @@ const dev = new Developer("Veronika");
 console.log(typeof dev); // the result is true ✅
  
 
- /* ⬇️ (🟰)Check if the dev is instance of Developer or not ⬇️ */
+ /* ⬇️ (=)Check if the dev is instance of Developer or not ⬇️ */
 console.log(dev instanceof Developer) ; 
-// ⬆️ we don't type parenthese() for the developer above because we only reference to it ⬆️
+// ⬆️ We don't type parenthese() for the developer above because we only reference to it ⬆️
 
 
 
