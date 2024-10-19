@@ -1,3 +1,5 @@
+/*  ⬇️ ----------------------- First Example On Udacity ----------------------- ⬇️ : */
+
 const family = {
   position: "Bandar is the first position",
   describe: function () {
@@ -12,3 +14,5 @@ const family2 = {
 };
 
 family.describe.apply(family2);
+
+/* ⬆️ ----------------------- First Example On Udacity ----------------------- ⬆️ */
