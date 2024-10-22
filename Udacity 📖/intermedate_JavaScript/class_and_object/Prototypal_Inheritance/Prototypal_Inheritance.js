@@ -29,7 +29,7 @@ myDog.bark(); // Outputs: Buddy says woof!
 
 /* ⬇️ ----------------------- Second Example On Udacity ----------------------- ⬇️ */
 
-function Dog(name, age, weight) {
+/* function Dog(name, age, weight) {
   this.name = name;
   this.age = age;
   this.weight = weight;
@@ -43,6 +43,63 @@ Dog.prototype.bark = function () {
 
 const myDog = new Dog("Haskey", 20, 100);
 
-myDog.bark();
+myDog.bark(); */
 
 /* ⬆️ ----------------------- Second Example On Udacity ----------------------- ⬆️ */
+
+/* ⬇️ ----------------------- Third Example On Udacity ----------------------- ⬇️ : */
+
+/* function Hamster() {
+  this.hasFur = true;
+  this.size = "big";
+}
+
+let waffle = new Hamster(); // New object from the Hamster Object
+let pancake = new Hamster();
+waffle.age = 2; // 💡 My Experiment 💡
+pancake.eat = "huge";
+
+Hamster.prototype.eat = function () {
+  console.log("chomp chomp chomp");
+};
+
+Hamster.prototype = {
+  isHungery: false,
+  color: "brown",
+};
+
+// The Result :
+console.log(waffle.hasFur);
+console.log(waffle.age); // 💡 My Experiment 💡
+console.log(waffle.color);
+console.log(waffle.size);
+// console.log(waffle.eat);
+waffle.eat();
+// pancake.eat();
+pancake.eat; */
+
+/* ⬆️ ----------------------- Third Example On Udacity ----------------------- ⬆️ */
+
+/* ⬇️ ----------------------- Fourth Example On Udacity ----------------------- ⬇️ : */
+
+function Phone() {
+  this.operatingSystem = "Android";
+  this.screen = "bigScreen";
+}
+
+Phone.prototype.screenSize = 6;
+
+// Create New Object From Phone Function :
+
+const myPhone = new Phone(); // Create myphone which is new object from Phone function
+// const own = myPhone.hasOwnProperty("operatingSystem");// took it from Phone function
+const own = myPhone.hasOwnProperty("operatingSystem");// took it from Phone function
+const inheritedfromPhoneprototype = myPhone.hasOwnProperty("screenSize"); // took it from the prototype
+const screen = myPhone.hasOwnProperty('screen');
+
+console.log(`The condition of own is ${own}`);
+console.log(`The condition of inherited is ${inheritedfromPhoneprototype}`);
+console.log(`The condition of screenSize is ${screen}`);
+
+
+/* ⬆️ ----------------------- Fourth Example On Udacity ----------------------- ⬆️ */
