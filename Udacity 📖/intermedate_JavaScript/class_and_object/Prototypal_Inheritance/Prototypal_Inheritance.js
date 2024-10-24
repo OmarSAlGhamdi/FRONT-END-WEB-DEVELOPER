@@ -35,6 +35,8 @@ console.log(
 `
 );
 
+
+
 console.log("⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️");
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 /* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ */
@@ -47,7 +49,7 @@ function Dog(name, age, weight) {
 
 Dog.prototype.bark = function () {
   console.log(
-    `His name is ${this.name}, his age is ${this.age},His weight is ${this.weight}.`
+    `His name is ${this.name}, his age is ${this.age},his weight is ${this.weight}.`
   );
 };
 

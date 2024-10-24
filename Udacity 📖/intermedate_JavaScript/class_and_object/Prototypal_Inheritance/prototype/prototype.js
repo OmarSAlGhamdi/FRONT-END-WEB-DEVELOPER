@@ -1,6 +1,7 @@
-/* ⬇️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬇️ : */
+/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ : */
 console.log("⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️");
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
 function Hamster() {
   this.hasFur = true;
   this.size = "big";
@@ -12,13 +13,13 @@ waffle.age = 2; // 💡 My Experiment 💡
 pancake.eat = "huge";
 
 // :البروتوتايب الاول ما يقدر يوصل له الا الكائنات القديمة مثل
-// pancake و waffle
+// (pancake و waffle)
 Hamster.prototype.eat = function () {
   console.log("chomp chomp chomp");
 };
 
-//new prototype object: new object can access to it only like : muffin
-// ⬇️ الاوبجيكت الاخير مثل مافن هو اللي يقدر يدخل على البروتايب الاخير
+//New prototype object: new object can access to it only like : muffin
+// ⬇️ الاوبجيكت الاخير مثل : مافن هو اللي يقدر يدخل على البروتوتايب الاخير هذا
 Hamster.prototype = {
   isHungery: false,
   color: "brown",
@@ -30,7 +31,7 @@ Hamster.prototype = {
 const muffin = new Hamster();
 
 // console.log(muffin.eat());
-// الاوبجت الجديده زي مافن يقدر يوصل للفنكشن الاساسية هامستر مباشرة
+// الاوبجت الجديدة زي:(مافن) يقدر يوصل للفنكشن الاساسية (هامستر) مباشرة
 // The result of muffin ✅❌ :
 console.log(`muffin.hasFur is: ${muffin.hasFur} ✅`);
 console.log(`muffin sleepNight is: ✅`);
@@ -53,9 +54,8 @@ waffle.eat();
 // pancake.eat();
 // pancake.eat;
 
-/* ⬆️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬆️ */
+/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
 
-/* ⬆️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 console.log("⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️");
 console.log(
