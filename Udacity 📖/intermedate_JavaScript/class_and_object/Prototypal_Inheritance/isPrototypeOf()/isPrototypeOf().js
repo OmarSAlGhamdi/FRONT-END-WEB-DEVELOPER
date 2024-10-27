@@ -41,6 +41,13 @@ console.log(
 `
 );
 
+/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ : */
+console.log(
+  "⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️"
+);
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
+
 const oldfamily = {
   big_family: true,
   house: "large",
@@ -55,3 +62,17 @@ newFamily.prototype = oldfamily;
 const Omar = new newFamily();
 
 const output = oldfamily.isPrototypeOf(Omar);
+
+console.log(output);
+
+
+
+/* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+console.log(
+  "⬆️  ---------------------❌ Second Example Finish ❌--------------------- ⬆️"
+);
+console.log(
+  `
+`
+);

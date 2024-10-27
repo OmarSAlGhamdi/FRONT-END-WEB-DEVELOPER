@@ -1,4 +1,7 @@
-/* ⬇️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬇️ : */
+console.log("⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️");
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
+/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ : */
 
 // Orginial Function
 function Phone() {
@@ -38,4 +41,12 @@ console.log(`The condition of (inherited) object is ${inherit}`); //❌
 console.log(`The condition of (grandy) object is ${newGrand}`); //✅
 console.log(`The condition of (newObject) object is ${newObject} `);
 
-/* ⬆️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬆️ */
+/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
+
+/* ⬆️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬆️ */
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+console.log("⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️");
+console.log(
+`
+`
+);
