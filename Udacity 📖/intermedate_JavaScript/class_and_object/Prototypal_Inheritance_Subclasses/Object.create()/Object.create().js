@@ -24,15 +24,26 @@ Cat.prototype.constructor = Cat;
 
 Cat.prototype.meow = function () {
   console.log("Meow!");
+  console.log(`${this.name} Meow!`);
+
 };
 
 const bambi = new Cat("Bambi");
+
 
 bambi.meow();
 
 bambi.walk();
 
 console.log(bambi.name);
+
+console.log(`Bambi lives is: ${bambi.lives}`);
+
+const bailey = new Cat ("Bailey");
+
+bailey.meow();
+console.log(`Bailey lives is: ${bailey.lives}`);
+
 
 
 /* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
