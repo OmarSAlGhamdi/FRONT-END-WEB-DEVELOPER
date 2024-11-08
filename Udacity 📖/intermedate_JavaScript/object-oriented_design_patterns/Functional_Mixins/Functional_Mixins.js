@@ -49,7 +49,7 @@ console.log(``); // عشان يكون في مسافة قبل كلمة المثا
 
 /* Factory Function Syntax: 
 
-function example(parameter){
+function exampleName(parameter){
   the body of the Factory function 
 } return {
 the body of the return
@@ -63,6 +63,7 @@ function Basketball(color, numDots = 35000) {
   };
 }
 // 1 example of instance of Factory Function :
+// Basketball is the mother function :
 const orangeBasketball = Basketball("ornage", 10000);
 console.log(orangeBasketball);
 
@@ -164,6 +165,56 @@ console.log(mixedCoffeeMaker);
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 console.log(
   "⬆️  ---------------------❌ Fourth Example Finish ❌--------------------- ⬆️"
+);
+console.log(
+  `
+  
+    `
+);
+
+console.log(
+  "⬇️  ---------------------✅ Fifth Example Start ✅--------------------- ⬇️"
+);
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+/* ⬇️ ----------------------- 5 Fifth Example On Udacity 5 ----------------------- ⬇️ */
+
+// First Fucntion :
+function IceCreamFactory(obj) {
+  let isCold = true;
+
+  return Object.assign({}, obj, {
+    melt: function () {
+      isCold = false;
+    },
+    isCold: function () {
+      return isCold;
+    },
+  });
+}
+
+// Second Fucntion :
+function coneFactory(obj) {
+  let isDry = true;
+
+  return Object.assign({}, obj, {
+    soggy: function () {
+      isDry = false;
+    },
+    isDry: function () {
+      return isDry;
+    },
+  });
+}
+
+let iceCreamCone = IceCreamFactory(coneFactory({}));
+
+console.log(iceCreamCone);
+
+
+/* ⬆️ ----------------------- 5 Fifth Example On Udacity 5 ----------------------- ⬆️ */
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+console.log(
+  "⬆️  ---------------------❌ Fifth Example Finish ❌--------------------- ⬆️"
 );
 console.log(
   `
