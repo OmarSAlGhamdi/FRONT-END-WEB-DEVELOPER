@@ -3,13 +3,32 @@ console.log(
 );
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
-/* let target = {};
+// (Constructor Functions) using new operator ⬇️ :
 
-let source = { number: 7 };
+function City(name, population) {
+  this.name = name;
+  this.population = population;
 
-Object.assign(target, source);
+  this.identify = function () {
+    console.log(
+      `${this.name}'s population is ${this.population.toLocaleString()}`
+    );
+    // .toLocaleString() method will print the number with comma
+  };
+}
 
-console.log(target); */
+// we will instantiate with new new operator :
+
+const sanFrancisco = new City("sanFrancisco", 870000);
+
+// console.log();
+sanFrancisco.identify();
+
+const Riyadh = new City("Riyad", 500000);
+Riyadh.identify();
+
+const MountainView = new City("Mountain View", 78000);
+MountainView.identify();
 
 /* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
@@ -19,7 +38,7 @@ console.log(
 console.log(
   `
   
-    `
+  `
 );
 
 console.log(
@@ -28,13 +47,34 @@ console.log(
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 /* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ */
 
-let target = { letter: "a", number: 11 };
+/* Factory Function Syntax: 
 
-let source = { number: 7 };
+function example(parameter){
+  the body of the Factory function 
+} return {
+the body of the return
+} */
 
-Object.assign(target, source);
+// Factory Functions ⬇️ :  deafult value ⬇️
+function Basketball(color, numDots = 35000) {
+  return {
+    color: color,
+    numDots: numDots,
+  };
+}
+// 1 example of instance of Factory Function :
+const orangeBasketball = Basketball("ornage", 10000);
+console.log(orangeBasketball);
 
-console.log(target);
+// 2 example of instance of Factory Function :
+const myBB = Basketball("blue and green", 5000);
+console.log(myBB);
+
+const yourBB = Basketball("purple", 4000);
+console.log(yourBB);
+
+const bouncy = Basketball("neon pink", 6000);
+console.log(bouncy);
 
 /* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
@@ -44,7 +84,7 @@ console.log(
 console.log(
   `
 
-      `
+    `
 );
 
 console.log(
@@ -53,34 +93,33 @@ console.log(
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 /* ⬇️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬇️ */
 
-/* const duck = {
-  hasBill: true,
-  feet: "orange",
-};
+function Radio(mode) {
+  let on = false;
 
-const beaver = {
-  hasTail: true,
-};
+  return {
+    mode: mode,
+    turnOn: function () {
+      on = true;
+    },
+    // this will check the status of the on variable
+    isOn: function () {
+      return on;
+    },
+    // this will change the status of the on to false
+    turnOff: function () {
+      on = false;
+    },
+  };
+}
 
-const otter = {
-  hasFur: true,
-  feet: "webbed",
-}; */
+let fmRadio = Radio("fm");
 
-/* let newduck = {   💡🛠️ My Experiment 🛠️💡
-    'The duck has tail': duck.hasBill, 
-}; */
+fmRadio.isOn();
 
-/* In the Collison between 2 values ❌ that has the same name: 
-The object that comes eariler in order will print on and overwrite result value.
-for example in the platypus example the feet value will be (orange) because
- duck comes before otter in precedence on playtpus object
- */
+console.log(fmRadio);
 
-// const platypus = Object.assign(duck, beaver, otter);
-
-// console.log(platypus);
-
+fmRadio.turnOn();
+console.log(fmRadio);
 /* ⬆️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 console.log(
@@ -88,8 +127,8 @@ console.log(
 );
 console.log(
   `
-
-      `
+  
+    `
 );
 
 console.log(
@@ -97,34 +136,29 @@ console.log(
 );
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 /* ⬇️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬇️ */
-
-const duck = {
-  hasBill: true,
-};
-
-const beaver = {
-  hasTail: true,
-};
-
-const otter = {
-  hasFur: true,
-  feet: "webbed",
-};
-
+// Functional Mixins :
 /* 
-1- If we type like this in:
-  Object.assign(duck, beaver, otter)
- The (duck object) will be modified and it will take all the contents of 
- The other Objects (beaver , otter) and store it inside the duck object. 
-2- While if we type like this: 
-  Object.assign({}, duck , beaver, otter) this will create a new object
-   and make the duck object unchange.
-
+A functional mixin is a composable factory function that 
+receives a _mixin_as an argument, copies properties and methods from 
+that mixin, and returns a new object. Check out the following example
 */
 
-const playtpus = Object.assign({}, duck, beaver, otter);
+function CoffeeMaker(object) {
+  let needsRefill = false;
 
-console.log(playtpus);
+  return Object.assign({}, object, {
+    pourAll: function () {
+      needsRefill = true;
+    },
+    isEmpty: function () {
+      return needsRefill;
+    },
+  });
+}
+
+const mixedCoffeeMaker = CoffeeMaker({ style: "percolator" });
+
+console.log(mixedCoffeeMaker);
 
 /* ⬆️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
