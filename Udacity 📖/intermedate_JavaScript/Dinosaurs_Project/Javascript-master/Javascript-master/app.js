@@ -1,14 +1,34 @@
 
     // Create Dino Constructor
+class Dino{ 
+    constructor(species, weight, height, diet,where, when,fact){
+        this.species = species,
+        this.weight = weight, 
+        this.height = height,
+        this.diet = diet,
+        this.where = where,
+        this.when = when,
+        this.fact = fact
+    }
 
+}
 
     // Create Dino Objects
+    let Dino = {
+
+    }
 
 
     // Create Human Object
+    let Human = {
+        name:   , 
+        age:   , 
+    }
 
     // Use IIFE to get human data from form
+(function(){
 
+})();
 
     // Create Dino Compare Method 1
     // NOTE: Weight in JSON file is in lbs, height in inches. 
@@ -30,3 +50,9 @@
 
 
 // On button click, prepare and display infographic
+let button = document.getElementById('btn');
+
+button.addEventListener('click' , function() {
+
+})
+
