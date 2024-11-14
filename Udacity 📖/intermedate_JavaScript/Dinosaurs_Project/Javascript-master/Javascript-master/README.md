@@ -25,7 +25,7 @@ We have supplied some of the foundational code for you. So follow these steps to
 
 4. Create at least 3 methods that compare dino data to human data. Depending on how you decided to create your objects and what design pattern you chose, you may encounter issues accessing or working with some of the data. Do you need to create any functions to access/store this data?
 
-5. Generate tiles and append to the DOM. Each Dino title must include at least the species, an image and a fact. The dino fact displayed should be chosen at random from at least 6 options (including your 3 methods). The Human tile must include the user’s name, and the human graphic--no fact is needed. The bird tile should include the species, image, and fact, “All birds are considered dinosaurs.”
+5. Generate tiles and append to the DOM. Each Dino title must include at least (the species, an image and a fact). The dino fact displayed should be chosen at random from at least 6 options (including your 3 methods). The Human tile must include the user’s name, and the human graphic--no fact is needed. The bird tile should include (the species, image, and fact), “All birds are considered dinosaurs.”
 
 6. Make certain the grid is not being added until you click the button to submit user data. Additionally, remove the form once the user has clicked to generate the infographic. It is a good idea to remove any calls to console.log at this point. 
 
@@ -39,7 +39,7 @@ To complete this project, your UI must show the following:
 
 - [ ] The form should contain a button which upon clicking, removes the form
 - [ ] The button should append a grid with 9 tiles to the DOM with the Human located in the center
-- [ ] The Human tile should display the name of the person and an image, the dino tiles should contain the species, an image and a fact, the bird title should contain the species, image, and "All birds are Dinosaurs."
+- [ ] The Human tile should display the name of the person and an image, the dino tiles should contain (the species, an image and a fact), the bird title should contain (the species, image, and "All birds are Dinosaurs)."
 
 
 To complete this project, your backend code must:
