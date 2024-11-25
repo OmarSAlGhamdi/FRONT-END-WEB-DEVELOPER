@@ -1,9 +1,9 @@
-console.log("⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️");
+console.log("⬇️  ---------------------✅ 1 First Example Start 1 ✅--------------------- ⬇️");
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
-/* Subclasses
+/* Subclasses : 
 One of the benefits of implementing inheritance is that it allows you to 
-reuse existing code. By establishing inheritance, we can subclass, that is, have 
+reuse existing code 🔁. By establishing inheritance, we can subclass, that is, have 
 a "child" object take on most or all of a "parent" object's properties while
 retaining unique properties of its own.
  */
@@ -36,7 +36,7 @@ console.log(snowball.__proto__ === bear);
 
 /* ⬆️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log("⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️");
+console.log("⬆️  ---------------------❌ 1 First Example Finish 1 ❌--------------------- ⬆️");
 console.log(
 `
 `

@@ -1,5 +1,5 @@
 console.log(
-  "⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️"
+  "⬇️  ---------------------✅ 1 First Example Start 1 ✅--------------------- ⬇️"
 );
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
@@ -49,7 +49,7 @@ console.log(`Bailey lives is: ${bailey.lives}`);
 /* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 console.log(
-  "⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️"
+  "⬆️  ---------------------❌ 1 First Example Finish 1 ❌--------------------- ⬆️"
 );
 console.log(
   `
