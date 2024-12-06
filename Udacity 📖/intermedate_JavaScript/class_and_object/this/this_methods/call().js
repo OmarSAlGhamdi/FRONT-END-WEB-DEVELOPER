@@ -1,11 +1,13 @@
-
 console.log(
-  "⬇️  ---------------------✅ 1 First Example Start 1 ✅--------------------- ⬇️"
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ */
 
-/* 1 First Way to use call() 1 */
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
+/* ⬇️ ---------- 1 First Way to use call() method 1 ----------  ⬇️*/
 const mockingBird = {
   title: "To kill a mockingBird",
   describe: function () {
@@ -20,9 +22,9 @@ const pride = {
 };
 
 mockingBird.describe.call(pride);
-/* ---------- 1 First Way to use call() 1 ---------- */
+/* ⬆️ ----------  1️⃣ First Way to use call() method 1️⃣  ---------- ⬆️ */
 
-/* ---------- 2 Second Way to use call() 2 ---------- */
+/* ⬇️ ----------  2️⃣ Second Way to use call() method 2️⃣  ---------- ⬇️ */
 const andrew = {
   name: "Andrew",
 };
@@ -34,29 +36,24 @@ function introduce(language) {
 }
 
 introduce.call(andrew, "JavaScript");
-/* ---------- 2 Second Way to use call() 2 ---------- */
-
-/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ 1 First Example Finish 1 ❌--------------------- ⬆️"
-);
+/* ---------- 2️⃣ Second Way to use call() method 2️⃣ ---------- */
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
 console.log(
   `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
 
-`
+
+    `
 );
-
-
-
 
 console.log(
-  "⬇️  ---------------------✅ 🛠️💡 My Experiment Example Start 💡🛠️ ✅--------------------- ⬇️"
+  "⬇️  --------------✅ 🛠️💡 My Experiment Example Start 💡🛠️ ✅-------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 🛠️💡 My Experiment Example 💡🛠️ ----------------------- ⬇️ */
-// ⬇️ -----------------------  : تجربتي في تطبيق الدرس  ----------------------- ⬇️
-
+/* ⬇️ ---------- 🛠️💡 My Experiment Example 💡🛠️ ---------- ⬇️ */
 const family = {
   position: "Bandar is the first Position",
   described: function () {
@@ -71,17 +68,13 @@ const family2 = {
 };
 
 family.described.call(family2); // لازم نكتب اسم الاوبجكت الجديد
-
-// ⬆️ -----------------------   تجربتي في تطبيق الدرس   ----------------------- ⬆️
-
-/* ⬆️ ----------------------- 🛠️💡 My Experiment Example 💡🛠️ ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ 🛠️💡 My Experiment Example Finish 💡🛠️ ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 🛠️💡 My Experiment Example 💡🛠️ ---------- ⬆️ */
 console.log(
   `
-  
+` +
+    "⬆️  --------------❌ 🛠️💡 My Experiment Example Finish 💡🛠️ ❌-------------- ⬆️" +
+    `
+
+
     `
 );
-

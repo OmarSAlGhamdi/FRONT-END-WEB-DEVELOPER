@@ -6,10 +6,10 @@ Using this method, you can confirm if a particular object serves
 as the prototype of another object. Check out the following rodent object:
 */
 
-/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ : */
 console.log(
-  "⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️"
+  "⬇️  ---------------------✅ 1 First Example Start 1 ✅--------------------- ⬇️"
 );
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ : */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
 const rodent = {
@@ -31,20 +31,20 @@ const result = rodent.isPrototypeOf(ralph);
 
 console.log(result);
 
-/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 console.log(
-  "⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️"
+  "⬆️  ---------------------❌ 1 First Example Finish 1 ❌--------------------- ⬆️"
 );
 console.log(
   `
 `
 );
 
-/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ : */
 console.log(
-  "⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️"
+  "⬇️  ---------------------✅ 2 Second Example Start 2 ✅--------------------- ⬇️"
 );
+/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ : */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
 
@@ -67,10 +67,10 @@ console.log(output);
 
 
 
-/* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
+/* ⬆️ ---------- 2 Second Example On Udacity 2 ---------- ⬆️ */
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 console.log(
-  "⬆️  ---------------------❌ Second Example Finish ❌--------------------- ⬆️"
+  "⬆️  ---------------------❌ 2 Second Example Finish 2 ❌--------------------- ⬆️"
 );
 console.log(
   `

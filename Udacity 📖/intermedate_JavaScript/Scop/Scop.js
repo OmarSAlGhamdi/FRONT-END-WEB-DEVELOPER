@@ -1,3 +1,13 @@
+console.log(
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
+);
+
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
+
 /* 
 Scope : is the Range of variable or function
 --  Scope types : 
@@ -37,3 +47,14 @@ function introductMyself() {
 }
 
 introductMyself();
+
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
+console.log(
+  `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
+);

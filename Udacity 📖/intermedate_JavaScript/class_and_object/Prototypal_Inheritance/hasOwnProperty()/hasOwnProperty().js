@@ -1,7 +1,12 @@
-console.log("⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️");
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+console.log(
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
+);
 
-/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ : */
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
 
 // Orginial Function
 function Phone() {
@@ -22,7 +27,6 @@ function Phone() {
 
 //and it will not include in the Phone function or any other new object from it
 
-
 // Create New Object From Phone Function :
 const myPhone = new Phone();
 // Create myPhone object which is new object from Phone function
@@ -41,12 +45,13 @@ console.log(`The condition of (inherited) object is ${inherit}`); //❌
 console.log(`The condition of (grandy) object is ${newGrand}`); //✅
 console.log(`The condition of (newObject) object is ${newObject} `);
 
-/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
-
-/* ⬆️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log("⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️");
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
 console.log(
-`
-`
+  `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
 );

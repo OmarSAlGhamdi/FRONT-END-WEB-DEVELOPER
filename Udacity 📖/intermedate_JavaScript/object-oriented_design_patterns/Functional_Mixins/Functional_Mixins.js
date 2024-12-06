@@ -1,7 +1,12 @@
 console.log(
-  "⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️"
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
 
 // (Constructor Functions) using new operator ⬇️ :
 
@@ -30,23 +35,24 @@ Riyadh.identify();
 const MountainView = new City("Mountain View", 78000);
 MountainView.identify();
 
-/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
 console.log(
   `
-  
-  `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 2 Second Example Start 2 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ */
 
+/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ */
 /* Factory Function Syntax: 
 
 function exampleName(parameter){
@@ -76,23 +82,24 @@ console.log(yourBB);
 
 const bouncy = Basketball("neon pink", 6000);
 console.log(bouncy);
-
-/* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Second Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 2 Second Example On Udacity 2 ---------- ⬆️ */
 console.log(
   `
+` +
+    "⬆️  -------------❌ 2 Second Example Start 2 ❌------------- ⬆️" +
+    `
+
 
     `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Third Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 3 Third Example Finish 3 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬇️ */
+
+/* ⬇️ ---------- 3 Third Example On Udacity 3 ---------- ⬇️ */
 
 function Radio(mode) {
   let on = false;
@@ -121,22 +128,25 @@ console.log(fmRadio);
 
 fmRadio.turnOn();
 console.log(fmRadio);
-/* ⬆️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Third Example Finish ❌--------------------- ⬆️"
-);
+
+/* ⬆️ ---------- 3 Third Example On Udacity 3 ---------- ⬆️ */
 console.log(
   `
-  
+` +
+    "⬆️  -------------❌ 3 Third Example Finish 3 ❌------------- ⬆️" +
+    `
+
+
     `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Fourth Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 4 Fourth Example Finish 4 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬇️ */
+
+/* ⬇️ ---------- 4 Fourth Example On Udacity 4 ---------- ⬇️ */
 // Functional Mixins :
 /* 
 A functional mixin is a composable factory function that 
@@ -160,24 +170,24 @@ function CoffeeMaker(object) {
 const mixedCoffeeMaker = CoffeeMaker({ style: "percolator" });
 
 console.log(mixedCoffeeMaker);
-
-/* ⬆️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Fourth Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 4 Fourth Example On Udacity 4 ---------- ⬆️ */
 console.log(
   `
-  
+` +
+    "⬆️  -------------❌ 4 Fourth Example Finish 4 ❌------------- ⬆️" +
+    `
+
+
     `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Fifth Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 5 Fifth Example Finish 5 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 5 Fifth Example On Udacity 5 ----------------------- ⬇️ */
 
+/* ⬇️ ---------- 5 Fifth Example On Udacity 5 ---------- ⬇️ */
 // First Fucntion :
 function IceCreamFactory(obj) {
   let isCold = true;
@@ -209,15 +219,13 @@ function coneFactory(obj) {
 let iceCreamCone = IceCreamFactory(coneFactory({}));
 
 console.log(iceCreamCone);
-
-
-/* ⬆️ ----------------------- 5 Fifth Example On Udacity 5 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Fifth Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 5 Fifth Example On Udacity 5 ---------- ⬆️ */
 console.log(
   `
-  
+` +
+    "⬆️  -------------❌ 5 Fifth Example Finish 5 ❌------------- ⬆️" +
+    `
+
+
     `
 );

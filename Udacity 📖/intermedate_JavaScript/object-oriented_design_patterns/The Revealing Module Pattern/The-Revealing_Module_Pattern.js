@@ -1,8 +1,12 @@
 console.log(
-  "⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️"
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
 let person = (function () {
   let privateAge = 0;
   let privateName = "Andrew";
@@ -35,18 +39,17 @@ person.age();
 person.name();
 
 // This will not works becasue it's on the private block ❌
-// person.displayName();
+person.displayName();
 
 // This will not works becasue it's on the private block ❌
-// person.ageOneYear();
+person.ageOneYear();
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
+console.log(
+  `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
 
-/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️"
-);
-console.log(
-  `
-  
-  `
+
+    `
 );
