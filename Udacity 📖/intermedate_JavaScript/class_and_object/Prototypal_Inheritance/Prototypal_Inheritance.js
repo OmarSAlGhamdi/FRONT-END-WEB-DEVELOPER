@@ -1,8 +1,42 @@
-console.log("⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️");
+console.log(
+  "⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️"
+);
 console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
-
 /*  ⬇️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬇️ : */
+
+/* ⬆️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬆️ */
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+console.log(
+  "⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️"
+);
+console.log(
+  `
+`
+);
+
+console.log(
+  "⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️"
+);
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ */
+
+/* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
+console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+console.log(
+  "⬆️  ---------------------❌ Second Example Finish ❌--------------------- ⬆️"
+);
+
+console.log(
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
+);
+
+/* ⬇️ ---------- 1 First Example On Udacity GPT 1 ---------- ⬇️ */
+
 // * The Dog function is a constructor.
 
 function Dog(name) {
@@ -27,19 +61,24 @@ but it can also use the bark method defined on the Dog.prototype. */
 console.log(myDogy.name); // Outputs: Buddy
 myDogy.bark(); // Outputs: Buddy says woof!
 
-/* ⬆️ ----------------------- 1 First Example On Udacity GPT 1 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log("⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️");
+/* ⬆️ ---------- 1 First Example On Udacity GPT 1 ---------- ⬆️ */
 console.log(
-`
-`
+  `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
 );
 
+console.log(
+  "⬇️  -------------✅ 2 Second Example Start 2 ✅------------- ⬇️" +
+    `
+  `
+);
 
-
-console.log("⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️");
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ */
+/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ */
 
 function Dog(name, age, weight) {
   this.name = name;
@@ -57,8 +96,13 @@ const myDog = new Dog("Haskey", 20, 100);
 
 myDog.bark();
 
-/* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log("⬆️  ---------------------❌ Second Example Finish ❌--------------------- ⬆️");
+/* ⬆️ ---------- 2 Second Example On Udacity 2 ---------- ⬆️ */
+console.log(
+  `
+` +
+    "⬆️  -------------❌ 2 Second Example Start 2 ❌------------- ⬆️" +
+    `
 
 
+    `
+);

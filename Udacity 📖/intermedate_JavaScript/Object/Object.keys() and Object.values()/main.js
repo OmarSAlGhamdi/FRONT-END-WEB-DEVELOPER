@@ -1,3 +1,13 @@
+console.log(
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
+);
+
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
+
 const iceCreamTotals = {
   Veronica: 600,
   Andrew: 711,
@@ -18,3 +28,13 @@ for (const name in iceCreamTotals) {
 
 console.log(result);
 
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
+console.log(
+  `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
+);

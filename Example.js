@@ -1,7 +1,4 @@
-/* console.log(
-  `
-` + "New Version"
-); */
+// "New Version"
 
 console.log(
   `
@@ -122,22 +119,42 @@ console.log(
 // new version of experiment :
 
 console.log(
-  "⬇️  --------------✅ 🛠️💡 My Experiment Example Start 💡🛠️ ✅-------------- ⬇️" +
+  "⬇️  --------------✅ 🛠️💡🧪 1 First Experiment Example Start 🧪💡🛠️ ✅-------------- ⬇️" +
     `
   `
 );
-/* ⬇️ ---------- 🛠️💡 My Experiment Example 💡🛠️ ---------- ⬇️ */
+/* ⬇️ ---------- 🛠️💡🧪 1 First Experiment Example 🧪💡🛠️ ---------- ⬇️ */
 
-/* ⬆️ ---------- 🛠️💡 My Experiment Example 💡🛠️ ---------- ⬆️ */
+/* ⬆️ ---------- 🛠️💡🧪 1 First Experiment Example 🧪💡🛠️ ---------- ⬆️ */
 console.log(
   `
 ` +
-    "⬆️  --------------❌ 🛠️💡 My Experiment Example Finish 💡🛠️ ❌-------------- ⬆️" +
+    "⬆️  --------------❌ 🛠️💡🧪 1 First Experiment Example Finish 🧪💡🛠️ ❌-------------- ⬆️" +
     `
 
 
     `
 );
+
+console.log(
+  "⬇️  --------------✅ 🛠️💡🧪 2 Second Experiment Example Start 🧪💡🛠️ ✅-------------- ⬇️" +
+    `
+  `
+);
+/* ⬇️ ---------- 🛠️💡🧪 2 Second Experiment Example 🧪💡🛠️ ---------- ⬇️ */
+
+/* ⬆️ ---------- 🛠️💡🧪 2 Second Experiment Example 🧪💡🛠️ ---------- ⬆️ */
+console.log(
+  `
+` +
+    "⬆️  --------------❌ 🛠️💡🧪 2 Second Experiment Example Finish 🧪💡🛠️ ❌-------------- ⬆️" +
+    `
+
+
+    `
+);
+
+/* --------------------------------------------------------------- */
 
 // console.log(
 //   "old Version" +
