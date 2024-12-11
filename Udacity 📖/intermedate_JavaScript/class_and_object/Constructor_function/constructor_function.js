@@ -1,10 +1,12 @@
 console.log(
-  "⬇️  ---------------------✅ First Example Start ✅--------------------- ⬇️"
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ */
 
-// ⬇️ ---------- First Example Video On Udacity : ---------- ⬇️
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
 
 function SoftwareDeveloper() {
   this.favoritLangauge = "JavaScript";
@@ -14,26 +16,24 @@ let developer = new SoftwareDeveloper();
 
 developer();
 
-// ⬆️ ---------- First Example Video On Udacity ---------- ⬆️
-
-/* ⬆️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ First Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
 console.log(
   `
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
 
-`
+
+    `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Second Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 2 Second Example Start 2 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ */
 
-/* ⬇️ ---------- Second Example Video On Udacity : ---------- ⬇️  */
+/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ */
 
 function Hero(name, role) {
   // 1- We use (this.name) and (this.role) to make instance for each new object
@@ -66,26 +66,24 @@ omar.introduce();
 console.log(omar.name);
 console.log(omar.role);
 
-/* ⬆️ ---------- Second Example Video On Udacity  ----------  ⬆️ */
-
-/* ⬆️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Second Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 2 Second Example On Udacity 2 ---------- ⬆️ */
 console.log(
   `
+` +
+    "⬆️  -------------❌ 2 Second Example Start 2 ❌------------- ⬆️" +
+    `
+
 
     `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Third Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 3 Third Example Finish 3 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬇️ */
 
-// ⬇️ ----------  : تجربتي في تطبيق الدرس  ---------- ⬇️
+/* ⬇️ ---------- 3 Third Example On Udacity 3 ---------- ⬇️ */
 
 function family(name, age, education) {
   this.name = name;
@@ -110,24 +108,24 @@ Ahmed.ShowInformation();
 Bndr.ShowInformation();
 Meshari.ShowInformation();
 
-// ⬆️ ----------   تجربتي في تطبيق الدرس   ---------- ⬆️
-
-/* ⬆️ ----------------------- 3 Third Example On Udacity 3 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Third Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 3 Third Example On Udacity 3 ---------- ⬆️ */
 console.log(
   `
-  
+` +
+    "⬆️  -------------❌ 3 Third Example Finish 3 ❌------------- ⬆️" +
+    `
+
+
     `
 );
 
 console.log(
-  "⬇️  ---------------------✅ Fourth Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 4 Fourth Example Finish 4 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-/* ⬇️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬇️ */
+
+/* ⬇️ ---------- 4 Fourth Example On Udacity 4 ---------- ⬇️ */
 
 // ⬇️ ----------  Check if an object was created : ---------- ⬇️
 
@@ -142,17 +140,18 @@ console.log(typeof dev); // the result is true ✅
 
 /* ⬇️ (=)Check if the dev is instance of Developer or not ⬇️ */
 console.log(dev instanceof Developer);
-// ⬆️ We don't type parenthese() for the developer above because we only reference to it ⬆️
+// ⬆️ We don't type parenthese() for the developer above 
+//    because we only reference to it ⬆️
 
 // ⬆️ ----------  Check if an object was created ---------- ⬆️
 
-/* ⬆️ ----------------------- 4 Fourth Example On Udacity 4 ----------------------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ Fourth Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 4 Fourth Example On Udacity 4 ---------- ⬆️ */
 console.log(
   `
-  
+` +
+    "⬆️  -------------❌ 4 Fourth Example Finish 4 ❌------------- ⬆️" +
+    `
+
+
     `
 );

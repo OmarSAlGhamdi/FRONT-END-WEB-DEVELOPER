@@ -7,10 +7,14 @@ as the prototype of another object. Check out the following rodent object:
 */
 
 console.log(
-  "⬇️  ---------------------✅ 1 First Example Start 1 ✅--------------------- ⬇️"
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
 );
-/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ : */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
 
 const rodent = {
   favoriteFood: "cheese",
@@ -32,21 +36,23 @@ const result = rodent.isPrototypeOf(ralph);
 console.log(result);
 
 /* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ 1 First Example Finish 1 ❌--------------------- ⬆️"
-);
 console.log(
   `
-`
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
 );
 
 console.log(
-  "⬇️  ---------------------✅ 2 Second Example Start 2 ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 2 Second Example Start 2 ✅------------- ⬇️" +
+    `
+  `
 );
-/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ : */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
 
+/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ */
 
 const oldfamily = {
   big_family: true,
@@ -65,14 +71,14 @@ const output = oldfamily.isPrototypeOf(Omar);
 
 console.log(output);
 
-
-
 /* ⬆️ ---------- 2 Second Example On Udacity 2 ---------- ⬆️ */
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ 2 Second Example Finish 2 ❌--------------------- ⬆️"
-);
 console.log(
   `
-`
+` +
+    "⬆️  -------------❌ 2 Second Example Start 2 ❌------------- ⬆️" +
+    `
+
+
+    `
 );
+

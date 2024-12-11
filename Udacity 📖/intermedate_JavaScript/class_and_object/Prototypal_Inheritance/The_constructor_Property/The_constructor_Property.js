@@ -1,8 +1,12 @@
-/* ⬇️ ----------------------- 1 First Example On Udacity 1 ----------------------- ⬇️ : */
 console.log(
-  "⬇️  ---------------------✅ 1 Example Start ✅--------------------- ⬇️"
+  `
+` +
+    "⬇️  -------------✅ 1 First Example Start 1 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
+/* ⬇️ ---------- 1 First Example On Udacity 1 ---------- ⬇️ */
 
 /*  The  - constructor -  Property
 
@@ -26,44 +30,42 @@ console.log(board.constructor);
     this.material = "bamboo";
   } */
 
-
-
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ 1 Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 1 First Example On Udacity 1 ---------- ⬆️ */
 console.log(
   `
-`
+` +
+    "⬆️  -------------❌ 1 First Example Finish 1 ❌------------- ⬆️" +
+    `
+
+
+    `
 );
 
-
-
-
-
-/* ⬇️ ----------------------- 2 Second Example On Udacity 2 ----------------------- ⬇️ : */
 console.log(
-  "⬇️  ---------------------✅ 2 Example Start ✅--------------------- ⬇️"
+  "⬇️  -------------✅ 2 Second Example Start 2 ✅------------- ⬇️" +
+    `
+  `
 );
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
+
+/* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ */
 
 const rodent = {
   favoriteFood: "cheese",
   hasTail: true,
 };
 
-
 console.log(rodent.constructor);
 
 //The broswer result is :
 //ƒ Object() { [native code] }
 
-
-console.log(``); // عشان يكون في مسافة قبل كلمة المثال
-console.log(
-  "⬆️  ---------------------❌ 2 Example Finish ❌--------------------- ⬆️"
-);
+/* ⬆️ ---------- 2 Second Example On Udacity 2 ---------- ⬆️ */
 console.log(
   `
+` +
+    "⬆️  -------------❌ 2 Second Example Start 2 ❌------------- ⬆️" +
+    `
+
+
     `
 );
