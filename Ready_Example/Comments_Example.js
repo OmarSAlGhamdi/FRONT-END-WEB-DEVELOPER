@@ -25,7 +25,7 @@ console.log(
   "⬇️  -------------✅ 2 Second Example Start 2 ✅------------- ⬇️" +
     `
   `
-);
+);    
 
 /* ⬇️ ---------- 2 Second Example On Udacity 2 ---------- ⬇️ */
 
@@ -119,7 +119,7 @@ console.log(
 // new version of experiment :
 
 console.log(
-  "⬇️  --------------✅ 🛠️💡🧪 1 First Experiment Example Start 🧪💡🛠️ ✅-------------- ⬇️" +
+  "⬇️  -----------✅ 🛠️💡🧪 1 First Experiment Example Start 🧪💡🛠️ ✅----------- ⬇️" +
     `
   `
 );
@@ -129,7 +129,7 @@ console.log(
 console.log(
   `
 ` +
-    "⬆️  --------------❌ 🛠️💡🧪 1 First Experiment Example Finish 🧪💡🛠️ ❌-------------- ⬆️" +
+    "⬆️  -----------❌ 🛠️💡🧪 1 First Experiment Example Finish 🧪💡🛠️ ❌----------- ⬆️" +
     `
 
 
@@ -137,7 +137,7 @@ console.log(
 );
 
 console.log(
-  "⬇️  --------------✅ 🛠️💡🧪 2 Second Experiment Example Start 🧪💡🛠️ ✅-------------- ⬇️" +
+  "⬇️  -----------✅ 🛠️💡🧪 2 Second Experiment Example Start 🧪💡🛠️ ✅----------- ⬇️" +
     `
   `
 );
@@ -147,7 +147,7 @@ console.log(
 console.log(
   `
 ` +
-    "⬆️  --------------❌ 🛠️💡🧪 2 Second Experiment Example Finish 🧪💡🛠️ ❌-------------- ⬆️" +
+    "⬆️  -----------❌ 🛠️💡🧪 2 Second Experiment Example Finish 🧪💡🛠️ ❌----------- ⬆️" +
     `
 
 
