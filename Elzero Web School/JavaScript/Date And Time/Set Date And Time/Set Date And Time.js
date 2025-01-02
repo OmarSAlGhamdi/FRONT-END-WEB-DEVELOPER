@@ -11,3 +11,49 @@
 
 
 
+let dateNow = new Date();
+
+// Date Now
+/* console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+// Change the date to zero 1970
+/* dateNow.setTime(0);
+console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+// setTime
+/* dateNow.setTime(10000);
+console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+
+// setFullYear
+/* dateNow.setFullYear(2020);
+console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+// setMonth
+dateNow.setMonth(15);
+console.log(dateNow);
+console.log('#' .repeat(66));
+
+// setHours
+/* dateNow.setHours(10);
+console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+// setMinutes
+/* dateNow.setMinutes(5);
+console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+// setSeconds
+/* dateNow.setSeconds(37);
+console.log(dateNow);
+console.log('#' .repeat(66)); */
+
+
+
+
+

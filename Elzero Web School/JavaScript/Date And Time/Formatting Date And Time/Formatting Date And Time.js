@@ -18,3 +18,32 @@
 
   Date.parse("String") // Read Date From A String
 */
+
+console.log(Date.parse("Jun 8 1994"));
+
+let date1 = new Date(0);
+console.log(date1);
+
+let date2 = new Date(771022800000);
+console.log(date2);
+
+let date3 = new Date("06/08/1994");
+console.log(date3);
+
+let date4 = new Date("06-08-1994");
+console.log(date4);
+
+let date5 = new Date("1994-6");
+console.log(date5);
+
+let date6 = new Date("94");
+console.log(date6);
+
+let date7 = new Date(1994, 5, 8, 2, 10, 0);
+console.log(date7);
+
+let date8 = new Date(1994, 5, 8);
+console.log(date8);
+
+let date9 = new Date("1994-06-08T06:10:00Z");
+console.log(date9);
