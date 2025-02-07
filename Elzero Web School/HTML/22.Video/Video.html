@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>Book Store</h1>
+    <p>This Is My <b>Book Store</b>, Welcome</p>
+
+    <!-- Extention Of the video called MIME like this : 
+          1-(.mp4)  => video/mp4
+          2-(.mpeg) => video/mpeg
+          3-(.webm) => video/webm
+
+         -->
+
+    <!--
+         
+         Different attributes : 
+    (controlers) : start/stop/forward/backward..etc
+    (loop): will make the video loop infinitly
+    (muted): will muted the video 
+    (autoplay) : will play the video directly.
+    (poster): The image that is appeared till the video
+    is loading or playing.
+    -->
+
+    <p>First Video</p>
+    <video
+      controls
+      autoplay
+      muted
+      loop
+      width="600"
+      height="400"
+      poster="../12.Image And Deal With Paths/_backend.png"
+    >
+      <source
+        src="./ماجد خضير - ريح المطر (حصرياً) _ 2019.m4a"
+        type="video/mp4"
+      />
+      <source
+        src="./ماجد خضير - ريح المطر (حصرياً) _ 2019.mpeg"
+        type="video/mpeg"
+      />
+      <source
+        src="./ماجد خضير - ريح المطر (حصرياً) _ 2019..ogv"
+        type="video/ogg"
+      />
+      Your Broswer Doesn't Support Video Tag
+      <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English"></track>
+      <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="Italian"></track>
+    </video>
+
+    <!-- 
+    For Disability people(deaf/blind/)
+    -->
+
+    <!-- Test Video From YouTube 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qfPUMV9J5yw?si=GVsk_9jqsiQgOkna" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    -->
+  </body>
 </html>

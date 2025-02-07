@@ -6,6 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <h1>Book Store</h1>
+    <p>This Is My <b>Book Store</b>, Welcome</p>
+
+    <!-- 
+    You have to tpye different type of extention
+    to make sure the customer browswer will play it 
+    otherwise it won't work
+    -->
+
+
+    <!-- Extention Of the audio called MIME like this :
+   (.mp3) => audio/mpeg
+   (.aac) => audio/aac
+   (.oga) => audio/ogg
+    --> 
+
+    <!-- 
+    Different attributes : 
+    (controlers) : start/stop/forward/backward..etc
+    (loop): will make the audio loop infinitly
+    (muted): will muted the audio
+       
+       --> 
+<audio controls autoplay loop muted>
+    <source src="./Birds And Melody.mp3" type="audio/mpeg"> <!-- This file Exist ✅ --> 
+    <source src="./Birds And Melody.aac" type="audio/aac"> <!-- This is for Example ❌ -->
+    <source src="./Birds And Melody.oga" type="audio/ogg"> <!-- This is for Example ❌ -->
+    Your Browser Doesn't Support Audio Tags
+</audio>
 </body>
 </html>
