@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This is My Book Store, Welcome</p>
+    </div>
+
+    <!-- Form Tag : 
+    We use(Form) => to put differents (input)s inside it -->
+    <form action="" method="post">
+      <div>
+        <!-- (label) => to make the input field clear for the user or 
+             what is indicate to and it will appear before or after the field -->
+        <label for="">Username</label>
+        <!-- (palceholder) attribute => where you type a hint for the user to 
+         input the correct text and it will appear inside the input field -->
+        <input type="text" placeholder="Username" required name="User" />
+      </div>
+      <!-- ⚠ (require) attribute => is to make the field mandatory ⚠ -->
+
+      <br />
+      <!--break the line(new line 🆕↩)-->
+
+      <!-- (for)used => to link with (input's id) -->
+      <div>
+        <label for="">Subject</label>
+        <input type="text" placeholder="Subject" name="Subject" />
+      </div>
+
+      <br />
+
+      <!-- (Password) Type => is for Password field hidden input items(⚫⚫⚫⚫⚫⚫).  -->
+      <div>
+        <label for="">Password</label>
+        <input
+          type="Password"
+          placeholder="write a complex password"
+          required
+          name="Pass"
+        />
+      </div>
+
+      <br />
+
+      <!-- (Email) type is for Email field (xxxx@xxx.com)-->
+      <div>
+        <label for="">Email </label>
+        <input type="email" placeholder="Email" required name="Pass" />
+      </div>
+
+      <!----------------- Range type ----------------->
+
+      <div>
+        <!-- 
+        (Range) type is the level or indicator you move such as 
+         satistfied level 😊 on survey ⁉ (---⚪---) 
+         1-min => where it will start from (for example : 0)
+         2-max => where it wil end (from example : 100)
+         3-step => each step you move the crusor to (for example 10) it will 
+         move the circle 10 steps each time.
+         4-value => is the default value when the page is open or refresh
+         5-name => when you want to link other items or with ID
+         -->
+        <label>Range </label>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          step="20"
+          value="20"
+          name="range"
+        />
+      </div>
+
+      <!----------------- Range type ----------------->
+
+      <!--  (color) type input to choose color -->
+      <input type="color" name="Color" id="" />
+
+      <hr />
+      <!--horizontal line ----------------------    -->>
+
+      <!----------------- radio type ----------------->
+
+      <!-- (name) attribute to prevent🚫 to choose more than one option -->
+      <div>
+        <input type="radio" name="os" id="windows" value="Windows" checked />
+        <label for="windows">Windows</label>
+      </div>
+
+      <!-- (Radio) type is when you want to choose one opition from many like
+         age range  =>
+         ⏺(20 - 30)
+         ⭕(40 - 50)  
+         ⭕(60 - 70)
+          -->
+      <div>
+        <input type="radio" name="os" id="mac" value="Mac" />
+        <label for="mac">Mac</label>
+      </div>
+
+      <div>
+        <input type="radio" name="os" id="linux" value="Linux" />
+        <label for="linux">Linux</label>
+      </div>
+
+      <!----------------- radio type ----------------->
+
+      <!----------------- Checkbox type ----------------->
+      <hr />
+      <!-- Checkbox type is for check more than one opitions :
+      ✅ Windows
+      ✅ Linux
+          Mac
+
+          (checked) attribute => to make the opition that are checked all the time no 
+          matter if you open it ▶ or refresh the page 🔄 
+      -->
+      <div>
+        <input
+          type="checkbox"
+          name="os"
+          id="windows1"
+          value="Windows"
+          checked
+        />
+        <label for="windows1">Windows</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="os" id="mac1" value="Mac" />
+        <label for="mac1">Mac</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="os" id="linux1" value="Linux" />
+        <label for="linux1">Linux</label>
+      </div>
+
+      <!----------------- Checkbox type ----------------->
+
+      <br />
+      <!-- Reset type => rest Everything To Orgninal Value -->
+      <input type="reset" />
+
+      <!-- Submit Button => will submit the forms to data -->
+      <input type="submit" value="save" />
+    </form>
+
+    <!-- 💡🧪 My Experince 💡🧪 -->
+    <!--  
+    <form action="">
+        <input type="email" name="" id="">
+        <input type="date" name="" id="">
+        <input type="password" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="text" name="" id="">
+    </form>
+    -->
+  </body>
+</html>
