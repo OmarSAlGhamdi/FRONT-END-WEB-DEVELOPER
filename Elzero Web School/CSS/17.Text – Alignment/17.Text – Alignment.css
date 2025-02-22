@@ -1,0 +1,14 @@
+
+
+div {
+    font-size: 2.8rem;
+}
+
+
+.arabic {
+    direction: rtl;
+}
+
+.english {
+    color: red;
+}

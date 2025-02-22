@@ -1,0 +1,37 @@
+div {
+  background-color: #ede8e8;
+  /* font-size: 1rem; */
+  width: 300px;
+  /* letter-spacing => 
+    Determine the space between ↔ the letters */
+  /* letter-spacing: 5px; */
+
+  /* text-indent => 
+    is the space before the ➡ text  */
+  /* text-indent: 50px; */
+
+  /* line-height =>
+    Determine the space ↕ between the lines.
+    1.6 means 160% 
+    */
+  /* line-height: 1.6; */
+
+  /* word-spacing =>
+    Determine the space between <==> the words 
+    */
+  /* word-spacing: 1.5rem; */
+
+  /* white-space =>
+    Determine where the word will be cut it 
+    and go down if it reach to the max width
+    * Their type is : (normal , nowrap) */
+  /* white-space: nowrap; */
+
+  /* Word break =>
+    Make the word goes down like (white-space) 
+    attribute 
+     Their Type is :
+     1- (break-all) => will break any word immediately -
+     2- (break-word) => will break the whole word            */
+  word-break: break-word;
+}

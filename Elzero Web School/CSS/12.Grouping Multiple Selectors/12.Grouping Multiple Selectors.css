@@ -1,0 +1,36 @@
+.one {
+  border-bottom: 3px solid red;
+  color: red;
+}
+.two {
+  border-bottom: 3px solid green;
+  color: green;
+}
+.three {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+.four {
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+p {
+  color: red;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  border-radius: 15px 15px;
+}
+
+/* We Can group all classes
+ into one like this: */
+
+.one,
+.two,
+.three,
+.four,
+p {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #eee;
+}

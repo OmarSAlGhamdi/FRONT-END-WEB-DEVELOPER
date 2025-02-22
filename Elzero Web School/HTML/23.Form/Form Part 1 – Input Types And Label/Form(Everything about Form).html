@@ -11,16 +11,48 @@
       <p>This is My Book Store, Welcome</p>
     </div>
 
-    <!-- Form Tag : 
-    We use(Form) => to put differents (input)s inside it -->
-    <form action="" method="post">
+    <!-- 
+we will explain these terms:
+text
+password
+email
+range
+color
+hr
+option and optgroup
+radio 
+checkbox
+textarea
+reset
+submit
+button
+br    
+time 
+date 
+month
+year
+url
+
+-->
+
+    <!--
+    Form Tag : 
+    We use(Form) => to put differents (input)s type inside it
+     -->
+    <form action="" method="get">
       <div>
         <!-- (label) => to make the input field clear for the user or 
              what is indicate to and it will appear before or after the field -->
         <label for="">Username</label>
         <!-- (palceholder) attribute => where you type a hint for the user to 
          input the correct text and it will appear inside the input field -->
-        <input type="text" placeholder="Username" required name="User" />
+        <input
+          type="text"
+          placeholder="Username"
+          required
+          name="User"
+          autofocus
+        />
       </div>
       <!-- ⚠ (require) attribute => is to make the field mandatory ⚠ -->
 
@@ -43,6 +75,8 @@
           placeholder="write a complex password"
           required
           name="Pass"
+          minlength="10"
+          maxlength="15"
         />
       </div>
 
@@ -51,22 +85,30 @@
       <!-- (Email) type is for Email field (xxxx@xxx.com)-->
       <div>
         <label for="">Email </label>
-        <input type="email" placeholder="Email" required name="Pass" />
+        <input
+          type="email"
+          placeholder="Email"
+          value="o@nn.com"
+          required
+          name="Pass"
+          readonly
+        />
       </div>
 
-      <!----------------- Range type ----------------->
+      <!-- ⬇️--------------- Range type -----------------⬇️>
 
-      <div>
-        <!-- 
-        (Range) type is the level or indicator you move such as 
+      
+        <!-
+        (Range) type => Is the level or indicator you move such as 
          satistfied level 😊 on survey ⁉ (---⚪---) 
-         1-min => where it will start from (for example : 0)
-         2-max => where it wil end (from example : 100)
-         3-step => each step you move the crusor to (for example 10) it will 
+         1-min => Where it will start from (for example : 0)
+         2-max => Where it wil end (from example : 100)
+         3-step => Each step you move the crusor to (for example 10) it will 
          move the circle 10 steps each time.
-         4-value => is the default value when the page is open or refresh
-         5-name => when you want to link other items or with ID
+         4-value => Is the default value when the page is open or refresh
+         5-name => When you want to link other items or with ID
          -->
+      <div>
         <label>Range </label>
         <input
           type="range"
@@ -78,15 +120,52 @@
         />
       </div>
 
-      <!----------------- Range type ----------------->
-
-      <!--  (color) type input to choose color -->
+      <!--⬆️--------------- Range type -----------------⬆️>
+      
+      
+      <!-(color) type input to choose color -->
+      <br />
       <input type="color" name="Color" id="" />
 
       <hr />
-      <!--horizontal line ----------------------    -->>
 
-      <!----------------- radio type ----------------->
+      <!-- (Number) type => for numbers  -->
+      <label for="number">Number</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="10"
+        max="100"
+        step="10"
+      />
+
+      <hr />
+
+      <!--horizontal line   ----------------------   -->
+
+      <!-- Choose from the list -->
+      <label for="book">Choose Book : </label>
+      <select name="book" id="book" multiple>
+        <!--(multiple) attribute => to choose more than one options with ctrl-->
+        <optgroup label="fanatsy books">
+          <option value="1">Book 1</option>
+          <option value="2">Book 2</option>
+          <option value="3">Book 3</option>
+        </optgroup>
+        <optgroup label="police books">
+          <option value="4">Book 4</option>
+          <option value="5">Book 5</option>
+          <option value="6">Book 6</option>
+        </optgroup>
+        <optgroup label="science books">
+          <option value="7" selected>Book 7</option>
+          <option value="8">Book 8</option>
+          <option value="9">Book 9</option>
+        </optgroup>
+      </select>
+      (select type)
+      <!---------------- radio type ----------------->
 
       <!-- (name) attribute to prevent🚫 to choose more than one option -->
       <div>
@@ -110,16 +189,19 @@
         <label for="linux">Linux</label>
       </div>
 
-      <!----------------- radio type ----------------->
+      <!-------------------radio type------------------->
 
-      <!----------------- Checkbox type ----------------->
       <hr />
-      <!-- Checkbox type is for check more than one opitions :
+
+      <!-- <hr /> -->
+
+      <!---------------- Checkbox type ----------------->
+      <!--- Checkbox type is for check more than one opitions :
       ✅ Windows
       ✅ Linux
           Mac
 
-          (checked) attribute => to make the opition that are checked all the time no 
+          (checked) attribute => to make the oenter that are checked all the time no 
           matter if you open it ▶ or refresh the page 🔄 
       -->
       <div>
@@ -145,11 +227,63 @@
 
       <!----------------- Checkbox type ----------------->
 
-      <br />
-      <!-- Reset type => rest Everything To Orgninal Value -->
+      <!-- (Textarea) type => 
+      for suggestions or complains forms  
+      -->
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Type Your Suggestion"
+      ></textarea>
+
+      <hr />
+      <!-- <br /> -->
+
+      <!-- Upload file -->
+      <label for="">Upload</label>
+      <input type="file" name="upload" id="" />
+      <hr />
+
+      <!-- Search -->
+      <label for="">Search</label>
+      <input type="search" name="upload" id="" />
+      <hr />
+
+      <!-- URL -->
+      <label for="">URL</label>
+      <input type="url" name="URL" id="" />
+      <hr />
+
+      <!-- Date -->
+      <label for="">Date</label>
+      <input type="date" name="URL" id="" />
+      <hr />
+      <!-- Month -->
+      <label for="">Month</label>
+      <input type="month" name="URL" id="" />
+      <hr />
+      <!-- Time -->
+      <label for="">Time</label>
+      <input type="time" name="URL" id="" />
+      <hr />
+
+      <input list="programming" name="prog" />
+      <datalist id="programming">
+        <option value="Python"></option>
+        <option value="PHP"></option>
+        <option value="C"></option>
+        <option value="C#"></option>
+        <option value="C++"></option>
+        <option value="Scala"></option>
+      </datalist>
+
+      <!-- <hr /> -->
+      <!-- (Reset) type => for rest Everything To Orgninal Value -->
       <input type="reset" />
 
-      <!-- Submit Button => will submit the forms to data -->
+      <!-- (Submit)type => Button will send the forms to server -->
       <input type="submit" value="save" />
     </form>
 

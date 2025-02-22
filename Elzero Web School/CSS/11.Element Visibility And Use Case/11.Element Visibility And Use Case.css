@@ -1,0 +1,16 @@
+div {
+    background-color: red;
+    margin: 10px 0;
+    /* display: none; */
+    visibility: visible;
+}
+
+
+.first {
+
+    /*Will delete 100% (their place gone) the item from the workflow*/
+    /* display: none; */     
+
+    /*Will hide (but its place will be their) the item from the workflow*/
+    visibility: hidden; 
+}
