@@ -1,22 +1,25 @@
 /* 
 
 - Block :  
--- Take full Width if No width specifies
+
+-- Take Full Width if No width specifies
 -- Add line break
 -- Respect Padding , Margin , Width , Height
 
 
-- inline : 
+- Inline : 
+
 -- Do Not Respect width, Heigth
--- Respect Padding , Margin[ Just Left + Right ]
+-- Respect Padding and Margin [ Just Left + Right ]
 -- Do not Add Line Break
--- Allow Elements Before and After it
+-- Allow Elements Before And After It in The Same Line
 
 
 
-- inline-block : 
--- Allow Elements Before and After it
--- Respect Padding , Margin , Width , Height
+- Inline-Block : 
+
+-- Allow Elements Before and After It in The Same Line
+-- Respect Padding, Margin , Width, Height
 
 --
 

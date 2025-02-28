@@ -29,8 +29,8 @@ p {
 .two,
 .three,
 .four,
-p {
+.my-p {
   padding: 15px;
   margin: 10px 0;
-  background-color: #eee;
+  background-color: #ededed;
 }

@@ -1,0 +1,26 @@
+div {
+  background-color: red; /* Color Name */
+  background-color: rgb(0, 0, 0 /50); /* Red , Green, Blue, Alpha Channel */
+  background-color: #ff0000; /* Color Hex Code */
+  background-image: url(https://elzero.org/wp-content/themes/elzero/imgs/logo.png);
+  background-repeat: no-repeat;
+
+  /* ⬇️ ---------- 🛠️💡🧪 1 First Experiment Example 🧪💡🛠️ ---------- ⬇️ */
+
+  /* background-position: 50%; */
+  background-position-x: center;
+  background-position-y: center;
+  /* backdrop-filter: blur(30px);
+  backdrop-filter: blur(2px);
+  backdrop-filter: brightness(60%);
+  backdrop-filter: contrast(40%);
+  backdrop-filter: drop-shadow(4px 4px 10px blue);
+  backdrop-filter: grayscale(30%);
+  backdrop-filter: hue-rotate(120deg);
+  backdrop-filter: invert(70%);
+  backdrop-filter: opacity(20%);
+  backdrop-filter: sepia(90%);
+  backdrop-filter: saturate(80%); */
+
+  /* ⬆️ ---------- 🛠️💡🧪 1 First Experiment Example 🧪💡🛠️ ---------- ⬆️ */
+}
