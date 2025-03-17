@@ -6,7 +6,7 @@ Var(Variable Name, Fall Back Value)
 */
 
 :root {
-  --mainColor: blue;
+  --mainColor: red;
   --mainPadding: 10px;
 }
 

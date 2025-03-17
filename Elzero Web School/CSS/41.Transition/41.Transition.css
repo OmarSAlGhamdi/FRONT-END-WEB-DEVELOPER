@@ -10,12 +10,26 @@
   height: 100px;
   transition-duration: 1s;
   transition-delay: 0.2s;
-  transition-property: width;
-  transition-timing-function: ease-in-out;
+  transition-property: width , height, margin;
+  transition-timing-function: linear;
+  /* transition-timing-function :
+  ease (Default Value): start slow => then fast => then end slow 
+  ease-in-out : start slow => then fast => then end slow 
+  ease-in : start slow => then fast till the end
+  ease-out : start fast => then end slow 
+  linear : same speed from start till the end
+  */
+
+  /* Broswers Compatible */
   transition: all 2s 0.5s linear;
+  -webkit-transition: all 2s 0.5s linear;
+  -moz-transition: all 2s 0.5s linear;
+  -ms-transition: all 2s 0.5s linear;
+  -o-transition: all 2s 0.5s linear;
 }
 
 .one:hover {
   width: 280px;
   height: 120px;
+  margin-left: 40px;
 }
