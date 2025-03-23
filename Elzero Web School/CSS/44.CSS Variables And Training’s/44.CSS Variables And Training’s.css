@@ -2,38 +2,44 @@
 CSS Variables
 -  Global Variable
 -  Local Variable
-Var(Variable Name, Fall Back Value)
+Var(Variable Name, FallBack Value)
 */
 
+/* 
+:root => is a pseudo-class that represents
+the highest-level parent element in the document, 
+which is the <html> element.
+*/
 :root {
-  --mainColor: red;
+  --maincolor: red;
+  --backUpColor: rgb(24, 223, 64);
   --mainPadding: 10px;
 }
 
 .main {
-  background-color: var(--mainColor, black);
+  background-color: var(--mainColor, var(--backUpColor));
   color: white;
-  padding: calc(20px + var(--mainPadding));
+  padding: calc(20px + var(--mainPadding , var(--backUpColor)));
 }
 
 h2 {
-  color: var(--mainColor);
+  color: var(--mainColor , var(--backUpColor));
   background-color: #eee;
-  padding: var(--mainPadding);
+  padding: var(--mainPadding, var(--backUpColor));
 }
 
 p {
-  color: var(--mainColor);
-  border: 2px solid var(--mainColor);
+  color: var(--mainColor , var(--backUpColor));
+  border: 2px solid var(--mainColor, var(--backUpColor));
   padding: var(--mainPadding);
 }
 
 a:hover {
-    color: var(--mainColor);
+  color: var(--mainColor , var(--backUpColor));
 }
 
 .local {
-    --mainColor: black;
-    background-color: var(--mainColor);
-    color: white;
+  --mainColor: black;
+  background-color: var(--mainColor , var(--backUpColor));
+  color: white;
 }

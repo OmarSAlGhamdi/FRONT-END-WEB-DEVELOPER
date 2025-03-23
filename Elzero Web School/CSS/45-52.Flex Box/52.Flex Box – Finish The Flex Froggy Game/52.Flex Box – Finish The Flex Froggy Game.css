@@ -1,13 +1,15 @@
 /* 
-Flexible Box 
-For Parent
+Flexible Box:
+
+For Parent:
 - display: flex => To Start Flexible Box
 - flex-direction: row => Default Value
 - flex-wrap: nowrap => Default Value
 - flex-flow: [Flex-Direction] + [Flex-Wrap]
 - justify-content: flex-start => Default Value
 - align-items: stretch => Default Value
-For Child
+
+For Child:
 - flex-grow: 0 => Default Value
 - flex-shrink: 1 => Default Value
 - order: 0 => Default Value

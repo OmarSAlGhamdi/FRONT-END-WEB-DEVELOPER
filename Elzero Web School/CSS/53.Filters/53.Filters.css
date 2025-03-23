@@ -3,14 +3,217 @@ Filters
 */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+/* ------------------ ⬇️ grayScale() ⬇️ ---------------------- */
+/* (grayScale) => Converts the image to grayscale.
+- The Default State of ((grayScale) Use => %)): */
 
-img {
+/* img {
     transition: 0.3s;
     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+} */
+
+/* The Hover State of (grayScale): */
+
+/* img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);   
+} */
+
+/* ------------------ ⬆️ grayScale() ⬆️ ---------------------- */
+
+/* ------------------ ⬇️ blur() ⬇️ ---------------------- */
+
+/* The Default State of ((blur(Use => px)): */
+/* img {
+  transition: 0.3s;
+  filter: blur(4px);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-filter: blur(4px);
+  -webkit-filter: blur(4px);
+} */
+
+/* The Hover State of (blur): */
+
+/* img:hover {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+} */
+
+/* ------------------ ⬆️ blur() ⬆️ ---------------------- */
+
+/* ------------------ ⬇️ brightness() ⬇️ ---------------------- */
+
+/* (brightness) => Makes the image brighter or darker. 
+ - The Default State of ((brightness(Use => %)): */
+
+/* img {
+  transition: 1s;
+  filter: brightness(30%);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-filter: brightness(30%);
 }
 
 img:hover {
-    filter: grayscale(0);
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+} */
+
+/* ------------------ ⬆️ brightness() ⬆️ ---------------------- */
+
+/* ------------------ ⬇️ opacity() ⬇️ ---------------------- */
+
+/* (opacity) => Makes the image transparent. 
+- The Default State of ((opacity(Use => %)) */
+
+/* img {
+  transition: filter 2.0s ease-in-out;
+  filter: opacity(20%);
+  -webkit-transition: filter 2.0s ease-in-out;
+  -moz-transition: filter 2.0s ease-in-out;
+  -ms-transition: filter 2.0s ease-in-out;
+  -o-transition: filter 2.0s ease-in-out;
+  -webkit-filter: opacity(20%);
+  -webkit-transition: filter 1.0s ease-in-out;
 }
+
+img:hover {
+  filter: opacity(100%);
+  -webkit-filter: brightness(100%);
+  
+} */
+/* --------------- ⬆️ opacity() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On Brightness() ⬇️ --------------- */
+
+/* .image-container {
+  position: relative;
+  display: inline-block;
+} */
+
+/* .image-container img {
+  width: 100%;
+  height: auto;
+  filter: brightness(20%);
+  transition: filter 0.6s ease-in-out;
+  -webkit-filter: brightness(40%);
+  -webkit-transition: filter 0.6s ease-in-out;
+  -moz-transition: filter 0.6s ease-in-out;
+  -ms-transition: filter 0.6s ease-in-out;
+  -o-transition: filter 0.6s ease-in-out;
+  -webkit-filter: brightness(20%);
+} */
+
+/* .image-container:hover img {
+  filter: brightness(100%);
+  -webkit-filter: opacity(70%);
+  -webkit-filter: opacity(50%);
+  -webkit-filter: brightness(100%);
+  filter: opacity(70%);
+} */
+
+/* .overlay-text {
+  position: absolute;
+  top: 37%;
+  left: 25%;
+  transform: translate(-50, -50);
+  -webkit-transform: translate(-50, -50);
+  -moz-transform: translate(-50, -50);
+  -ms-transform: translate(-50, -50);
+  -o-transform: translate(-50, -50);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+} */
+
+/* .image-container:hover .overlay-text {
+  color: black;
+} */
+
+/* --------------- ⬆️ My Experince On Brightness() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On contrast() ⬇️ --------------- */
+/* Increases or decreases the image's contrast. */
+
+/* img {
+  transition: 1.3s 1S;
+  filter: contrast(100%);
+  -webkit-transition: 1.3s;
+    -moz-transition: 1.3s;
+    -ms-transition: 1.3s;
+    -o-transition: 1.3s;
+    -webkit-filter: contrast(100%); 
+  
+} */
+
+/* img:hover {
+  filter: contrast(500%);
+   -webkit-filter: contrast(500%); 
+} */
+/* --------------- ⬆️ My Experince On contrast() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On drop-shadow() ⬇️ --------------- */
+img {
+  transition: 1.3s 1s;
+  filter: drop-shadow();
+}
+img:hover {
+  filter: drop-shadow();
+}
+/* --------------- ⬆️ My Experince On drop-shadow() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On hue-rotate() ⬇️ --------------- */
+img {
+  transition: 1.3s 1s;
+  filter: hue-rotate();
+}
+img:hover {
+  filter: hue-rotate();
+}
+/* --------------- ⬆️ My Experince On hue-rotate() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On invert() ⬇️ --------------- */
+img {
+  transition: 1.3s 1s;
+  filter: invert();
+}
+img:hover {
+  filter: invert();
+}
+/* --------------- ⬆️ My Experince On invert() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On saturate() ⬇️ --------------- */
+img {
+  transition: 1.3s 1s;
+  filter: saturate();
+}
+img:hover {
+  filter: saturate();
+}
+/* --------------- ⬆️ My Experince On saturate() ⬆️ --------------- */
+
+/* --------------- ⬇️ My Experince On sepia() ⬇️ --------------- */
+img {
+  transition: 1.3s 1s;
+  filter: contrast(100%);
+}
+img:hover {
+  filter: sepia();
+}
+/* --------------- ⬆️ My Experince On sepia() ⬆️ --------------- */

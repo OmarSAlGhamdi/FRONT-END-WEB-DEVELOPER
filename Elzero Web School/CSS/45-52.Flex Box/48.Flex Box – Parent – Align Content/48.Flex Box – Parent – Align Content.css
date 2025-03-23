@@ -1,17 +1,27 @@
 /* 
 
-Flexible Box 
-For Parent
+Flexible Box: 
+
+For Parent:
 - display: flex => To Start Flexible Box
 - flex-direction: row => Default Value
 - flex-wrap: nowrap => Default Value
 - flex-flow: [Flex-Direction] + [Flex-wrap]
 
 --- 
+Use it only❗ with FlexBox:
 - justify-content: flex-start => Default Value
-- align-items: stretch => Default Value
-- align-content: stretch => Default Value
+(flex-start(begining) - flex-end(last)) =>
+will align the item in row ↔ way
 
+- align-items: stretch => Default Value
+1- Will align the item in column ↕ way/
+2- Determines how the items as a whole are aligned 
+ within the container
+
+- align-content: stretch => Default Value
+1- Determines the spacing between lines. 
+2- When there is only one line, align-content has no effect.
 */
 
 * {
