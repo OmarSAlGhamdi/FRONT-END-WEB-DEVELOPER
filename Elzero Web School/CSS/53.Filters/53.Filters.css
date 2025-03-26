@@ -14,18 +14,12 @@ Filters
 /* img {
     transition: 0.3s;
     filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
 } */
 
 /* The Hover State of (grayScale): */
 
 /* img:hover {
     filter: grayscale(0);
-    -webkit-filter: grayscale(0);   
 } */
 
 /* ------------------ ⬆️ grayScale() ⬆️ ---------------------- */
@@ -36,19 +30,12 @@ Filters
 /* img {
   transition: 0.3s;
   filter: blur(4px);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-filter: blur(4px);
-  -webkit-filter: blur(4px);
 } */
 
 /* The Hover State of (blur): */
 
 /* img:hover {
   filter: blur(0);
-  -webkit-filter: blur(0);
 } */
 
 /* ------------------ ⬆️ blur() ⬆️ ---------------------- */
@@ -61,16 +48,10 @@ Filters
 /* img {
   transition: 1s;
   filter: brightness(30%);
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-  -webkit-filter: brightness(30%);
 }
 
 img:hover {
   filter: brightness(100%);
-  -webkit-filter: brightness(100%);
 } */
 
 /* ------------------ ⬆️ brightness() ⬆️ ---------------------- */
@@ -83,17 +64,10 @@ img:hover {
 /* img {
   transition: filter 2.0s ease-in-out;
   filter: opacity(20%);
-  -webkit-transition: filter 2.0s ease-in-out;
-  -moz-transition: filter 2.0s ease-in-out;
-  -ms-transition: filter 2.0s ease-in-out;
-  -o-transition: filter 2.0s ease-in-out;
-  -webkit-filter: opacity(20%);
-  -webkit-transition: filter 1.0s ease-in-out;
 }
 
 img:hover {
   filter: opacity(100%);
-  -webkit-filter: brightness(100%);
   
 } */
 /* --------------- ⬆️ opacity() ⬆️ --------------- */
@@ -110,19 +84,10 @@ img:hover {
   height: auto;
   filter: brightness(20%);
   transition: filter 0.6s ease-in-out;
-  -webkit-filter: brightness(40%);
-  -webkit-transition: filter 0.6s ease-in-out;
-  -moz-transition: filter 0.6s ease-in-out;
-  -ms-transition: filter 0.6s ease-in-out;
-  -o-transition: filter 0.6s ease-in-out;
-  -webkit-filter: brightness(20%);
 } */
 
 /* .image-container:hover img {
   filter: brightness(100%);
-  -webkit-filter: opacity(70%);
-  -webkit-filter: opacity(50%);
-  -webkit-filter: brightness(100%);
   filter: opacity(70%);
 } */
 
@@ -131,10 +96,6 @@ img:hover {
   top: 37%;
   left: 25%;
   transform: translate(-50, -50);
-  -webkit-transform: translate(-50, -50);
-  -moz-transform: translate(-50, -50);
-  -ms-transform: translate(-50, -50);
-  -o-transform: translate(-50, -50);
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -154,66 +115,76 @@ img:hover {
 /* img {
   transition: 1.3s 1S;
   filter: contrast(100%);
-  -webkit-transition: 1.3s;
-    -moz-transition: 1.3s;
-    -ms-transition: 1.3s;
-    -o-transition: 1.3s;
-    -webkit-filter: contrast(100%); 
   
 } */
 
 /* img:hover {
   filter: contrast(500%);
-   -webkit-filter: contrast(500%); 
 } */
 /* --------------- ⬆️ My Experince On contrast() ⬆️ --------------- */
 
 /* --------------- ⬇️ My Experince On drop-shadow() ⬇️ --------------- */
-img {
-  transition: 1.3s 1s;
-  filter: drop-shadow();
-}
-img:hover {
-  filter: drop-shadow();
-}
+/* drop-shadow syntax =>
+ - Horizontal Shadow | Vertical Shadow | Blur | Spread | Color */
+/* img {
+  transition: .5s;
+  filter: drop-shadow(0 0 10px red) brightness(50%);;
+} */
+
+/* The first Effect(drop-shadow)                                 | The Second Effect (brightness) */
+/* img:hover {
+  filter: drop-shadow(5px 5px 20px rgb(84, 41, 192)) brightness(100%);
+} */
 /* --------------- ⬆️ My Experince On drop-shadow() ⬆️ --------------- */
 
 /* --------------- ⬇️ My Experince On hue-rotate() ⬇️ --------------- */
-img {
-  transition: 1.3s 1s;
-  filter: hue-rotate();
+
+/* The hue-rotate() => function applies a color rotation to the elements on which it is applied. */
+
+/* img {
+  transition: .3s;
+  filter: hue-rotate(0);
 }
 img:hover {
-  filter: hue-rotate();
-}
+  filter: hue-rotate(90deg);
+} */
 /* --------------- ⬆️ My Experince On hue-rotate() ⬆️ --------------- */
 
 /* --------------- ⬇️ My Experince On invert() ⬇️ --------------- */
-img {
-  transition: 1.3s 1s;
-  filter: invert();
+
+/* invert() => inverts the color samples in the input image */
+
+/* img {
+  transition: 0.3s;
+  filter: invert(0);
 }
 img:hover {
-  filter: invert();
-}
+  filter: invert(0.3);
+} */
 /* --------------- ⬆️ My Experince On invert() ⬆️ --------------- */
 
 /* --------------- ⬇️ My Experince On saturate() ⬇️ --------------- */
-img {
-  transition: 1.3s 1s;
-  filter: saturate();
+
+/* saturate() => super-saturates or desaturates the input image */
+/* img {
+  transition: 0.3s;
+  filter: saturate(1);
 }
 img:hover {
-  filter: saturate();
-}
+  filter: saturate(4);
+} */
 /* --------------- ⬆️ My Experince On saturate() ⬆️ --------------- */
 
 /* --------------- ⬇️ My Experince On sepia() ⬇️ --------------- */
+
+/* sepia() => converts the input image to sepia, giving it a warmer,
+ more yellow/brown appearance */
+
 img {
-  transition: 1.3s 1s;
-  filter: contrast(100%);
+  transition: 0.3s;
+  filter: sepia(0);
 }
 img:hover {
-  filter: sepia();
+  filter: sepia(60%);
 }
 /* --------------- ⬆️ My Experince On sepia() ⬆️ --------------- */
