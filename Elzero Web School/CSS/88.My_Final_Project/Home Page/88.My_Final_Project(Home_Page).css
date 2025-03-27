@@ -5,6 +5,8 @@ Apply These things
 * {
   /* Apply for All System */
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -38,7 +40,7 @@ nav ul {
   list-style-type: none;
   padding-left: 10px;
   /* border: 2px solid red; */
-  justify-content: center; 
+  justify-content: center;
   border: 2px solid rgb(0, 255, 4);
   margin-top: -2%;
 }
@@ -133,12 +135,59 @@ Footer h3 {
   border: 2px solid rgb(8, 0, 255);
 }
 
-
 img {
   width: 15%;
 }
 
- .hrfooter {
+.hrfooter {
   border: 2px solid rgb(255, 255, 255);
   width: 80%;
+}
+
+.subscribe {
+  width: 40%;
+  height: 14%;
+  border: 2px solid red;
+  margin-left: 13%;
+  margin-top: 10%;
+}
+
+.emailAndSubButton {
+  border: 2px solid green;
+  display: flex;
+}
+
+.subscribe input {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  width: 180px;
+  height: 40px;
+}
+
+.subscribe button {
+  background-color: pink;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+
+.termsAndConditionSection {
+  display: flex;
+  border: 2px solid red;
+  /* align-items: center; */
+  margin-right: -35px;
+}
+
+.termsAndConditionSection p {
+  display: flex;
+  justify-content: left;
+  border: 2px solid rgb(0, 255, 47);
+}
+
+.termsAndCondition  {
+  padding-left: 25px;
+  justify-content: right;
+  align-items: end;
+  border: 2px solid blue;
 }
