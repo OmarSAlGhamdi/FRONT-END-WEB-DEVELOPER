@@ -13,6 +13,7 @@ h1 {
   border: 2px solid red;
   border-radius: 3%;
   margin-top: 95px;
+  text-align: center;
   /* -webkit-border-radius: 3%;
     -moz-border-radius: 3%;
     -ms-border-radius: 3%;
@@ -42,7 +43,7 @@ nav ul {
   /* border: 2px solid red; */
   justify-content: center;
   border: 2px solid rgb(0, 255, 4);
-  margin-top: -2%;
+  margin-top: -1%;
 }
 
 nav ul li {
@@ -74,6 +75,7 @@ nav ul li:hover {
 }
 
 aside {
+  padding-left: 2%;
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -82,6 +84,7 @@ aside {
   border: 3px solid red;
   width: fit-content;
   margin-top: 3px;
+  margin-left: 1%;
 }
 
 aside ul li {
@@ -109,9 +112,10 @@ Footer {
   text-align: center;
   color: #fff;
   border: 2px solid red;
-  height: 400px;
+  height: 500px;
   background-color: #272727d7;
   /* align-items: center; */
+  width: 100%;
 }
 
 Footer h3 {
@@ -145,8 +149,11 @@ img {
 }
 
 .subscribe {
-  width: 40%;
-  height: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 17%;
   border: 2px solid red;
   margin-left: 13%;
   margin-top: 10%;
@@ -155,6 +162,9 @@ img {
 .emailAndSubButton {
   border: 2px solid green;
   display: flex;
+  width: 75%;
+  justify-content: left;
+  /* align-items: center; */
 }
 
 .subscribe input {
@@ -174,20 +184,27 @@ img {
 
 .termsAndConditionSection {
   display: flex;
-  border: 2px solid red;
-  /* align-items: center; */
-  margin-right: -35px;
+  border: 5px solid rgb(255, 242, 0);
+  /* justify-content: center; */
+  margin-right: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .termsAndConditionSection p {
   display: flex;
-  justify-content: left;
-  border: 2px solid rgb(0, 255, 47);
+  justify-content: right;
+  align-items: right;
+  border: 5px solid rgb(0, 255, 47);
+  padding-left: 5px;
 }
 
-.termsAndCondition  {
-  padding-left: 25px;
-  justify-content: right;
-  align-items: end;
-  border: 2px solid blue;
+.termsAndCondition {
+  /* padding-left: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-left: 500px;
+  /* align-items: end; */
+  border: 5px solid blue;
 }
