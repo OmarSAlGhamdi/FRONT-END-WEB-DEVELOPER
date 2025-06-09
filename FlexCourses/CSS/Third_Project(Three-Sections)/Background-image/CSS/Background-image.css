@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: tajawal, sans-serif;
+}
+
+input::placeholder {
+  /* direction: rtl; */
+  text-align: right;
+}
+
+section {
+  height: 100vh;
+  padding: 35px;
+}
+
+section h1 {
+  margin: 0;
+}
+
+section div {
+  margin: auto;
+  max-width: 500px;
+  /* border: 2px solid red; */
+  /* background-color: rgba(0, 0, 255, 0.057); */
+  border-radius: 10px;
+}
+
+#welcome {
+  background-color: gray;
+  background-image: url("../Images/welcome.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#projects {
+  border-top: 5px solid rgb(25, 43, 166);
+  background-color: #bee5f000;
+  background-image: url("../Images/projects.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact {
+  background-color: aquamarine;
+  background-image: url("../Images/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+.contantdiv {
+  background-color: rgba(255, 0, 0, 0.063);
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.contactForm {
+  background-image: url("../Images/contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+}

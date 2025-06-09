@@ -1,0 +1,279 @@
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+/* Both Sections */
+#about,
+#events {
+  /* background-color: gray; */
+  /* height: 200px; */
+  /* width: 100%; */
+  margin: 15px;
+}
+
+#events {
+  border: 2px solid red;
+  /* height: 100vh; */
+  overflow: auto;
+  padding-right: 10px;
+}
+
+/* First Section */
+#about {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+#about header {
+  width: 80%;
+}
+
+#about::before {
+  top: 0;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.444);
+  z-index: -1;
+}
+#about::after {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.444);
+  z-index: -2;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  box-shadow: 15px 2px 9px -5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 15px 2px 9px -5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 15px 2px 9px -5px rgba(0, 0, 0, 0.45);
+}
+
+/* Second Section */
+
+/* .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 12px sold red;
+} */
+
+.flex-item {
+  /* width: 70%; */
+  /* max-width: 90%; */
+  /* height: 10%; */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 2px;
+  margin-bottom: 35px;
+  /* z-index: 3; */
+  /* align-items: left; */
+  /* border: 12px sold red; */
+  /* background-color: rgba(255, 0, 0, 0.444); */
+  /* overflow: hidden; */
+}
+
+/* The ways of edit the sibilings and childrens => */
+
+/* Sibilings selectors */
+/* 1. => using the class name of the parent element 
+for example: if we have sibilings like (flex-item)
+and we want to edit the first child of (flex-item)
+which is the date class
+we can use these selectors syntaxs : 
+:first-child 
+:last-child 
+:nth-child(3/odd/even) 
+*/
+/*  
+ 1.0 => .flex-item:first-child   .date 
+ 2.0 => .flex-item:last-child   .date 
+ 3.0 => .flex-item:nth-child(3) .date 
+ 3.1 => .flex-item:nth-child(odd/even) .date 
+*/
+
+/* ------------ ⬇️ Examples ⬇️ ---------------- */
+
+/* 1.0 ⬇️ :first-child selector ⬇️ */
+
+/* 1.0 */
+/* .flex-item:first-child .date {
+  background-color: rgb(238, 223, 8);
+} */
+
+/* 1.0
+  .flex-item ➡️   name of the parent class
+  :first-child ➡️  The place of the item
+  .date ➡️  name Of class/id
+        {
+  display: none;
+}
+
+
+/* ---------------------- */
+
+/* 2.0 ⬇️ :last-child selector ⬇️  */
+
+/* 2.0 */
+/* .flex-item:last-child .date {
+  background-color: rgb(8, 238, 161);
+} 
+ */
+
+/* 
+ 2.0
+  .flex-item ➡️   name of the parent class
+  :last-child ➡️  The place of the item
+  .date ➡️  name Of class/id
+  {
+  display: none;
+} */
+
+/* ---------------------- */
+
+/* 3.0 ⬇️ :nth-child(3) selector ⬇️
+
+/* 3.0 */
+/*.flex-item:nth-child(3) .day,
+ .month {
+   color: red;
+  } */
+
+/* 3.0
+  .flex-item ➡️   name of the parent class
+  :nth-child(3) ➡️  for The position number of 
+  the child inside the parentheses
+  .date ➡️  name Of class/id
+    {
+  display: none;
+} */
+
+/* 3.0 */
+/* flex-item ➡️  name of the parent
+  :nth-child(3) ➡️  The place of the item          
+ .day , .moth  ➡️  name Of class/id
+
+
+/* 3.1 ⬇️ :nth-child(odd/even) selector ⬇️ */
+
+/* 3.1 */
+.flex-item:nth-child(even) .event_details {
+  background-color: rgb(255, 255, 255);
+}
+
+/* 3.1 */
+.flex-item:nth-child(even) .date {
+  background-color: rgb(235, 235, 235);
+}
+
+/* ---------------------- */
+
+/* h3 {
+    color: white;
+} */
+
+.event {
+  display: flex;
+  background-color: white;
+  box-shadow: 15px 2px 9px -5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 15px 2px 9px -5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 15px 2px 9px -5px rgba(0, 0, 0, 0.45);
+  /* flex-direction: co; */
+}
+
+.date {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* color: rgb(0, 0, 0); */
+  /* border: 2px solid red; */
+  /* font-size: 20px; */
+  /* margin-top: 55px; */
+  /* margin-left: 20px; */
+}
+
+.text-blue {
+  color: rgb(1, 1, 167);
+}
+
+.show-more {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.show-more:hover {
+  /* background-color: rgb(205, 199, 199); */
+  background-color: rgb(53, 53, 53);
+}
+
+.day {
+  font-size: 50px;
+  margin: 0;
+  /* color: rgb(1, 1, 167); */
+}
+
+.month {
+  font-size: 30px;
+  margin: 0;
+}
+
+.event_details {
+  padding: 15px;
+  background-color: rgb(235, 235, 235);
+}
+
+.event_details h2 {
+  margin: 0;
+}
+
+/* .event_title {
+  color: rgb(0, 0, 0);
+} */
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .events {
+    overflow: hidden;
+  }
+
+  .Upcoming {
+    background-color: rgb(152, 154, 154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    /* background-color: rgb(100, 149, 237); Change to desired background color */
+    margin: 10px auto; /* Centers the element horizontally */
+  }
+}

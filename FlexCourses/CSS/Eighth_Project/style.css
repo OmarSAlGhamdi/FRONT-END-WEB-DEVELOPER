@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+}

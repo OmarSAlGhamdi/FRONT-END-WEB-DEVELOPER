@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+body {
+  font-family: "Cairo", "sans-serif";
+  margin: 0;
+}
+
+nav {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  /* height: 50px; */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.brand {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.menu {
+  flex-grow: 2;
+}
+
+
+#welcome {
+    height: 70vh;
+    background-color: antiquewhite;
+    background-image: url('./Images/welcome.jpg');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+}
+
+#welcome p {
+    margin: 0;
+}
+
+
+#welcome h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+
+.welcome-text {
+    max-width: 600px;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: brown;
+    color: white;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'cairo', sans-serif;
+}
+
+
+#products header {
+    text-align: center;
+    
+}
+
+#products h1 {
+    font-size: 35px;
+}
+
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.list div {
+  margin: 5px;
+  max-width: 400px;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+
+.card {
+border: 1px solid rgb(209, 196, 169);
+border-radius: 5px;
+}
+
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+
+footer {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.auth {
+}

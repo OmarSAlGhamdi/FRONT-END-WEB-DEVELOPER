@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey-form</title>
+  </head>
+
+  <link rel="stylesheet" href="survey-form.css">
+  <style>
+    
+  </style>
+
+  <body>
+    <div class="container">
+      <h2>Please Fill The Form:</h2>
+
+      <!-- Name Section -->
+      <div class="form-group">
+        <label class="display-block" for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="enter your name"
+          maxlength="10"
+          class="form-control"
+        />
+      </div>
+
+      <!-- Email Section -->
+      <div class="form-group">
+        <label class="display-block" for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="enter your email"
+          class="form-control"
+        />
+      </div>
+
+      <!-- Phone Section -->
+      <div class="form-group">
+        <label class="display-block" for="phone">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="enter your number"
+          class="form-control"
+        />
+      </div>
+
+      <!-- How Did You Hear About Us -->
+      <div class="form-group">
+        <label class="display-block">How did you hear about us?</label>
+        <select class="form-control" name="refer" id="refer" required>
+          <option value="">Select From The Following</option>
+          <option value="friend">From A friend</option>
+          <option value="social">Social Media</option>
+          <option value="google">Google Search</option>
+          <option value="googlemaps">Google Maps</option>
+        </select>
+      </div>
+
+      <!-- Gender Section -->
+      <div class="form-group">
+        <label for="male">Gender: </label>
+
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" />
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" />
+      </div>
+
+      <!-- Products Section -->
+      <div class="form-group">
+        <div>which product did you use?</div>
+        <!-- <label for=""></label> -->
+        <div>
+          <input id="tea1" type="checkbox" name="product" />
+          <label for="tea1">tea 1</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="product" id="tea2" />
+          <label for="tea2"> tea 2</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="product" id="tea3" />
+          <label for="tea3">tea 3</label>
+        </div>
+      </div>
+
+      <!-- Buying History -->
+      <div class="form-group">
+        <label class="display-block" for="date"
+          >when did you get the product?
+        </label>
+        <input type="date" name="" id="date" class="form-control" />
+      </div>
+
+      <!-- Product Photo -->
+      <div class="form-group">
+        <label for="image">product photo: </label>
+        <input type="file" name="" id="" />
+      </div>
+
+      <!-- Buttons Section -->
+      <div class="form-group">
+        <button class="btn bg-green" type="submit">Send</button>
+        <input class="btn bg-orange" type="reset" value="clear" />
+      </div>
+    </div>
+  </body>
+</html>

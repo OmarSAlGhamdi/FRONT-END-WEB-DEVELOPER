@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Project</title>
+
+    <style>
+      .flex-container {
+        display: flex;
+        /* flex-direction: row; => (row is the Default Value) */
+        background-color: gray;
+        /* flex-wrap: wrap; */
+        /* width: 500px; */
+        height: 650px;
+        flex-flow: row wrap;
+        /* flex-flow: => flex-direction(values) flex-wrap(values) */
+
+        /* justify-content */
+        justify-content: center;
+        /* => center the items */
+        /* justify-content: flex-start; */
+        /* => start from left side */
+        /* justify-content: flex-end; */
+        /* => start from right side */
+        /* justify-content: space-around; */
+        /* => around the items */
+        /* justify-content: space-between; */
+        /* => between the itmes  */
+        /* justify-content: space-evenly;  */
+        /* => between and around the items  */
+
+        /* align-items */
+        /* align-items: center; */
+        /* => center the items  */
+        /* align-items: baseline; */
+        /* => align the items to the baseline of the text; */
+        /* align-items: stretch */
+        /* => stretch the itmes to the end of the container; */
+        align-items: flex-end;
+        /* => start from right  */
+        /* align-items: flex-start; */
+        /* => start from left */
+
+        /* align-content */
+        /* align-content: center; */
+        /* => center the items */
+        /* align-content: flex-start; */
+        /* => start from left side */
+        /* align-content: flex-end; */
+        /* => start from right side */
+        /* align-content: space-around; */
+        /* => around the items */
+        align-content: space-between;
+        /* => between the itmes  */
+        /* align-content: space-evenly;  */
+        /* => between and around the items  */
+        /* align-content: stretch; */
+        /* => stretch the itmes to the end of the container; */
+        /* align-content: baseline; */
+        /* => align the items to the baseline of the text; */
+        /* align-content: normal; */
+        /* => default value */
+
+
+
+      }
+
+      .flex-container > div {
+        font-size: 50px;
+        background-color: lightblue;
+        margin: 5px;
+        width: 100px;
+        /* height: 100px; */
+        text-align: center;
+        /* line-height: 100px; */
+        border: 2px solid rgb(255, 255, 255);
+        /* border-radius: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div style="font-size: 11px">3</div>
+      <div style="font-size: 20px">4</div>
+      <div>5</div>
+      <div style="font-size: 62px">6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+  </body>
+</html>
