@@ -1,0 +1,83 @@
+<!-- 
+/* 
+
+تم تحميل هذا الملف من موقع فلكس كورسز
+هذا المف تم إنشاؤه لأغراض تعليمية فقط بواسطة عبدالمجيب الحميد abdulmogeeb.com
+This file is downloaded from flexcourses.com
+This code is made for teaching purposes only.
+By: Abdulmogeeb.com
+
+*/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* .g {
+            height: 400px;
+            width: 600px;
+            background: black;
+            background-image: linear-gradient(30deg, blue 30%, green 40%, blue 50%, green 60%, blue 70%);
+        }  */
+        body {
+            background-color: gray;
+        } 
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+        .animate {
+            animation-name: myAnimation;
+            animation-duration: 2s;
+            /* animation-direction: alternate-reverse; */
+            /* animation-iteration-count: infinite; */
+            /* animation-delay: 2s; */
+        }
+        @keyframes myAnimation {
+            0% {
+                /* margin-top: 0; */
+                /* margin-left: 0; */
+                /* background-color: gray; */
+                /* width: 100px; */
+            }
+            25% {
+                margin-top: 400px;
+                margin-left: 0;
+            }
+            50% {
+                margin-top: 400px;
+                margin-left: 400px;
+                background-color: red;
+            }
+            75% {
+                margin-top: 0;
+                margin-left: 400px;
+            }
+            100% {
+                margin-top: 0;
+                /* margin-top: 400px; */
+                margin-left: 0;
+                background-color: green;
+                /* background-color: green; */
+                /* width: 600px; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box animate"></div>
+    <div class="g"></div>
+    <script>
+        // const box = document.querySelector('.box');
+        // box.onclick = () => {
+        //     box.classList.add('animate')
+        // }
+    </script>
+</body>
+</html>

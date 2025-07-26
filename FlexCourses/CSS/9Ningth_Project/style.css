@@ -1,0 +1,416 @@
+/* General Templates */
+:root {
+  --color-dark: #262431;
+  --color-darker: #22202c;
+  --color-darkest: #1f1d2a;
+  --color-secondary: #332f44;
+  --color-yellow: #fabf11;
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+}
+.bg-darker {
+  background-color: var(--color-darker);
+}
+.bg-darkest {
+  background-color: var(--color-darkest);
+}
+
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+
+.text-yellow {
+  color: var(--color-yellow);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alta", sans-serif;
+  background-color: var(--color-darkest);
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  /* padding: 10px; */
+  max-width: 1200px;
+  margin: auto;
+  gap: 10px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 250px 1fr 80px;
+}
+
+/* main section {
+  background-color: #22202c;
+} */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+/* .justify-content-between {
+  justify-content: space-between;
+} */
+
+.algin-items-center {
+  align-items: center;
+}
+
+/* .align-content-center{
+    align-content: center;
+} */
+
+/* Padding */
+.p1 {
+  padding: 5px;
+}
+
+.p2 {
+  padding: 10px;
+}
+
+.p3 {
+  padding: 15px;
+}
+
+.p4 {
+  padding: 20px;
+}
+
+.p5 {
+  padding: 25px;
+}
+
+/* 1️⃣⬇️ First Section 1️⃣⬇️ */
+
+.avatar {
+  background-color: var(--color-secondary);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* margin: auto; */
+  display: inline-block;
+  margin-bottom: 25px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.avatar img {
+  width: 100px;
+  /* display: inline-block; */
+}
+
+#name {
+  text-align: center;
+}
+
+#dimo p {
+  color: gray;
+}
+
+/* #info div {
+  display: flex;
+  justify-content: space-between;
+
+} */
+
+#info div span:nth-child(1) {
+  color: var(--color-yellow);
+}
+
+.divider {
+  width: 80%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.65);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#skills {
+  border-top: 2px solid var(--color-secondary);
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+/* 1️⃣⬆️ First Section 1️⃣⬆️ */
+
+/* 2️⃣⬇️ Second Section 2️⃣⬇️ */
+#intro {
+  min-height: 250px;
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+#intro h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h1,
+h4 {
+  margin-top: 0;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--color-yellow);
+  border-radius: 5px;
+  color: var(--color-darkest);
+}
+
+.btn:hover {
+  background-color: #f9a800;
+}
+
+#stats {
+  justify-content: space-around;
+}
+
+#stats section {
+  background-color: #332f44;
+}
+
+.service:nth-child(1),
+.service:nth-child(2) {
+  margin-right: 3px;
+}
+
+.card-image {
+  height: 200px;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+}
+
+#work > div:nth-child(1) {
+  padding-left: 0;
+}
+
+#work > :nth-child(3) {
+  padding-right: 0;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* 2️⃣⬆️ Second Section 2️⃣⬆️ */
+
+/* 3️⃣⬇️ Third Section ⬇️3️⃣ */
+#links {
+  display: flex;
+  flex-direction: column;
+}
+
+#social a {
+  margin-bottom: 20px;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#social i {
+  color: white;
+}
+
+#social .fa-brands {
+  font-size: 48px;
+}
+
+#social a {
+  margin-bottom: 20px;
+}
+
+#lang {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 15px 0px;
+}
+
+#lang a {
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+a.active {
+  background-color: var(--color-yellow);
+  color: var(--color-darkest);
+}
+
+#lang a:nth-child(2) {
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+#lang a {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+/* 3️⃣⬆️ Third Section ⬆️3️⃣ */
+
+.border {
+  border: 1px solid red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  #social {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+  #social .fa-brands {
+    font-size: 35px;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-top: none;
+    /* padding-top: 15px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 0 10px;
+    /* margin: auto; */
+  }
+
+  #skills h1, ul, li {
+    /* text-align: center; */
+    /* margin: auto; */
+  }
+
+  .divider {
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 70%;
+    height: 2px;
+    background-color: rgba(165, 157, 157, 0.65);
+  }
+
+  #lang {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #work {
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  #work > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work {
+    text-align: center;
+  }
+
+  #work div:nth-child(1),
+  #work div:nth-child(2),
+  #work div:nth-child(3) {
+    margin-top: 10px;
+  }
+
+  #services {
+    margin-top: 10px;
+  }
+
+  #services > h1,
+  #services > p {
+    text-align: center;
+  }
+
+  #services div {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .service:nth-child(1),
+  .service:nth-child(2) {
+    margin-bottom: 10px;
+
+    /* padding-bottom: 50px; */
+  }
+
+  #stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #stats section {
+    margin-bottom: 5px;
+    width: 40%;
+    text-align: center;
+    margin-top: ;
+  }
+
+  #stats section:nth-child(1) {
+    margin-top: 15px;
+  }
+
+
+  #info div {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    ;
+  }
+}
