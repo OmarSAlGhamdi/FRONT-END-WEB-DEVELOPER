@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+    border: 4px solid red;
+}
+
+
+
+
+div p {
+    border: inherit;
+}

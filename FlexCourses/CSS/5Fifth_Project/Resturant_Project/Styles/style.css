@@ -1,0 +1,257 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  background-color: black;
+  margin: 0;
+  color: white;
+  font-family: oswald, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(191, 2, 2);
+}
+
+nav a {
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.brand {
+  font-weight: bold;
+  border-right: 3px solid white;
+}
+
+.links {
+  flex-grow: 1;
+}
+
+#ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(161, 2, 2);
+  height: 70vh;
+  padding: 0 35px;
+  background-image: url(../images/ad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#ad h1 {
+  font-size: 50px;
+  margin-top: 0;
+  /* padding: 20px; */
+}
+
+#ad p {
+  font-size: 25px;
+}
+
+#menu {
+  padding: 0 35px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.flex-item {
+  margin: 5px;
+  width: 250px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid rgb(102, 36, 36);
+}
+
+.discount {
+  display: inline-block;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.767);
+  top: 5px;
+  right: 5px;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.card img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-body {
+  text-align: center;
+  margin: 15px;
+}
+
+footer {
+  color: white;
+  /* margin-bottom: 15px; */
+  border-top: 2px solid orange;
+}
+
+footer p {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(191, 2, 2); */
+  padding: 20px;
+}
+
+.social a {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  padding: 0 30px;
+  margin: 15px;
+  border: 3px solid white;
+  background-color: rgb(191, 2, 2);
+  border-radius: 5%;
+  display: inline-block;
+}
+
+.price {
+  color: rgb(51, 212, 51);
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add {
+  background-color: orange;
+  /* float: right; We can use float */
+  border-width: 0;
+  font-family: "oswald", sans-serif;
+  border-radius: 2px;
+}
+
+.add:hover {
+  background-color: rgb(231, 184, 97);
+}
+
+/* Media Quries (max-width: 550px) => */
+@media screen and (max-width: 550px) {
+  nav a {
+    font-size: 15px;
+  }
+
+  #ad h1 {
+    font-size: 25px;
+  }
+
+  #ad p {
+    font-size: 20px;
+    /* padding-bottom: 0; */
+    /* margin-bottom: 5px; */
+  }
+
+  #ad {
+    padding: 0;
+    height: 50vh;
+  }
+
+  .title {
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width:100vw; */
+    /* margin: 0; */
+    padding: 15px;
+    height: 100vh;
+    /* height: fit-content; */
+    padding: 0 35px;
+    background-color: rgba(0, 0, 0, 0.499);
+  }
+}
+
+/* Media Quries (max-width: 340px) => */
+/* (Hide the Brand on small screen) */
+@media screen and (max-width: 340px) {
+  .brand {
+    display: none;
+  }
+}
+
+/* Media Quries (min-width: 501px) => */
+@media screen and (min-width: 501px) {
+  .flex-item {
+    width: 46%;
+  }
+}
+
+/* Media Quries (min-width: 700px) => */
+@media screen and (min-width: 700px) {
+  .flex-item {
+    width: 30%;
+  }
+}
+
+/* Media Quries (min-width: 1200px) => */
+@media screen and (min-width: 1200px) {
+  .flex-item {
+    width: 300px;
+  }
+}
+
+/* Media Quries (max-width: 800px) => */
+/* @media screen and (max-width: 800px) {
+  .flex-item {
+    width: 34%;
+  }
+} */
+
+/* Media Quries (max-width: 600px) => */
+@media screen and (max-width: 600px) {
+  .flex-item {
+    width: 90%;
+  }
+}
+
+/* Media Quries (max-width: 460px) => */
+/* @media screen and (max-width: 460px) {
+  /* .brand {
+    display: none;
+  } */
+
+/* .flex-item {
+    width: 100%;
+  } */
+
+/* #ad {
+    height: 50vh;
+  } */
+/* } */

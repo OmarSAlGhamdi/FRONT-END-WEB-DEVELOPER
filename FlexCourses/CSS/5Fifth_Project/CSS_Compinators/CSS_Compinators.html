@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_Compinators</title>
+
+    <style>
+      /* p {
+            background-color: orange;
+        } */
+
+      div ~ p {
+        background-color: orange;
+        color: white;
+      }
+
+      /* section > p {
+        background-color: rgb(76, 0, 255);
+        color: white;
+      } */
+
+      /* div > section > p {
+        background-color: rgb(43, 255, 0);
+        color: white;
+      } */
+
+
+      /* div ~ p {
+        background-color: rgb(255, 0, 0);
+      } */
+
+
+      /* #td {
+            background-color: red;
+            color: white;
+        }
+
+        p {
+            background-color: green;
+            color: white;
+        } */
+
+      /* Combinators: 
+        Combinators are used to combine two or more selectors to select elements based on their relationship in the document tree.
+        There are four types of combinators in CSS:
+        1. Descendant combinator (space): Selects all elements that are descendants of a specified element.
+        2. Child combinator (>): Selects all elements that are direct children of a specified element.
+        3. Adjacent sibling combinator (+): Selects the first element that is immediately after a specified element.
+        4. General sibling combinator (~): Selects all elements that are siblings of a specified element.
+        5. Universal selector (*): Selects all elements in the document.
+        6. ID selector (#): Selects an element with a specific ID.
+        7. Class selector (.): Selects all elements with a specific class.
+
+        + => Adjacent sibling combinator
+            أول أخ مباشر خارج الديف 
+        > => Child combinator
+            الابناء المشتقين من العنصر الاساسي  
+        ~ => General sibling combinator
+            (خارج الديف أو بعد الديف)العناصر التالية
+            ↔️ أو تحديد عكسي 
+        * => Universal selector
+            كل العناصر في الصفحة
+        # => ID selector
+            عنصر له ID معين
+        . => Class selector
+            عنصر له Class معين
+        
+        : => Pseudo-class selector
+        :after => Pseudo-element selector
+        :before => Pseudo-element selector
+        :first-child => Pseudo-class selector
+        :last-child => Pseudo-class selector
+        :nth-child => Pseudo-class selector
+        :nth-of-type => Pseudo-class selector
+        :nth-last-child => Pseudo-class selector
+        :nth-last-of-type => Pseudo-class selector
+        :not => Pseudo-class selector
+        :root => Pseudo-class selector
+        :focus => Pseudo-class selector
+        :hover => Pseudo-class selector
+        :active => Pseudo-class selector
+        :visited => Pseudo-class selector
+        :link => Pseudo-class selector
+        :target => Pseudo-class selector
+        :checked => Pseudo-class selector
+        :disabled => Pseudo-class selector
+        :enabled => Pseudo-class selector
+        :valid => Pseudo-class selector
+        :invalid => Pseudo-class selector
+        :required => Pseudo-class selector 
+    
+        */
+    </style>
+  </head>
+  <body>
+    <div class="ps">
+      <p>Hello you 1</p>
+      <p>Hello you 2</p>
+
+      <section>
+        <p>Hello From inside section</p>
+        <div>
+          <p>P inside div inside section</p>
+        </div>
+      </section>
+    </div>
+
+    <p>Hello you 3</p>
+    <p>Hello you 4</p>
+  </body>
+</html>

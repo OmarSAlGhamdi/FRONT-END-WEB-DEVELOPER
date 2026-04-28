@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grow Shrink Basis</title>
+
+    <style>
+      .flex-container {
+        display: flex;
+        background-color: gray;
+        padding: 5px;
+        
+        align-items: stretch;
+
+        /* flex-direction: row; */
+        /* flex-wrap: nowrap; */
+        flex-flow: row nowrap;
+        /* width: 130px; */
+        /* margin-top: 10px; */
+        margin-bottom: 35px;
+        height: 600px;
+      }
+      .flex-container > div {
+        font-size: 50px;
+        background-color: lightblue;
+        margin: 5px;
+        /* margin-right: 7px;
+        margin-left: 7px; */
+        /* padding: 25px; */
+        width: 130px;
+        height: 100px;
+        text-align: center;
+        /* line-height: 100px; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flex Grow -->
+    <div class="flex-container">
+      <div style="flex-grow: 4; order: 1; align-self: center;">1</div>
+      <div style="flex-grow: 1; order: 4;">2</div>
+      <div style="flex-grow: 1; order: 2; align-self: flex-end;">3</div>
+      <div style="flex-grow: 1; order: 2;">4</div>
+    </div>
+    <!-- Flex Shrink -->
+    <div class="flex-container">
+      <div style="flex-shrink: 0">1</div>
+      <div style="flex-shrink: 0">2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+    <!-- Flex basis -->
+    <div class="flex-container">
+      <div style="flex-basis: 250px">1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+  </body>
+</html>

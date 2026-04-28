@@ -1,0 +1,20 @@
+div {
+
+    background-color: rgb(193, 193, 188);
+    padding: 10px;
+    font-size: 1.6rem;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+/* hover =>
+when you hover above the item it will make 
+action for example (show text)
+*/
+div:hover {
+    overflow: visible;
+    white-space: normal;
+}

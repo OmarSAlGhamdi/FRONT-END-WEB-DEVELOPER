@@ -1,0 +1,265 @@
+
+/* 
+
+تم تحميل هذا الملف من موقع فلكس كورسز
+هذا المف تم إنشاؤه لأغراض تعليمية فقط بواسطة عبدالمجيب الحميد abdulmogeeb.com
+This file is downloaded from flexcourses.com
+This code is made for teaching purposes only.
+By: Abdulmogeeb.com
+
+*/
+
+:root {
+    --color-primary: #32B0B3;
+    --color-secondary: #F2EDEF;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.bg-primary {
+    background-color: var(--color-primary);
+}
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+.bg-white {
+    background-color: white;
+}
+.text-primary {
+    color: var(--color-primary);
+}
+.text-secondary {
+    color: var(--color-secondary);
+}
+.text-white {
+    color: white;
+}
+
+.p1 {
+    padding: 5px;
+}
+.p2 {
+    padding: 10px;
+}
+.p3 {
+    padding: 15px;
+}
+.p4 {
+    padding: 20px;
+}
+.p5 {
+    padding: 25px;
+}
+.py1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.py2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.py3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.py4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.py5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.px1 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.py2 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.px3 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.px4 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.px5 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.mt5 {
+    margin-top: 25px;
+}
+
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-menu {
+    flex-grow: 1;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+nav a:hover:not(.brand a) {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    display: none;
+    box-shadow: 1px 1px 3px gray;
+}
+.dropdown-menu a {
+    display: block;
+}
+
+#intro {
+    animation-name: moveBg;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    background-image: radial-gradient(white 30%, rgb(214, 214, 214) 60%);
+    background-position-x: 200px;
+    background-repeat: no-repeat;
+    background-color: rgb(214, 214, 214);
+}
+#intro img {
+    max-height: 400px;
+}
+
+#services {
+    position: relative;
+    top: -30px;
+    padding: 0 15px;
+    justify-content: space-around;
+}
+.card {
+    background-color: white;
+    padding-top: 5px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.line {
+    background-color: var(--color-primary);
+    height: 3px;
+    width: 80px;
+    margin: auto;
+}
+
+#contact {
+    margin-top: 50px;
+}
+#contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 150px 1fr;
+    gap: 10px;
+}
+
+.grid-expand {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+input, textarea {
+    font-family: 'Tajawal', sans-serif;
+    padding: 5px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+#contact button {
+    border-width: 0;
+    width: 30%;
+}
+#map {
+    margin-top: 50px;
+}
+#contact iframe {
+    width: 45%;
+}
+.form-container {
+    width: 45%;
+}
+footer {
+    background-color: var(--color-secondary);
+    /* min-height: 200px; */
+}
+footer h5 {
+    margin: 0;
+}
+footer .menu li {
+    padding: 3px 0;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+@keyframes moveBg {
+
+    from {
+        background-position-x: 200px;
+
+    }
+    to {
+        background-position-x: 500px;
+
+    }
+    
+}

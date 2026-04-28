@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        position: fixed;
+        /* 
+        If you choose fixed(position) =>
+        you have to specify the two angles (at least) of the 
+        position (top⬆️, right➡️ , bottom⬇️, left⬅️) */
+        
+        /* top: 30px; */
+        right: 30px;
+        bottom: 20px;
+        /* left: 20px; */
+        text-align: center;
+        line-height: 100px;
+      }
+
+      .main {
+        background-color: gray;
+        height: 200vh;
+      }
+
+      .boxes > div {
+        display: inline-block;
+        background-color: black;
+        height: 300px;
+        width: 300px;
+        margin-right: 45px;
+        margin-top: 30px;
+      }
+
+      .a1 {
+        position: relative;
+      }
+
+      .box1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      /* The parent must be ⚠️: 
+        (relative) to define the position of the child      
+      */
+
+      .a2 {
+        position: relative;
+      }
+
+      /* The child must be ⚠️:
+        (absoulte) to be inside the parent position
+      */
+
+      .box2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="a1">
+        <div class="box1 box"></div>
+      </div>
+      <div class="a2">
+        <div class="box2 box"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+    </div>
+
+    <div class="box">اتصل بنا</div>
+  </body>
+</html>

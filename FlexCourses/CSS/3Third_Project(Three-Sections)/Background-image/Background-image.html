@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background-image</title>
+    <link rel="stylesheet" href="CSS/Background-image.css" />
+    <link rel="stylesheet" href="../Background-image/CSS/survey-style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="welcome">
+      <div>
+        <h1>مرحبا بك في موقعي</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim veniam
+          delectus, nisi sint aperiam cumque ullam, harum alias repellendus
+          earum quidem consequuntur asperiores, provident corporis. Maiores
+          facere tempora necessitatibus hic?
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div>
+        <h1>أعمالي</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim veniam
+          delectus, nisi sint aperiam cumque ullam, harum alias repellendus
+          earum quidem consequuntur asperiores, provident corporis. Maiores
+          facere tempora necessitatibus hic?
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contantdiv">
+        <h1>تواصل معي</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim veniam
+          delectus, nisi sint aperiam cumque ullam, harum alias repellendus
+          earum quidem consequuntur asperiores, provident corporis. Maiores
+          facere tempora necessitatibus hic? سنتواصل معك في اقرب وقت
+        </p>
+        <!-- contant Form Section -->
+        <div class="contantForm">
+          <form>
+            <div class="container">
+              <h2>من فضلك إملأ النموذج:</h2>
+
+              <!-- Name Section -->
+              <div class="form-group">
+                <label class="display-block" for="name">الاسم:</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="ادخل اسمك"
+                  maxlength="10"
+                  class="form-control"
+                />
+              </div>
+
+              <!-- Email Section -->
+              <div class="form-group">
+                <label class="display-block" for="email"
+                  >البريد الالكتروني:</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="ادخل البريد الالكتروني"
+                  class="form-control"
+                />
+              </div>
+
+              <!-- Phone Section -->
+              <div class="form-group">
+                <label class="display-block" for="phone">الهاتف:</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="ادخل رقم الهاتف"
+                  class="form-control"
+                />
+              </div>
+
+              <!-- How Did You Hear About Us -->
+              <div class="form-group">
+                <label class="display-block">كيف سمعت بنا ؟</label>
+                <select class="form-control" name="refer" id="refer" required>
+                  <option value="">إختر احدى الخيارات التالية :</option>
+                  <option value="friend">من صديق</option>
+                  <option value="social">وسائل التواصل الاجتماعي</option>
+                  <option value="google">بحث جوجل</option>
+                  <option value="googlemaps">خرائط جوجل</option>
+                </select>
+              </div>
+
+              <!-- Gender Section -->
+              <div class="form-group">
+                <label for="male">الجنس: </label>
+
+                <label for="male">رجل</label>
+                <input type="radio" name="gender" id="male" />
+
+                <label for="female">إمرآة</label>
+                <input type="radio" name="gender" id="female" />
+              </div>
+
+              <!-- Products Section -->
+              <div class="form-group">
+                <div>أي منتج استخدمت ؟</div>
+                <!-- <label for=""></label> -->
+                <div>
+                  <input id="tea1" type="checkbox" name="product" />
+                  <label for="tea1">شاهي ١</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" name="product" id="tea2" />
+                  <label for="tea2"> شاهي ٢</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" name="product" id="tea3" />
+                  <label for="tea3">شاهي ٣</label>
+                </div>
+              </div>
+
+              <!-- Buying History -->
+              <div class="form-group">
+                <label class="display-block" for="date"
+                  >متى اشتريت المنتج ؟
+                </label>
+                <input type="date" name="" id="date" class="form-control" />
+              </div>
+
+              <!-- Product Photo -->
+              <div class="form-group">
+                <label for="image">صورة المنتج : </label>
+                <input type="file" name="" id="" />
+              </div>
+
+              <!-- Buttons Section -->
+              <div class="form-group">
+                <button class="btn bg-green" type="submit">إرسال</button>
+                <input class="btn bg-orange" type="reset" value="مسح" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

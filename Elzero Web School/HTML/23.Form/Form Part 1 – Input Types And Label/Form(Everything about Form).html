@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This is My Book Store, Welcome</p>
+    </div>
+
+    <!-- 
+we will explain these terms:
+text
+password
+email
+range
+color
+hr
+option and optgroup
+radio 
+checkbox
+textarea
+reset
+submit
+button
+br    
+time 
+date 
+month
+year
+url
+
+-->
+
+    <!--
+    Form Tag : 
+    We use(Form) => to put differents (input)s type inside it
+     -->
+    <form action="" method="get">
+      <div>
+        <!-- (label) => to make the input field clear for the user or 
+             what is indicate to and it will appear before or after the field -->
+        <label for="">Username</label>
+        <!-- (palceholder) attribute => where you type a hint for the user to 
+         input the correct text and it will appear inside the input field -->
+        <input
+          type="text"
+          placeholder="Username"
+          required
+          name="User"
+          autofocus
+        />
+      </div>
+      <!-- ⚠ (require) attribute => is to make the field mandatory ⚠ -->
+
+      <br />
+      <!--break the line(new line 🆕↩)-->
+
+      <!-- (for)used => to link with (input's id) -->
+      <div>
+        <label for="">Subject</label>
+        <input type="text" placeholder="Subject" name="Subject" />
+      </div>
+
+      <br />
+
+      <!-- (Password) Type => is for Password field hidden input items(⚫⚫⚫⚫⚫⚫).  -->
+      <div>
+        <label for="">Password</label>
+        <input
+          type="Password"
+          placeholder="write a complex password"
+          required
+          name="Pass"
+          minlength="10"
+          maxlength="15"
+        />
+      </div>
+
+      <br />
+
+      <!-- (Email) type is for Email field (xxxx@xxx.com)-->
+      <div>
+        <label for="">Email </label>
+        <input
+          type="email"
+          placeholder="Email"
+          value="o@nn.com"
+          required
+          name="Pass"
+          readonly
+        />
+      </div>
+
+      <!-- ⬇️--------------- Range type -----------------⬇️>
+
+      
+        <!-
+        (Range) type => Is the level or indicator you move such as 
+         satistfied level 😊 on survey ⁉ (---⚪---) 
+         1-min => Where it will start from (for example : 0)
+         2-max => Where it wil end (from example : 100)
+         3-step => Each step you move the crusor to (for example 10) it will 
+         move the circle 10 steps each time.
+         4-value => Is the default value when the page is open or refresh
+         5-name => When you want to link other items or with ID
+         -->
+      <div>
+        <label>Range </label>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          step="20"
+          value="20"
+          name="range"
+        />
+      </div>
+
+      <!--⬆️--------------- Range type -----------------⬆️>
+      
+      
+      <!-(color) type input to choose color -->
+      <br />
+      <input type="color" name="Color" id="" />
+
+      <hr />
+
+      <!-- (Number) type => for numbers  -->
+      <label for="number">Number</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="10"
+        max="100"
+        step="10"
+      />
+
+      <hr />
+
+      <!--horizontal line   ----------------------   -->
+
+      <!-- Choose from the list -->
+      <label for="book">Choose Book : </label>
+      <select name="book" id="book" multiple>
+        <!--(multiple) attribute => to choose more than one options with ctrl-->
+        <optgroup label="fanatsy books">
+          <option value="1">Book 1</option>
+          <option value="2">Book 2</option>
+          <option value="3">Book 3</option>
+        </optgroup>
+        <optgroup label="police books">
+          <option value="4">Book 4</option>
+          <option value="5">Book 5</option>
+          <option value="6">Book 6</option>
+        </optgroup>
+        <optgroup label="science books">
+          <option value="7" selected>Book 7</option>
+          <option value="8">Book 8</option>
+          <option value="9">Book 9</option>
+        </optgroup>
+      </select>
+      (select type)
+      <!---------------- radio type ----------------->
+
+      <!-- (name) attribute to prevent🚫 to choose more than one option -->
+      <div>
+        <input type="radio" name="os" id="windows" value="Windows" checked />
+        <label for="windows">Windows</label>
+      </div>
+
+      <!-- (Radio) type is when you want to choose one opition from many like
+         age range  =>
+         ⏺(20 - 30)
+         ⭕(40 - 50)  
+         ⭕(60 - 70)
+          -->
+      <div>
+        <input type="radio" name="os" id="mac" value="Mac" />
+        <label for="mac">Mac</label>
+      </div>
+
+      <div>
+        <input type="radio" name="os" id="linux" value="Linux" />
+        <label for="linux">Linux</label>
+      </div>
+
+      <!-------------------radio type------------------->
+
+      <hr />
+
+      <!-- <hr /> -->
+
+      <!---------------- Checkbox type ----------------->
+      <!--- Checkbox type is for check more than one opitions :
+      ✅ Windows
+      ✅ Linux
+          Mac
+
+          (checked) attribute => to make the oenter that are checked all the time no 
+          matter if you open it ▶ or refresh the page 🔄 
+      -->
+      <div>
+        <input
+          type="checkbox"
+          name="os"
+          id="windows1"
+          value="Windows"
+          checked
+        />
+        <label for="windows1">Windows</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="os" id="mac1" value="Mac" />
+        <label for="mac1">Mac</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="os" id="linux1" value="Linux" />
+        <label for="linux1">Linux</label>
+      </div>
+
+      <!----------------- Checkbox type ----------------->
+
+      <!-- (Textarea) type => 
+      for suggestions or complains forms  
+      -->
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Type Your Suggestion"
+      ></textarea>
+
+      <hr />
+      <!-- <br /> -->
+
+      <!-- Upload file -->
+      <label for="">Upload</label>
+      <input type="file" name="upload" id="" />
+      <hr />
+
+      <!-- Search -->
+      <label for="">Search</label>
+      <input type="search" name="upload" id="" />
+      <hr />
+
+      <!-- URL -->
+      <label for="">URL</label>
+      <input type="url" name="URL" id="" />
+      <hr />
+
+      <!-- Date -->
+      <label for="">Date</label>
+      <input type="date" name="URL" id="" />
+      <hr />
+      <!-- Month -->
+      <label for="">Month</label>
+      <input type="month" name="URL" id="" />
+      <hr />
+      <!-- Time -->
+      <label for="">Time</label>
+      <input type="time" name="URL" id="" />
+      <hr />
+
+      <input list="programming" name="prog" />
+      <datalist id="programming">
+        <option value="Python"></option>
+        <option value="PHP"></option>
+        <option value="C"></option>
+        <option value="C#"></option>
+        <option value="C++"></option>
+        <option value="Scala"></option>
+      </datalist>
+
+      <!-- <hr /> -->
+      <!-- (Reset) type => for rest Everything To Orgninal Value -->
+      <input type="reset" />
+
+      <!-- (Submit)type => Button will send the forms to server -->
+      <input type="submit" value="save" />
+    </form>
+
+    <!-- 💡🧪 My Experince 💡🧪 -->
+    <!--  
+    <form action="">
+        <input type="email" name="" id="">
+        <input type="date" name="" id="">
+        <input type="password" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="text" name="" id="">
+    </form>
+    -->
+  </body>
+</html>

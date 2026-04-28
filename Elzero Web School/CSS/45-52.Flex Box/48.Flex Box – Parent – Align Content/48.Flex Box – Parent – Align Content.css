@@ -1,0 +1,51 @@
+/* 
+
+Flexible Box: 
+
+For Parent:
+- display: flex => To Start Flexible Box
+- flex-direction: row => Default Value
+- flex-wrap: nowrap => Default Value
+- flex-flow: [Flex-Direction] + [Flex-wrap]
+
+--- 
+Use it only❗ with FlexBox:
+- justify-content: flex-start => Default Value
+(flex-start(begining) - flex-end(last)) =>
+will align the item in row ↔ way
+
+- align-items: stretch => Default Value
+1- Will align the item in column ↕ way/
+2- Determines how the items as a whole are aligned 
+ within the container
+
+- align-content: stretch => Default Value
+1- Determines the spacing between lines. 
+2- When there is only one line, align-content has no effect.
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flex {
+    background-color: #eee;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px;
+}
